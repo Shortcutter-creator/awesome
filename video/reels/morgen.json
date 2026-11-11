@@ -1,0 +1,48 @@
+{
+  "title": "3 Dinge, die du morgens nie wieder tun solltest",
+  "output": "output/morgen_reel.mp4",
+  "voice": "de_DE-thorsten-high",
+  "speed": 1.12,
+  "bpm": 124,
+  "sections": [
+    {
+      "id": "hook", "colors": ["#ff2d55", "#3a0010"], "label": "",
+      "lines": [
+        {"text": "3 Dinge, die du morgens nie wieder tun solltest.", "emoji": ["26a0", "274c", "1f6d1"]},
+        {"text": "Nummer 2 machst du wahrscheinlich gerade.", "emoji": ["1f440", "1f4f1"]}
+      ]
+    },
+    {
+      "id": "n3", "badge": "#3", "colors": ["#ff9500", "#3d1a00"], "label": "SNOOZE DRÜCKEN",
+      "lines": [
+        {"text": "Nummer 3: Snooze drücken.", "emoji": ["23f0", "274c"]},
+        {"text": "Jedes Mal, wenn du wieder einschläfst, startet dein Gehirn einen neuen Schlafzyklus.", "emoji": ["1f634", "1f9e0", "1f504"]},
+        {"text": "Und du wachst noch müder auf.", "emoji": ["1f635", "1f629"]}
+      ]
+    },
+    {
+      "id": "n2", "badge": "#2", "colors": ["#0a84ff", "#00123a"], "label": "SOFORT AUFS HANDY",
+      "lines": [
+        {"text": "Nummer 2: Direkt aufs Handy schauen.", "emoji": ["1f4f1", "1f440"]},
+        {"text": "Mails, News, Social Media.", "emoji": ["1f4e7", "1f4f0", "1f514"]},
+        {"text": "Noch bevor du wach bist, bestimmen andere über deinen Tag.", "emoji": ["1f92f", "1f465"]},
+        {"text": "Ja, genau wie jetzt.", "emoji": ["1f440"]}
+      ]
+    },
+    {
+      "id": "n1", "badge": "#1", "colors": ["#30d158", "#002a10"], "label": "KAFFEE ZUERST",
+      "lines": [
+        {"text": "Und Nummer 1: Als Erstes Kaffee trinken.", "emoji": ["2615", "274c"]},
+        {"text": "Nach acht Stunden Schlaf fehlt deinem Körper Wasser.", "emoji": ["1f3dc", "1f4a7"]},
+        {"text": "Also erst ein großes Glas Wasser. Dann Kaffee.", "emoji": ["1f4a7", "2705", "2615"]}
+      ]
+    },
+    {
+      "id": "cta", "colors": ["#ffd60a", "#3a2c00"], "label": "",
+      "lines": [
+        {"text": "Speicher dir das.", "emoji": ["1f516"]},
+        {"text": "Und schick es jemandem, der jeden Morgen fünfmal snoozt.", "emoji": ["1f4e4", "23f0", "1f602"]}
+      ]
+    }
+  ]
+}

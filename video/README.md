@@ -32,3 +32,11 @@ python3 vo.py render   clip.edit.json
 - `keep`: Abschnitte des Originals (Sekunden), die drin bleiben.
 - `at`: Zeitpunkt im **geschnittenen** Video.
 - `original_volume`: 0 = Originalton aus, 1 = voll.
+
+## Reels komplett generieren (ohne eigenes Material)
+```bash
+python3 reel.py reels/morgen.json   # -> output/morgen_reel.mp4 (1080x1920)
+```
+Skript-JSON: Abschnitte mit Farben, optionaler Nummer (`badge`) und Sätzen mit Twemoji-Codes.
+Ergebnis: VoiceOver, wortgenaue Untertitel (aktives Wort gelb), Schnitt alle ~0,8 s,
+Blitz + Shake bei Nummern, Beat mit Ducking, Whoosh/Hit-Sounds.
