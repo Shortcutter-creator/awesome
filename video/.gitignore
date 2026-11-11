@@ -1,0 +1,5 @@
+voices/
+output/
+input/*
+!input/.gitkeep
+*.analysis.json
