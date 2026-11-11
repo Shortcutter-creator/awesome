@@ -4,3 +4,4 @@ input/*
 !input/.gitkeep
 *.analysis.json
 emoji_cache/
+reels/*_tts/

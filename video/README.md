@@ -40,3 +40,14 @@ python3 reel.py reels/morgen.json   # -> output/morgen_reel.mp4 (1080x1920)
 Skript-JSON: Abschnitte mit Farben, optionaler Nummer (`badge`) und Sätzen mit Twemoji-Codes.
 Ergebnis: VoiceOver, wortgenaue Untertitel (aktives Wort gelb), Schnitt alle ~0,8 s,
 Blitz + Shake bei Nummern, Beat mit Ducking, Whoosh/Hit-Sounds.
+
+## Reels v2: Bilder + ausdrucksstarke Stimme
+```bash
+python3 images.py reels/morgen_v2.json            # Szenenbilder mit SDXL-Turbo (~1 min/Bild, CPU)
+python3 images.py reels/morgen_v2.json groggy     # einzelnes Bild neu erzeugen
+python3 reel2.py  reels/morgen_v2.json            # -> output/morgen_reel_v2.mp4
+```
+- Figur + Stil werden in jedem Bild-Prompt wiederholt (`character`, `style`), Seeds über `seeds`.
+- Stimme: Chatterbox (MIT), `exaggeration` pro Satz = wie emotional gesprochen wird; `tempo` beschleunigt ohne Tonhöhe zu ändern.
+- Jeder Satz wird per Spracherkennung gegen das Skript geprüft und bei Fehlern neu erzeugt.
+- `say`: abweichende Aussprache-Schreibweise für die Stimme, Untertitel zeigen `text`.

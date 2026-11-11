@@ -1,0 +1,173 @@
+{
+  "title": "3 Dinge, die du morgens nie wieder tun solltest",
+  "output": "output/morgen_reel_v2.mp4",
+  "style": "Pixar style 3D animation movie still, cinematic lighting, vibrant colors",
+  "character": "Max, young man with messy brown hair, light stubble, grey t-shirt",
+  "voice_ref": "voices/ref_de.wav",
+  "bpm": 112,
+  "images": {
+    "hook_bed": "{character} lying in bed in a dim bedroom, eyes wide open, shocked, early sunrise light through curtains, alarm clock on nightstand",
+    "hook_phone": "cartoon, solo, {character} sitting in bed holding a smartphone, face lit by blue glow of the screen, close-up",
+    "snooze": "close-up of a hand slamming the snooze button of a red retro alarm clock on a wooden nightstand, morning light",
+    "sleep_again": "{character} sleeping deeply curled up under a fluffy white blanket, peaceful, alarm clock in background",
+    "dream": "{character} sleeping, a glowing swirling dream cloud with stars and spirals above his head, deep blue night tones",
+    "groggy": "cartoon, solo, single person, {character} in a bathroom mirror reflection-free shot, extremely messy hair, dark circles under eyes, very tired, holding a toothbrush",
+    "phone_bed": "cartoon, solo, single person, {character} lying alone in bed scrolling on his smartphone in a dark bedroom, blue screen glow on his face, top view",
+    "notifications": "{character} looking stressed at his phone, many red notification bubbles and email icons flying around him, overwhelmed",
+    "puppet": "{character} as a wooden marionette puppet hanging on strings controlled by a giant smartphone above him, surreal, dramatic light",
+    "look_camera": "{character} holding a smartphone, looking directly into the camera with a knowing smirk, one eyebrow raised, close-up portrait",
+    "coffee_sleepy": "{character} in a kitchen in the morning, half asleep with eyes half closed, drinking from a big coffee mug, steam rising",
+    "dry": "{character} looking thirsty and exhausted sitting on cracked dry desert ground, hot sun, wilted plant next to him",
+    "water": "{character} drinking a big glass of fresh water in a bright sunny kitchen, refreshed and energized, water droplets",
+    "coffee_happy": "{character} smiling happily holding a coffee mug, giving a thumbs up, bright sunny kitchen",
+    "save": "{character} grinning and pointing at the camera, bright warm yellow background",
+    "share": "{character} laughing while typing on his smartphone, sitting on a sofa, warm living room"
+  },
+  "sections": [
+    {
+      "id": "hook",
+      "accent": "#ff2d55",
+      "label": "",
+      "lines": [
+        {
+          "text": "Drei Dinge, die du morgens NIE wieder tun solltest!",
+          "exaggeration": 0.9,
+          "images": [
+            "hook_bed"
+          ]
+        },
+        {
+          "text": "Und Nummer zwei … machst du wahrscheinlich gerade.",
+          "exaggeration": 0.75,
+          "images": [
+            "hook_phone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n3",
+      "badge": "#3",
+      "accent": "#ff9500",
+      "label": "SNOOZE DRÜCKEN",
+      "lines": [
+        {
+          "text": "Nummer drei: Die Snooze-Taste drücken.",
+          "exaggeration": 0.65,
+          "images": [
+            "snooze"
+          ]
+        },
+        {
+          "text": "Jedes Mal, wenn du wieder einschläfst, startet dein Gehirn einen neuen Schlafzyklus.",
+          "exaggeration": 0.55,
+          "images": [
+            "sleep_again",
+            "dream"
+          ]
+        },
+        {
+          "text": "Und du wachst erst recht müde auf.",
+          "exaggeration": 0.85,
+          "images": [
+            "groggy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n2",
+      "badge": "#2",
+      "accent": "#0a84ff",
+      "label": "SOFORT AUFS HANDY",
+      "lines": [
+        {
+          "text": "Nummer zwei: Direkt aufs Handy schauen.",
+          "exaggeration": 0.8,
+          "images": [
+            "phone_bed"
+          ]
+        },
+        {
+          "text": "Mails, News, Social Media!",
+          "exaggeration": 0.9,
+          "images": [
+            "notifications"
+          ]
+        },
+        {
+          "text": "Noch bevor du wach bist, bestimmen andere über deinen Tag.",
+          "exaggeration": 0.6,
+          "images": [
+            "puppet"
+          ]
+        },
+        {
+          "text": "Ja. Genau wie jetzt.",
+          "exaggeration": 1.0,
+          "images": [
+            "look_camera"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n1",
+      "badge": "#1",
+      "accent": "#30d158",
+      "label": "KAFFEE ZUERST",
+      "lines": [
+        {
+          "text": "Und Nummer eins: Als Erstes Kaffee trinken.",
+          "exaggeration": 0.8,
+          "images": [
+            "coffee_sleepy"
+          ]
+        },
+        {
+          "text": "Nach acht Stunden Schlaf fehlt deinem Körper Wasser.",
+          "exaggeration": 0.6,
+          "images": [
+            "dry"
+          ]
+        },
+        {
+          "text": "Also: Erst ein großes Glas Wasser. Dann Kaffee!",
+          "exaggeration": 0.85,
+          "images": [
+            "water",
+            "coffee_happy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "accent": "#ffd60a",
+      "label": "",
+      "lines": [
+        {
+          "text": "Speicher dir das!",
+          "exaggeration": 0.9,
+          "images": [
+            "save"
+          ]
+        },
+        {
+          "text": "Und schick es jemandem, der jeden Morgen fünfmal snoozt.",
+          "exaggeration": 0.8,
+          "images": [
+            "share"
+          ],
+          "say": "Und schick es jemandem, der jeden Morgen fünfmal snuhst."
+        }
+      ]
+    }
+  ],
+  "seeds": {
+    "hook_phone": 101,
+    "groggy": 202,
+    "phone_bed": 303
+  },
+  "tempo": 1.12
+}
