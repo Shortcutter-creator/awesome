@@ -1,6 +1,6 @@
 # Sound-Bibliothek
 
-253 Sounds, sortiert nach Set. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
+268 Sounds in 25 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
 
 Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind beibehalten; gleiche Namen in verschiedenen Ordnern sind verschiedene Sounds.
 
@@ -378,3 +378,23 @@ Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind bei
 | `ding_2296.wav` | 0.26 s | -15.4 / -1.1 dB |
 | `ding_22962.wav` | 0.26 s | -15.2 / -1.0 dB |
 | `ding_22963.wav` | 0.26 s | -15.3 / -1.1 dB |
+
+## 25_kamera – Kamera-Auslöser (snap/quick/film/dslr/mirror)
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `dslr.wav` | 0.24 s | -24.0 / -1.0 dB |
+| `dslr2.wav` | 0.22 s | -24.0 / -1.0 dB |
+| `dslr3.wav` | 0.21 s | -24.5 / -1.2 dB |
+| `film.wav` | 0.28 s | -20.2 / -1.1 dB |
+| `film2.wav` | 0.29 s | -20.8 / -1.1 dB |
+| `film3.wav` | 0.30 s | -20.3 / -1.1 dB |
+| `mirror.wav` | 0.33 s | -23.4 / -1.3 dB |
+| `mirror2.wav` | 0.33 s | -21.9 / -1.1 dB |
+| `mirror3.wav` | 0.32 s | -23.0 / -1.2 dB |
+| `quick.wav` | 0.16 s | -24.1 / -1.1 dB |
+| `quick2.wav` | 0.15 s | -23.2 / -1.1 dB |
+| `quick3.wav` | 0.15 s | -22.3 / -1.1 dB |
+| `snap.wav` | 0.14 s | -24.4 / -1.3 dB |
+| `snap2.wav` | 0.14 s | -24.0 / -1.4 dB |
+| `snap3.wav` | 0.13 s | -26.0 / -1.2 dB |
