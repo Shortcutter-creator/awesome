@@ -11,6 +11,8 @@ Gesicherte Teile des Gedankenwerk-Pakets. Die Klänge liegen separat in [`../sou
 | `kanal/hintergruende/` | Hintergründe (welten, papiere, buehnen) |
 | `stimmen/klon/` | 8 Referenzstimmen (WAV, 24 kHz) + `stimmen.json` |
 | `hilfe/` | Anleitungsvideos (Mac, Windows, Verbessern) + `Kapitel.txt` |
+| `schriften/` | Webfonts (woff2): Instrument Sans 400, Bricolage Grotesque 800 (latin + latin-ext), JetBrains Mono 500 – SIL Open Font License |
+| `bibliothek/hintergruende/` | 10 Vorschau-Clips der Hintergründe (304×540, 5 s): blaupause, filmkorn, himmel, karo, korkwand, kreidetafel, liniert, nachthimmel, papier, punktraster |
 
 ## Hinweise
 
