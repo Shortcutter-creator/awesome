@@ -1,6 +1,6 @@
 # Sound-Bibliothek
 
-268 Sounds in 25 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
+275 Sounds in 26 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
 
 Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind beibehalten; gleiche Namen in verschiedenen Ordnern sind verschiedene Sounds.
 
@@ -398,3 +398,15 @@ Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind bei
 | `snap.wav` | 0.14 s | -24.4 / -1.3 dB |
 | `snap2.wav` | 0.14 s | -24.0 / -1.4 dB |
 | `snap3.wav` | 0.13 s | -26.0 / -1.2 dB |
+
+## 26_wischen – Wischen & Stoff (flick/velvet/paper/cloth/glide)
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `cloth.wav` | 0.68 s | -20.2 / -1.7 dB |
+| `flick.wav` | 0.57 s | -23.4 / -1.9 dB |
+| `flick2.wav` | 0.68 s | -25.3 / -2.5 dB |
+| `flick3.wav` | 0.61 s | -22.1 / -1.1 dB |
+| `glide.wav` | 0.74 s | -21.0 / -2.7 dB |
+| `paper.wav` | 0.77 s | -23.6 / -1.1 dB |
+| `velvet.wav` | 1.15 s | -21.9 / -2.0 dB |
