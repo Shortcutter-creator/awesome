@@ -1,6 +1,6 @@
 # Sound-Bibliothek
 
-275 Sounds in 26 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
+290 Sounds in 27 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
 
 Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind beibehalten; gleiche Namen in verschiedenen Ordnern sind verschiedene Sounds.
 
@@ -410,3 +410,23 @@ Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind bei
 | `glide.wav` | 0.74 s | -21.0 / -2.7 dB |
 | `paper.wav` | 0.77 s | -23.6 / -1.1 dB |
 | `velvet.wav` | 1.15 s | -21.9 / -2.0 dB |
+
+## 27_tastatur_2 – Tastatur 2 (thock/deep/light/laptop/clicky/crisp)
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `clicky2.wav` | 0.19 s | -27.4 / -2.7 dB |
+| `clicky3.wav` | 0.21 s | -29.0 / -2.3 dB |
+| `crisp3.wav` | 0.23 s | -28.1 / -2.5 dB |
+| `deep.wav` | 0.32 s | -25.9 / -1.4 dB |
+| `deep2.wav` | 0.29 s | -23.5 / -1.2 dB |
+| `deep3.wav` | 0.31 s | -26.8 / -1.3 dB |
+| `laptop.wav` | 0.19 s | -27.3 / -1.5 dB |
+| `laptop2.wav` | 0.16 s | -26.5 / -1.1 dB |
+| `laptop3.wav` | 0.17 s | -29.0 / -1.9 dB |
+| `light.wav` | 0.16 s | -27.7 / -1.1 dB |
+| `light2.wav` | 0.15 s | -27.5 / -1.4 dB |
+| `light3.wav` | 0.16 s | -26.7 / -1.4 dB |
+| `thock.wav` | 0.34 s | -28.8 / -1.1 dB |
+| `thock2.wav` | 0.29 s | -29.5 / -1.0 dB |
+| `thock3.wav` | 0.31 s | -30.6 / -1.3 dB |
