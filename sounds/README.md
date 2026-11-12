@@ -1,6 +1,6 @@
 # Sound-Bibliothek
 
-341 Sounds in 30 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
+374 Sounds in 32 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
 
 Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind beibehalten; gleiche Namen in verschiedenen Ordnern sind verschiedene Sounds.
 
@@ -496,3 +496,46 @@ Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind bei
 | `soft.wav` | 0.03 s | -25.2 / -4.3 dB |
 | `soft2.wav` | 0.03 s | -24.1 / -1.7 dB |
 | `soft3.wav` | 0.03 s | -24.7 / -4.0 dB |
+
+## 31_tipp_klicks – Tipp-Klicks (knock/finger/soft/glass/double)
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `double.wav` | 0.12 s | -16.9 / -2.5 dB |
+| `double2.wav` | 0.12 s | -16.8 / -2.8 dB |
+| `double3.wav` | 0.12 s | -15.8 / -2.5 dB |
+| `finger.wav` | 0.09 s | -15.8 / -2.5 dB |
+| `finger2.wav` | 0.09 s | -15.8 / -2.5 dB |
+| `finger3.wav` | 0.09 s | -14.9 / -2.3 dB |
+| `glass.wav` | 0.10 s | -16.7 / -2.7 dB |
+| `glass2.wav` | 0.10 s | -18.3 / -3.5 dB |
+| `glass3.wav` | 0.10 s | -16.4 / -2.4 dB |
+| `knock.wav` | 0.09 s | -16.2 / -2.1 dB |
+| `knock2.wav` | 0.09 s | -16.2 / -2.3 dB |
+| `knock3.wav` | 0.09 s | -15.7 / -1.9 dB |
+| `soft.wav` | 0.10 s | -14.6 / -2.9 dB |
+| `soft2.wav` | 0.10 s | -14.3 / -2.9 dB |
+| `soft3.wav` | 0.10 s | -14.9 / -3.2 dB |
+
+## 32_kurz_klicks – Kurz-Klicks (tick/soft/double/glass/crackle/blip)
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `blip.wav` | 0.08 s | -22.7 / -1.0 dB |
+| `blip2.wav` | 0.06 s | -21.7 / -1.0 dB |
+| `blip3.wav` | 0.07 s | -21.4 / -1.0 dB |
+| `crackle.wav` | 0.07 s | -26.4 / -1.0 dB |
+| `crackle2.wav` | 0.06 s | -29.5 / -1.0 dB |
+| `crackle3.wav` | 0.07 s | -30.1 / -1.0 dB |
+| `double.wav` | 0.09 s | -24.7 / -1.0 dB |
+| `double2.wav` | 0.09 s | -25.1 / -1.0 dB |
+| `double3.wav` | 0.09 s | -23.4 / -1.0 dB |
+| `glass.wav` | 0.06 s | -22.9 / -1.0 dB |
+| `glass2.wav` | 0.06 s | -24.3 / -1.0 dB |
+| `glass3.wav` | 0.07 s | -21.9 / -1.0 dB |
+| `soft.wav` | 0.07 s | -22.8 / -1.0 dB |
+| `soft2.wav` | 0.07 s | -19.8 / -1.0 dB |
+| `soft3.wav` | 0.08 s | -21.4 / -1.0 dB |
+| `tick.wav` | 0.06 s | -25.8 / -1.0 dB |
+| `tick2.wav` | 0.05 s | -22.3 / -1.0 dB |
+| `tick3.wav` | 0.05 s | -21.1 / -1.0 dB |
