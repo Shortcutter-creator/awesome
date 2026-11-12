@@ -1,6 +1,6 @@
 # Sound-Bibliothek
 
-402 Sounds in 34 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
+448 Sounds in 38 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
 
 Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind beibehalten; gleiche Namen in verschiedenen Ordnern sind verschiedene Sounds.
 
@@ -577,3 +577,69 @@ Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind bei
 | `zing.wav` | 0.54 s | -21.8 / -1.9 dB |
 | `zing2.wav` | 0.57 s | -21.8 / -1.2 dB |
 | `zing3.wav` | 0.59 s | -23.1 / -1.1 dB |
+
+## 35_effekte_lang – Lange Effekte (deep/swell/metal/blast/… bis 6 s)
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `blast.wav` | 5.76 s | -25.1 / -2.8 dB |
+| `classic.wav` | 4.80 s | -22.8 / -1.6 dB |
+| `deep.wav` | 6.20 s | -21.2 / -1.8 dB |
+| `metal.wav` | 5.02 s | -23.4 / -1.6 dB |
+| `punch.wav` | 2.85 s | -21.9 / -1.8 dB |
+| `reverse_bloom.wav` | 2.13 s | -23.9 / -2.1 dB |
+| `soft_bloom.wav` | 1.85 s | -23.0 / -1.1 dB |
+| `spark.wav` | 1.84 s | -24.5 / -1.7 dB |
+| `swell.wav` | 6.23 s | -23.0 / -1.5 dB |
+| `whoosh_glass.wav` | 1.91 s | -22.1 / -1.1 dB |
+| `zip_ping.wav` | 1.66 s | -21.6 / -1.0 dB |
+
+## 36_m_reihe_2 – m-Reihe 2 (m0–m5) + mid_wood/mid_tine
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `m0.wav` | 2.30 s | -20.8 / -1.0 dB |
+| `m1.wav` | 2.00 s | -22.6 / -1.1 dB |
+| `m2.wav` | 1.80 s | -21.6 / -1.0 dB |
+| `m3.wav` | 2.50 s | -22.8 / -1.0 dB |
+| `m4.wav` | 1.80 s | -19.0 / -1.0 dB |
+| `m5.wav` | 1.70 s | -20.0 / -1.1 dB |
+| `mid_tine.wav` | 0.42 s | -17.4 / -1.1 dB |
+| `mid_tine2.wav` | 0.42 s | -16.8 / -2.2 dB |
+| `mid_tine3.wav` | 0.42 s | -17.2 / -1.2 dB |
+| `mid_wood.wav` | 0.32 s | -15.3 / -2.2 dB |
+| `mid_wood2.wav` | 0.32 s | -16.0 / -1.4 dB |
+| `mid_wood3.wav` | 0.32 s | -16.5 / -1.9 dB |
+
+## 37_mini_klicks – Mini-Klicks (tink/snap/soft/glass/mouse)
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `glass.wav` | 0.06 s | -17.3 / -1.0 dB |
+| `glass2.wav` | 0.06 s | -18.1 / -1.0 dB |
+| `glass3.wav` | 0.06 s | -18.9 / -1.0 dB |
+| `mouse.wav` | 0.05 s | -17.2 / -1.0 dB |
+| `mouse2.wav` | 0.05 s | -19.5 / -1.0 dB |
+| `mouse3.wav` | 0.05 s | -19.9 / -1.0 dB |
+| `snap.wav` | 0.05 s | -21.9 / -1.0 dB |
+| `snap2.wav` | 0.05 s | -21.7 / -1.0 dB |
+| `snap3.wav` | 0.05 s | -24.1 / -1.0 dB |
+| `soft.wav` | 0.05 s | -21.7 / -1.0 dB |
+| `soft2.wav` | 0.05 s | -20.1 / -1.0 dB |
+| `soft3.wav` | 0.05 s | -19.8 / -1.0 dB |
+| `tink.wav` | 0.04 s | -14.1 / -1.0 dB |
+| `tink2.wav` | 0.04 s | -14.3 / -1.0 dB |
+| `tink3.wav` | 0.04 s | -15.0 / -1.0 dB |
+
+## 38_ticker – Ticker und Rattern (standard/sparse/data/crunchy/framelock/fastroll)
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `crunchy.wav` | 0.71 s | -30.1 / -5.1 dB |
+| `data.wav` | 0.67 s | -27.8 / -3.7 dB |
+| `fastroll.wav` | 0.55 s | -27.6 / -3.2 dB |
+| `fastroll2.wav` | 0.55 s | -26.3 / -2.6 dB |
+| `fastroll3.wav` | 0.55 s | -27.5 / -1.4 dB |
+| `framelock.wav` | 0.73 s | -26.6 / -1.7 dB |
+| `sparse.wav` | 0.75 s | -30.7 / -2.7 dB |
+| `standard.wav` | 0.71 s | -26.5 / -2.8 dB |
