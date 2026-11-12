@@ -1,6 +1,6 @@
 # Sound-Bibliothek
 
-374 Sounds in 32 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
+385 Sounds in 33 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
 
 Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind beibehalten; gleiche Namen in verschiedenen Ordnern sind verschiedene Sounds.
 
@@ -539,3 +539,19 @@ Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind bei
 | `tick.wav` | 0.06 s | -25.8 / -1.0 dB |
 | `tick2.wav` | 0.05 s | -22.3 / -1.0 dB |
 | `tick3.wav` | 0.05 s | -21.1 / -1.0 dB |
+
+## 33_uebergaenge_2 – Übergänge 2 (Einzelstücke: tonal/windy/long/reverse/…)
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `breath.wav` | 1.24 s | -23.0 / -3.4 dB |
+| `cymbal.wav` | 0.90 s | -25.0 / -3.9 dB |
+| `dark.wav` | 0.92 s | -21.0 / -2.2 dB |
+| `gritty.wav` | 0.93 s | -17.4 / -1.0 dB |
+| `long.wav` | 1.12 s | -14.3 / -1.1 dB |
+| `reverse.wav` | 1.06 s | -17.4 / -1.1 dB |
+| `ring.wav` | 1.68 s | -29.5 / -6.0 dB |
+| `short.wav` | 0.65 s | -29.4 / -5.2 dB |
+| `swell.wav` | 0.81 s | -15.2 / -1.0 dB |
+| `tonal.wav` | 0.81 s | -16.9 / -1.0 dB |
+| `windy.wav` | 0.77 s | -18.1 / -1.0 dB |
