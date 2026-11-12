@@ -19,7 +19,7 @@ Gesichertes Gedankenwerk-Paket (Faceless-Erklärvideos mit Remotion). Die Ordner
 | `vorlage/src/bausteine/` | Code der Bausteine: `hintergedanke/` (Cover, Figuren, Illustrationen, Nachspann, `bausteine/`), `bibliothek/hintergruende/` |
 | `vorlage/vorlagen/` | `Video.tsx` + `Cover.tsx`, die `neu.py` für jedes neue Video kopiert |
 | `videos/` | Ablage der fertigen Videos |
-| `hilfe/` | Anleitungsvideos (Mac, Windows, Verbessern) + `Kapitel.txt` |
+| `hilfe/` | Anleitungsvideos (Mac, Windows, Verbessern) mit Titelbild (`.jpg`) + `Kapitel.txt` |
 | `schriften/` | Webfonts (woff2, SIL OFL); Ablageort im Paket unbekannt |
 
 ## Geprüft
