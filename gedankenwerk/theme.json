@@ -1,0 +1,73 @@
+{
+  "kanal": {
+    "name": "Dein Kanal",
+    "handle": "@dein.kanal",
+    "einzeiler": "Was hinter den Dingen steckt",
+    "signatur": "",
+    "hashtag": "#deinkanal"
+  },
+  "farben": {
+    "hintergrund": "#f5f5f2",
+    "flaeche": "#ffffff",
+    "raster": "rgba(20,20,20,0.06)",
+    "text": "#161616",
+    "text_leise": "#6b6b6b",
+    "linie": "#d4d4cf",
+    "akzent": "#2f6fed",
+    "markierung": "#ffd84d",
+    "positiv": "#1f9d55",
+    "negativ": "#d64545",
+    "dunkel_hintergrund": "#14171f",
+    "dunkel_text": "#f2f4f8",
+    "dunkel_akzent": "#7fb2ff"
+  },
+  "schrift": {
+    "titel": "Inter",
+    "text": "Inter",
+    "mono": "IBM Plex Mono",
+    "titel_gewicht": 800
+  },
+  "stimme": {
+    "anbieter": "piper",
+    "voice_id": "de_DE-thorsten-high",
+    "voice_name": "Thorsten",
+    "tempo": 0.91
+  },
+  "untertitel": {
+    "farbe": "#161616",
+    "pille": "#ffffff",
+    "aktiv": "#2f6fed",
+    "an": true,
+    "y": 1360,
+    "groesse": 58
+  },
+  "mechanik_wechsel": {
+    "art": "dunkel"
+  },
+  "figur": {
+    "farbe": "#2f6fed"
+  },
+  "abspann": {
+    "dauer_max_s": 8,
+    "teilen_satz": "Schick das jemandem, der Millionen und Milliarden verwechselt.",
+    "folgen_satz": "Und wenn dir so etwas gefällt, folg mir gerne."
+  },
+  "cover": {
+    "stil": "vergleich"
+  },
+  "format": {
+    "fps": 30,
+    "breite": 1080,
+    "hoehe": 1920,
+    "lautheit_lufs": -14,
+    "laenge_ziel_s": [
+      60,
+      80
+    ]
+  },
+  "geraeusche": {
+    "an": true,
+    "bett": "musikbett/bett_loop",
+    "bett_lautstaerke": 0.19
+  }
+}
