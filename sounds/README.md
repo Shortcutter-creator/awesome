@@ -1,6 +1,6 @@
 # Sound-Bibliothek
 
-290 Sounds in 27 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
+341 Sounds in 30 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
 
 Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind beibehalten; gleiche Namen in verschiedenen Ordnern sind verschiedene Sounds.
 
@@ -415,8 +415,11 @@ Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind bei
 
 | Datei | Länge | Pegel mean / max |
 |---|---|---|
+| `clicky.wav` | 0.19 s | -27.0 / -1.9 dB |
 | `clicky2.wav` | 0.19 s | -27.4 / -2.7 dB |
 | `clicky3.wav` | 0.21 s | -29.0 / -2.3 dB |
+| `crisp.wav` | 0.22 s | -28.9 / -1.3 dB |
+| `crisp2.wav` | 0.21 s | -27.7 / -1.4 dB |
 | `crisp3.wav` | 0.23 s | -28.1 / -2.5 dB |
 | `deep.wav` | 0.32 s | -25.9 / -1.4 dB |
 | `deep2.wav` | 0.29 s | -23.5 / -1.2 dB |
@@ -430,3 +433,66 @@ Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind bei
 | `thock.wav` | 0.34 s | -28.8 / -1.1 dB |
 | `thock2.wav` | 0.29 s | -29.5 / -1.0 dB |
 | `thock3.wav` | 0.31 s | -30.6 / -1.3 dB |
+
+## 28_ui_toene – UI-Töne (wide/soft/step/boop/blip/fall)
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `blip.wav` | 0.12 s | -18.3 / -2.4 dB |
+| `blip2.wav` | 0.12 s | -18.3 / -3.2 dB |
+| `blip3.wav` | 0.12 s | -19.2 / -3.7 dB |
+| `boop.wav` | 0.19 s | -18.5 / -1.6 dB |
+| `boop2.wav` | 0.19 s | -18.3 / -1.1 dB |
+| `boop3.wav` | 0.19 s | -17.5 / -1.1 dB |
+| `fall.wav` | 0.20 s | -19.6 / -1.9 dB |
+| `fall2.wav` | 0.20 s | -20.3 / -1.3 dB |
+| `fall3.wav` | 0.20 s | -20.3 / -1.1 dB |
+| `soft.wav` | 0.18 s | -14.4 / -1.0 dB |
+| `soft2.wav` | 0.17 s | -15.0 / -1.2 dB |
+| `soft3.wav` | 0.18 s | -14.9 / -1.1 dB |
+| `step.wav` | 0.19 s | -15.3 / -1.3 dB |
+| `step2.wav` | 0.17 s | -16.4 / -1.1 dB |
+| `step3.wav` | 0.18 s | -16.4 / -1.1 dB |
+| `wide.wav` | 0.19 s | -17.0 / -1.2 dB |
+| `wide2.wav` | 0.19 s | -16.3 / -1.2 dB |
+| `wide3.wav` | 0.19 s | -16.7 / -2.1 dB |
+
+## 29_tisch_klicks – Tisch-Klicks (snap/wood/plastic/double/desk)
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `desk.wav` | 0.22 s | -20.1 / -4.1 dB |
+| `desk2.wav` | 0.23 s | -19.4 / -1.6 dB |
+| `desk3.wav` | 0.26 s | -18.1 / -2.3 dB |
+| `double.wav` | 0.16 s | -21.9 / -1.3 dB |
+| `double2.wav` | 0.16 s | -22.0 / -1.3 dB |
+| `double3.wav` | 0.15 s | -23.5 / -1.3 dB |
+| `plastic.wav` | 0.15 s | -24.6 / -1.3 dB |
+| `plastic2.wav` | 0.15 s | -23.6 / -1.2 dB |
+| `plastic3.wav` | 0.15 s | -21.3 / -1.2 dB |
+| `snap.wav` | 0.13 s | -24.8 / -1.3 dB |
+| `snap2.wav` | 0.14 s | -25.7 / -1.2 dB |
+| `snap3.wav` | 0.14 s | -22.8 / -1.2 dB |
+| `wood.wav` | 0.15 s | -21.7 / -1.2 dB |
+| `wood2.wav` | 0.16 s | -21.2 / -1.2 dB |
+| `wood3.wav` | 0.16 s | -20.5 / -1.1 dB |
+
+## 30_nano_klicks – Nano-Klicks unter 0,06 s (ping/air/soft/glass/detent)
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `air.wav` | 0.06 s | -29.8 / -2.3 dB |
+| `air2.wav` | 0.06 s | -29.8 / -2.7 dB |
+| `air3.wav` | 0.06 s | -32.6 / -3.1 dB |
+| `detent.wav` | 0.04 s | -25.2 / -1.8 dB |
+| `detent2.wav` | 0.04 s | -26.6 / -2.5 dB |
+| `detent3.wav` | 0.04 s | -26.0 / -3.0 dB |
+| `glass.wav` | 0.04 s | -30.4 / -4.1 dB |
+| `glass2.wav` | 0.04 s | -27.6 / -3.7 dB |
+| `glass3.wav` | 0.04 s | -30.7 / -6.3 dB |
+| `ping.wav` | 0.04 s | -30.2 / -3.9 dB |
+| `ping2.wav` | 0.04 s | -29.1 / -2.5 dB |
+| `ping3.wav` | 0.04 s | -27.6 / -2.5 dB |
+| `soft.wav` | 0.03 s | -25.2 / -4.3 dB |
+| `soft2.wav` | 0.03 s | -24.1 / -1.7 dB |
+| `soft3.wav` | 0.03 s | -24.7 / -4.0 dB |
