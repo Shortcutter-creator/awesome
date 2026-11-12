@@ -1,0 +1,35 @@
+{
+  "_beschreibung": "Warm wie ein Magazin: Kraftpapier, Terrakotta, Serifen-Titel. Der Erklärteil wird dunkel.",
+  "farben": {
+    "hintergrund": "#efe6d8",
+    "flaeche": "#fbf6ec",
+    "raster": "rgba(43,36,32,0.07)",
+    "text": "#2b2420",
+    "text_leise": "#7a6d62",
+    "linie": "#d8cbb8",
+    "akzent": "#c2553a",
+    "markierung": "#f2c14e",
+    "positiv": "#3f7d4e",
+    "negativ": "#b83a2e",
+    "dunkel_hintergrund": "#1f2a33",
+    "dunkel_text": "#f4ede2",
+    "dunkel_akzent": "#f2c14e"
+  },
+  "schrift": {
+    "titel": "Fraunces",
+    "text": "Inter",
+    "mono": "IBM Plex Mono",
+    "titel_gewicht": 800
+  },
+  "untertitel": {
+    "farbe": "#2b2420",
+    "pille": "#fbf6ec",
+    "aktiv": "#c2553a"
+  },
+  "mechanik_wechsel": {
+    "art": "dunkel"
+  },
+  "figur": {
+    "farbe": "#c2553a"
+  }
+}
