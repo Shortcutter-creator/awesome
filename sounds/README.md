@@ -1,6 +1,6 @@
 # Sound-Bibliothek
 
-385 Sounds in 33 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
+402 Sounds in 34 Sets. Alle WAV Mono 48 kHz 16 bit, außer dem Musikbett (MP3 Stereo).
 
 Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind beibehalten; gleiche Namen in verschiedenen Ordnern sind verschiedene Sounds.
 
@@ -555,3 +555,25 @@ Pegel = Durchschnitt (mean) / Spitze (max) in dBFS. Original-Dateinamen sind bei
 | `swell.wav` | 0.81 s | -15.2 / -1.0 dB |
 | `tonal.wav` | 0.81 s | -16.9 / -1.0 dB |
 | `windy.wav` | 0.77 s | -18.1 / -1.0 dB |
+
+## 34_swishes – Swishes (stick/flick/zing/blade/bright/cane/soft)
+
+| Datei | Länge | Pegel mean / max |
+|---|---|---|
+| `blade.wav` | 0.37 s | -18.6 / -1.5 dB |
+| `blade2.wav` | 0.39 s | -18.1 / -1.5 dB |
+| `blade3.wav` | 0.37 s | -19.5 / -1.1 dB |
+| `bright.wav` | 0.34 s | -17.7 / -1.6 dB |
+| `bright2.wav` | 0.34 s | -20.0 / -1.6 dB |
+| `bright3.wav` | 0.34 s | -19.6 / -2.2 dB |
+| `cane.wav` | 0.70 s | -22.2 / -1.5 dB |
+| `flick.wav` | 0.32 s | -25.9 / -2.9 dB |
+| `flick2.wav` | 0.32 s | -28.8 / -4.4 dB |
+| `flick3.wav` | 0.32 s | -25.6 / -4.2 dB |
+| `soft.wav` | 0.88 s | -27.4 / -2.8 dB |
+| `stick.wav` | 0.53 s | -21.4 / -1.4 dB |
+| `stick2.wav` | 0.55 s | -21.3 / -1.5 dB |
+| `stick3.wav` | 0.62 s | -20.5 / -1.6 dB |
+| `zing.wav` | 0.54 s | -21.8 / -1.9 dB |
+| `zing2.wav` | 0.57 s | -21.8 / -1.2 dB |
+| `zing3.wav` | 0.59 s | -23.1 / -1.1 dB |
