@@ -1,0 +1,21 @@
+# Gedankenwerk
+
+Gesicherte Teile des Gedankenwerk-Pakets. Die Klänge liegen separat in [`../sounds/`](../sounds/) (mit `katalog.json` und `LIZENZ.txt`).
+
+| Ordner | Inhalt |
+|---|---|
+| `vorlage/` | Remotion-Vorlage: `package.json`, `tsconfig.json`, `remotion.config.ts`, `src/` (Root, basis/, videos/) |
+| `kanal/illustrationen/` | Icons der Folgen (`icons_h02` … `icons_h100s`), Figuren |
+| `kanal/cover/` | Cover-System und Thumbnails |
+| `kanal/bausteine/` | LikeTeilen, FolgenKarte, Nachspann, teile |
+| `kanal/hintergruende/` | Hintergründe (welten, papiere, buehnen) |
+| `stimmen/klon/` | 8 Referenzstimmen (WAV, 24 kHz) + `stimmen.json` |
+| `hilfe/` | Anleitungsvideos (Mac, Windows, Verbessern) + `Kapitel.txt` |
+
+## Hinweise
+
+- Die Ordner unter `vorlage/` folgen den Imports im Code. Die Ordner unter `kanal/` sind geschätzt:
+  der Code importiert z. B. `../../basis/lib` und `../_basis`, die genaue Ablage im Originalprojekt ist unbekannt.
+- Es fehlen Dateien, die der Code braucht: `theme.json` (wird von `vorlage/src/basis/theme.ts` als `../../../theme.json` geladen),
+  `_basis.ts` (für `kanal/hintergruende/`) und `werkzeug/*.py`.
+- `vorlage/src/videos/_vorlage/` enthält die Platzhalter-Dateien (`__THEMA__`), die `werkzeug/neu.py` für jedes neue Video kopiert; der Ordnername ist geschätzt.

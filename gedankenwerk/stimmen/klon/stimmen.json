@@ -1,0 +1,43 @@
+{
+ "max": {
+  "datei": "max.wav",
+  "ref_text": "Weißt du, warum du im Supermarkt fast immer mehr kaufst, als du eigentlich wolltest? Die Antwort ist überraschend einfach.",
+  "label": "Max · Mann, ~35, freundlicher Wissens-Erklärer (Standard)"
+ },
+ "hannes": {
+  "datei": "hannes.wav",
+  "ref_text": "Weißt du, warum du im Supermarkt fast immer mehr kaufst, als du eigentlich wolltest? Die Antwort ist überraschend einfach.",
+  "label": "Hannes · Mann, ~45, TV-Doku-Erzähler"
+ },
+ "ben": {
+  "datei": "ben.wav",
+  "ref_text": "Weißt du, warum du im Supermarkt fast immer mehr kaufst, als du eigentlich wolltest? Die Antwort ist überraschend einfach.",
+  "label": "Ben · Mann, ~22, Creator, locker"
+ },
+ "klaus": {
+  "datei": "klaus.wav",
+  "ref_text": "Weißt du, warum du im Supermarkt fast immer mehr kaufst, als du eigentlich wolltest? Die Antwort ist überraschend einfach.",
+  "label": "Klaus · Mann, älter, rau"
+ },
+ "jonas": {
+  "datei": "jonas.wav",
+  "ref_text": "Weißt du, warum du im Supermarkt fast immer mehr kaufst, als du eigentlich wolltest? Die Antwort ist überraschend einfach.",
+  "label": "Jonas · Mann, jung, energisch"
+ },
+ "dylan": {
+  "datei": "dylan.wav",
+  "ref_text": "Niemand muss diese Bremse einschalten. Sie greift, wenn etwas ausfällt. Das gleiche Prinzip steckt im Lkw: Federn halten die Bremse zu, nur Druckluft drückt sie auf. Ist die Luft weg, bremst er.",
+  "label": "Dylan · Mann, jung, klar"
+ },
+ "lena": {
+  "datei": "lena.wav",
+  "ref_text": "Weißt du, warum du im Supermarkt fast immer mehr kaufst, als du eigentlich wolltest? Die Antwort ist überraschend einfach.",
+  "label": "Lena · Frau, Ende 20, klar und lebendig"
+ },
+ "mara": {
+  "datei": "mara.wav",
+  "ref_text": "Weißt du, warum du im Supermarkt fast immer mehr kaufst, als du eigentlich wolltest? Die Antwort ist überraschend einfach.",
+  "label": "Mara · Frau, ~40, Hörbuch-Sprecherin"
+ },
+ "_hinweis": "Referenzen für den Stimmklon (Qwen3-TTS Base). Erzeugt mit Qwen3-TTS VoiceDesign bzw. CustomVoice (Apache-2.0), kommerziell nutzbar. Eigene Stimme: python werkzeug/stimme_einrichten.py --eigene \"<Beschreibung auf Englisch>\""
+}
