@@ -14,9 +14,9 @@ Gesicherte Teile des Gedankenwerk-Pakets. Die Klänge liegen separat in [`../sou
 | `schriften/` | Webfonts (woff2): Instrument Sans 400, Bricolage Grotesque 800 (latin + latin-ext), JetBrains Mono 500 – SIL Open Font License |
 | `bibliothek/hintergruende/` | 15 Vorschau-Clips der Hintergründe (304×540, 5 s): blaupause, filmkorn, himmel, karo, korkwand, kreidetafel, liniert, nachthimmel, papier, punktraster, schreibtisch, spotlight, streifen, verlauf, vignette |
 | `bibliothek/mitmach/` | 15 Vorschau-Clips der Mitmach-Bausteine (304×540, 5 s): bewertung, community-frage, enthuellung, folgen, kommentar, quiz, rate-countdown, schaetz, speichern, stopp-rate, teil2, teilen, umfrage, waehle-ab, wahr-falsch |
-| `bibliothek/hg/` | 3 Vorschau-Clips (Original-Präfix `hg-`): balken, buehne, chips |
-| `bilder/cover/` | Beispiel-Cover: stau (#100s), hut-raetsel (#90), mikrowelle (#33), einkaufswagen (#15) |
-| `bilder/elemente/` | Element-Vorschauen: kringel-pfeil, logo, preisschild |
+| `bibliothek/hg/` | 11 Vorschau-Clips (Original-Präfix `hg-`): balken, buehne, chips, du-kopf, endkarte, fig-denker, fig-gestalt, fig-showmaster, fig-spielleiter, folgen-karte, like-teilen |
+| `bilder/cover/` | Beispiel-Cover: stau (#100s), hut-raetsel (#90), mikrowelle (#33), einkaufswagen (#15), ball-fliegt-hoch (Stil A), wo-ist-der-ball (Stil B), gehirn-luegt (Stil C) |
+| `bilder/elemente/` | Element-Vorschauen: kringel-pfeil, logo, preisschild, riss-fenster, stempel-denkst-du, titel-gross |
 
 ## Hinweise
 
