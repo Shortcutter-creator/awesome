@@ -1,0 +1,35 @@
+{
+  "_beschreibung": "Schlicht und hell: Papierweiß, Tinte, ein klares Blau. Der Startpunkt.",
+  "farben": {
+    "hintergrund": "#f5f5f2",
+    "flaeche": "#ffffff",
+    "raster": "rgba(20,20,20,0.06)",
+    "text": "#161616",
+    "text_leise": "#6b6b6b",
+    "linie": "#d4d4cf",
+    "akzent": "#2f6fed",
+    "markierung": "#ffd84d",
+    "positiv": "#1f9d55",
+    "negativ": "#d64545",
+    "dunkel_hintergrund": "#14171f",
+    "dunkel_text": "#f2f4f8",
+    "dunkel_akzent": "#7fb2ff"
+  },
+  "schrift": {
+    "titel": "Inter",
+    "text": "Inter",
+    "mono": "IBM Plex Mono",
+    "titel_gewicht": 800
+  },
+  "untertitel": {
+    "farbe": "#161616",
+    "pille": "#ffffff",
+    "aktiv": "#2f6fed"
+  },
+  "mechanik_wechsel": {
+    "art": "keiner"
+  },
+  "figur": {
+    "farbe": "#2f6fed"
+  }
+}

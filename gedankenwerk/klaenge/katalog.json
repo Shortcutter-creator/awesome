@@ -1,0 +1,4717 @@
+{
+ "version": "forge_v2r6+forge04r1+fit1+pluck1",
+ "anzahl": 253,
+ "gruppen": [
+  "Whoosh & Wischer",
+  "Riser & Spannung",
+  "Fall & Bass",
+  "Einschlag & Hit",
+  "Pop & Erscheinen",
+  "Klick & Tick",
+  "Tippen & Klopfen",
+  "Tastatur",
+  "Töne & Glocken",
+  "Glanz & Sting",
+  "Zip & Bewegung",
+  "Glitch & Digital",
+  "Kamera",
+  "Musikbett"
+ ],
+ "klaenge": [
+  {
+   "id": "click/double",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "click"
+   ],
+   "datei": "klaenge/click/double.wav",
+   "varianten": 3,
+   "dauer": 0.103,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "F#7",
+   "ton_hz": 2913.51,
+   "beschreibung_en": "cursor presses and buttons: a short modal tick with a small body",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "click/snap",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "click"
+   ],
+   "datei": "klaenge/click/snap.wav",
+   "varianten": 3,
+   "dauer": 0.062,
+   "spitze_s": 0.003,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "C#7",
+   "ton_hz": 2206.13,
+   "beschreibung_en": "cursor presses and buttons: a short modal tick with a small body",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "click/soft",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "click"
+   ],
+   "datei": "klaenge/click/soft.wav",
+   "varianten": 3,
+   "dauer": 0.094,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "F#7",
+   "ton_hz": 2903.41,
+   "beschreibung_en": "cursor presses and buttons: a short modal tick with a small body",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "click/thock",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "click"
+   ],
+   "datei": "klaenge/click/thock.wav",
+   "varianten": 3,
+   "dauer": 0.103,
+   "spitze_s": 0.003,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "cursor presses and buttons: a short modal tick with a small body",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "click/tink",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "click"
+   ],
+   "datei": "klaenge/click/tink.wav",
+   "varianten": 3,
+   "dauer": 0.069,
+   "spitze_s": 0.003,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "E8",
+   "ton_hz": 5373.64,
+   "beschreibung_en": "cursor presses and buttons: a short modal tick with a small body",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "cut_hit/air",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit"
+   ],
+   "datei": "klaenge/cut_hit/air.wav",
+   "varianten": 3,
+   "dauer": 0.549,
+   "spitze_s": 0.043,
+   "einsatz_s": 0.0,
+   "spitze_db": -2.24,
+   "stimmbar": true,
+   "ton": "Ab1",
+   "ton_hz": 50.96,
+   "beschreibung_en": "a fast wide sub hit under a sustained bright air band",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "cut_hit/kick",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "drop",
+    "hit"
+   ],
+   "datei": "klaenge/cut_hit/kick.wav",
+   "varianten": 3,
+   "dauer": 0.325,
+   "spitze_s": 0.004,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "D1",
+   "ton_hz": 37.04,
+   "beschreibung_en": "a kick-led sub hit: the beater lifts it to ~275 Hz",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "cut_hit/punch",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit",
+    "land"
+   ],
+   "datei": "klaenge/cut_hit/punch.wav",
+   "varianten": 3,
+   "dauer": 0.282,
+   "spitze_s": 0.05,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.15,
+   "stimmbar": true,
+   "ton": "G1",
+   "ton_hz": 47.8,
+   "beschreibung_en": "a short punchy cut hit (0.28 s), two thirds under 150 Hz",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "cut_hit/rumble",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit"
+   ],
+   "datei": "klaenge/cut_hit/rumble.wav",
+   "varianten": 1,
+   "dauer": 1.4,
+   "spitze_s": 0.073,
+   "einsatz_s": 0.001,
+   "spitze_db": -2.91,
+   "stimmbar": true,
+   "ton": "E1",
+   "ton_hz": 40.27,
+   "beschreibung_en": "a kick on a slow sub drop into a wide granular rumble (1.4 s)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "cut_hit/sub",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "drop",
+    "hit"
+   ],
+   "datei": "klaenge/cut_hit/sub.wav",
+   "varianten": 3,
+   "dauer": 0.286,
+   "spitze_s": 0.022,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.22,
+   "stimmbar": true,
+   "ton": "F#1",
+   "ton_hz": 45.69,
+   "beschreibung_en": "a short sub hit, 225 -> 46 Hz, with a kick and a low punch",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "downlifter/air_fall",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/downlifter/air_fall.wav",
+   "varianten": 1,
+   "dauer": 2.06,
+   "spitze_s": 0.107,
+   "einsatz_s": 0.02,
+   "spitze_db": -2.44,
+   "stimmbar": true,
+   "ton": "Ab5",
+   "ton_hz": 829.54,
+   "beschreibung_en": "energy falling away after a hit, scene exits",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "downlifter/flange_air",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/downlifter/flange_air.wav",
+   "varianten": 1,
+   "dauer": 2.954,
+   "spitze_s": 0.237,
+   "einsatz_s": 0.037,
+   "spitze_db": -2.51,
+   "stimmbar": true,
+   "ton": "Eb6",
+   "ton_hz": 1244.31,
+   "beschreibung_en": "energy falling away after a hit, scene exits",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "downlifter/shepard_fall",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/downlifter/shepard_fall.wav",
+   "varianten": 1,
+   "dauer": 4.019,
+   "spitze_s": 0.286,
+   "einsatz_s": 0.038,
+   "spitze_db": -3.23,
+   "stimmbar": true,
+   "ton": "Ab5",
+   "ton_hz": 829.54,
+   "beschreibung_en": "energy falling away after a hit, scene exits",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "downlifter/sub_sink",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/downlifter/sub_sink.wav",
+   "varianten": 1,
+   "dauer": 1.787,
+   "spitze_s": 0.073,
+   "einsatz_s": 0.009,
+   "spitze_db": -1.1,
+   "stimmbar": true,
+   "ton": "Ab4",
+   "ton_hz": 426.3,
+   "beschreibung_en": "energy falling away after a hit, scene exits",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "downlifter/synth_fall",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/downlifter/synth_fall.wav",
+   "varianten": 1,
+   "dauer": 4.039,
+   "spitze_s": 0.148,
+   "einsatz_s": 0.026,
+   "spitze_db": -1.38,
+   "stimmbar": true,
+   "ton": "E5",
+   "ton_hz": 642.26,
+   "beschreibung_en": "energy falling away after a hit, scene exits",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "downlifter/tape",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/downlifter/tape.wav",
+   "varianten": 1,
+   "dauer": 1.63,
+   "spitze_s": 0.098,
+   "einsatz_s": 0.006,
+   "spitze_db": -1.27,
+   "stimmbar": true,
+   "ton": "E4",
+   "ton_hz": 330.95,
+   "beschreibung_en": "energy falling away after a hit, scene exits",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "drip/bloop",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/drip/bloop.wav",
+   "varianten": 3,
+   "dauer": 0.373,
+   "spitze_s": 0.029,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.2,
+   "stimmbar": true,
+   "ton": "Ab4",
+   "ton_hz": 420.0,
+   "beschreibung_en": "a big drop's slow bloop: ~5 st over 0.1-0.15 s (the audit's drip allowance)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "drip/bubble",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/drip/bubble.wav",
+   "varianten": 3,
+   "dauer": 0.289,
+   "spitze_s": 0.034,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.75,
+   "stimmbar": true,
+   "ton": "C4",
+   "ton_hz": 254.5,
+   "beschreibung_en": "a lower bubble rising 10 st with a daughter bubble",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "drip/drop",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/drip/drop.wav",
+   "varianten": 3,
+   "dauer": 0.334,
+   "spitze_s": 0.061,
+   "einsatz_s": 0.01,
+   "spitze_db": -1.4,
+   "stimmbar": true,
+   "ton": "Eb4",
+   "ton_hz": 306.4,
+   "beschreibung_en": "a water drop: a 306 Hz bubble rising 8 st within 40 ms, soft onset",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "drip/plink",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/drip/plink.wav",
+   "varianten": 3,
+   "dauer": 0.257,
+   "spitze_s": 0.03,
+   "einsatz_s": 0.004,
+   "spitze_db": -1.14,
+   "stimmbar": true,
+   "ton": "F5",
+   "ton_hz": 694.6,
+   "beschreibung_en": "a small high plink rising 3 st",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "drip/tiny",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/drip/tiny.wav",
+   "varianten": 3,
+   "dauer": 0.142,
+   "spitze_s": 0.01,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.19,
+   "stimmbar": true,
+   "ton": "D6",
+   "ton_hz": 1150.0,
+   "beschreibung_en": "a tiny fast droplet at 1.15 kHz, 0.1 s",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "fit/bell/small_bell",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell"
+   ],
+   "datei": "klaenge/fit/bell/small_bell.wav",
+   "varianten": 1,
+   "dauer": 1.66,
+   "spitze_s": 0.062,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "B7",
+   "ton_hz": 4037.63,
+   "beschreibung_en": "a small bell struck once, fitted from \"Small Bell #2\" by steffcaffrey (CC0 1.0): sines model, CLAP 0.94 to the recording, takes pass the take check at vary 0.3; the audit notes a comb ring in the tail on some takes, as on the recording itself",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/click/floss_lid",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "click",
+    "tick.crisp"
+   ],
+   "datei": "klaenge/fit/click/floss_lid.wav",
+   "varianten": 3,
+   "dauer": 0.132,
+   "spitze_s": 0.006,
+   "einsatz_s": 0.005,
+   "spitze_db": -1.01,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a small plastic click, fitted from \"Plastic Clicks.flac\" by qubodup (CC0 1.0): sines model, CLAP 0.96 to the recording, takes pass the take check at vary 0.3",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/hit/bamboo_tok",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit",
+    "tock"
+   ],
+   "datei": "klaenge/fit/hit/bamboo_tok.wav",
+   "varianten": 3,
+   "dauer": 0.17,
+   "spitze_s": 0.011,
+   "einsatz_s": 0.008,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a bamboo hit, fitted from \"Bamboo hit\" by michorvath (CC0 1.0): hybrid model, CLAP 0.97 to the recording, takes pass the take check at vary 0.3",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/key.space/thock_space",
+   "gruppe": "Tastatur",
+   "art": [
+    "key.space"
+   ],
+   "datei": "klaenge/fit/key.space/thock_space.wav",
+   "varianten": 3,
+   "dauer": 0.39,
+   "spitze_s": 0.02,
+   "einsatz_s": 0.017,
+   "spitze_db": -5.57,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a mechanical keyboard space bar, fitted from \"Keychron k10 space_bar\" by Sadiquecat (CC0 1.0): sines model, CLAP 0.95 to the recording, takes pass the take check at vary 0.3",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/key/lubed",
+   "gruppe": "Tastatur",
+   "art": [
+    "key"
+   ],
+   "datei": "klaenge/fit/key/lubed.wav",
+   "varianten": 3,
+   "dauer": 0.424,
+   "spitze_s": 0.074,
+   "einsatz_s": 0.064,
+   "spitze_db": -1.07,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "one mechanical keyboard key press, fitted from \"Keyboard typing sounds: Unidentified Technics keyboard\" by zrrion (CC0 1.0): modal model, CLAP 0.98 to the recording, takes pass the take check at vary 0.3; the audit notes a comb ring in the tail on some takes, as on the recording itself",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/key/medium",
+   "gruppe": "Tastatur",
+   "art": [
+    "key"
+   ],
+   "datei": "klaenge/fit/key/medium.wav",
+   "varianten": 3,
+   "dauer": 0.427,
+   "spitze_s": 0.102,
+   "einsatz_s": 0.097,
+   "spitze_db": -1.02,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "one mechanical keyboard key, press and release, fitted from \"mechanical key medium.wav\" by bigmonmulgrew (CC0 1.0): hybrid model, CLAP 0.94 to the recording, takes pass the take check at vary 0.3",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/key/thock",
+   "gruppe": "Tastatur",
+   "art": [
+    "key"
+   ],
+   "datei": "klaenge/fit/key/thock.wav",
+   "varianten": 3,
+   "dauer": 0.454,
+   "spitze_s": 0.013,
+   "einsatz_s": 0.012,
+   "spitze_db": -3.72,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "one low mechanical keyboard key press, fitted from \"Keychron k10 A to + individual keys\" by Sadiquecat (CC0 1.0): modal model, CLAP 0.94 to the recording, takes pass the take check at vary 0.3",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/land.light/finger_phone",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "land.light",
+    "text"
+   ],
+   "datei": "klaenge/fit/land.light/finger_phone.wav",
+   "varianten": 3,
+   "dauer": 0.331,
+   "spitze_s": 0.011,
+   "einsatz_s": 0.009,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a finger tapping a phone, fitted from \"Finger Tapping Phone\" by jentlemen (CC0 1.0): hybrid model, CLAP 0.93 to the recording, takes pass the take check at vary 0.3",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/land.light/finger_wood",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "land.light",
+    "tock"
+   ],
+   "datei": "klaenge/fit/land.light/finger_wood.wav",
+   "varianten": 3,
+   "dauer": 0.339,
+   "spitze_s": 0.011,
+   "einsatz_s": 0.006,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a finger tap on a wooden counter, fitted from \"finger tap table counter wood various.wav\" by kyles (CC0 1.0): modal model, CLAP 0.93 to the recording, takes pass the take check at vary 0.3",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/land.light/fingertip_book",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "land.light",
+    "tock"
+   ],
+   "datei": "klaenge/fit/land.light/fingertip_book.wav",
+   "varianten": 3,
+   "dauer": 0.375,
+   "spitze_s": 0.005,
+   "einsatz_s": 0.005,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "G3",
+   "ton_hz": 199.46,
+   "beschreibung_en": "light finger steps on a book, fitted from \"Light Footsteps On Book\" by IENBA (CC0 1.0): modal model, CLAP 0.94 to the recording, takes pass the take check at vary 0.3",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/pop/lip_pop",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/fit/pop/lip_pop.wav",
+   "varianten": 3,
+   "dauer": 0.221,
+   "spitze_s": 0.011,
+   "einsatz_s": 0.006,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a short pop, fitted from \"Pop sound\" by deraj (CC0 1.0): modal model, CLAP 0.95 to the recording, takes pass the take check at vary 0.3",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/pop/mouth_plop",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/fit/pop/mouth_plop.wav",
+   "varianten": 3,
+   "dauer": 0.281,
+   "spitze_s": 0.015,
+   "einsatz_s": 0.009,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "A5",
+   "ton_hz": 858.85,
+   "beschreibung_en": "a soft mouth plop, fitted from \"Mouth Plops.wav\" by CapsLok (CC0 1.0): hybrid model, CLAP 0.96 to the recording, takes pass the take check at vary 0.3",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/snap/switch_flip",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "snap",
+    "click"
+   ],
+   "datei": "klaenge/fit/snap/switch_flip.wav",
+   "varianten": 3,
+   "dauer": 0.185,
+   "spitze_s": 0.035,
+   "einsatz_s": 0.003,
+   "spitze_db": -2.38,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a switch flip, fitted from \"Switch Flip #1\" by IanStarGem (CC0 1.0): sines model, CLAP 0.94 to the recording, takes pass the take check at vary 0.3",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/tick/domino",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "tick"
+   ],
+   "datei": "klaenge/fit/tick/domino.wav",
+   "varianten": 3,
+   "dauer": 0.139,
+   "spitze_s": 0.008,
+   "einsatz_s": 0.005,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "domino pieces knocking together, fitted from \"Domino pieces hit\" by Macif (CC0 1.0): sines model, CLAP 0.94 to the recording, takes pass the take check at vary 0.3",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "fit/whoosh.short/bamboo_swish",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/fit/whoosh.short/bamboo_swish.wav",
+   "varianten": 3,
+   "dauer": 0.477,
+   "spitze_s": 0.13,
+   "einsatz_s": 0.088,
+   "spitze_db": -1.06,
+   "stimmbar": true,
+   "ton": "Bb3",
+   "ton_hz": 231.94,
+   "beschreibung_en": "a short whoosh, fitted from \"Short Whoosh, 13x\" by Kinoton (CC0 1.0): sines model, CLAP 0.94 to the recording, takes pass the take check at vary 0.3",
+   "quelle": "earshot fit"
+  },
+  {
+   "id": "glitch/burst",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/glitch/burst.wav",
+   "varianten": 1,
+   "dauer": 0.868,
+   "spitze_s": 0.361,
+   "einsatz_s": 0.357,
+   "spitze_db": -4.04,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "crackle, then bright bursts that hit first and speed up",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "glitch/chirp",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/glitch/chirp.wav",
+   "varianten": 3,
+   "dauer": 0.407,
+   "spitze_s": 0.075,
+   "einsatz_s": 0.073,
+   "spitze_db": -1.18,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a pitched data-chirp stutter that hits first",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "glitch/crush",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/glitch/crush.wav",
+   "varianten": 3,
+   "dauer": 0.54,
+   "spitze_s": 0.402,
+   "einsatz_s": 0.005,
+   "spitze_db": -2.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "glitch transitions, error states",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "glitch/data",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/glitch/data.wav",
+   "varianten": 3,
+   "dauer": 0.49,
+   "spitze_s": 0.426,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.98,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "glitch transitions, error states",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "glitch/dropout",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/glitch/dropout.wav",
+   "varianten": 1,
+   "dauer": 0.74,
+   "spitze_s": 0.649,
+   "einsatz_s": 0.0,
+   "spitze_db": -4.36,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "glitch transitions, error states",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "glitch/hit",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/glitch/hit.wav",
+   "varianten": 3,
+   "dauer": 0.34,
+   "spitze_s": 0.17,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.88,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "glitch transitions, error states",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "glitch/mid",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/glitch/mid.wav",
+   "varianten": 3,
+   "dauer": 0.245,
+   "spitze_s": 0.033,
+   "einsatz_s": 0.031,
+   "spitze_db": -2.01,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a short mid glitch that hits first",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "glitch/scramble",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/glitch/scramble.wav",
+   "varianten": 3,
+   "dauer": 0.59,
+   "spitze_s": 0.534,
+   "einsatz_s": 0.017,
+   "spitze_db": -3.19,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "glitch transitions, error states",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "glitch/stutter",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/glitch/stutter.wav",
+   "varianten": 1,
+   "dauer": 0.64,
+   "spitze_s": 0.383,
+   "einsatz_s": 0.021,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "glitch transitions, error states",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "hover_tick/air",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "tick"
+   ],
+   "datei": "klaenge/hover_tick/air.wav",
+   "varianten": 3,
+   "dauer": 0.074,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.18,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "hover, list rows passing, tiny ticks",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "hover_tick/detent",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "tick"
+   ],
+   "datei": "klaenge/hover_tick/detent.wav",
+   "varianten": 3,
+   "dauer": 0.084,
+   "spitze_s": 0.004,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.56,
+   "stimmbar": true,
+   "ton": "Ab8",
+   "ton_hz": 6766.48,
+   "beschreibung_en": "hover, list rows passing, tiny ticks",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "hover_tick/high",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "tick"
+   ],
+   "datei": "klaenge/hover_tick/high.wav",
+   "varianten": 3,
+   "dauer": 0.047,
+   "spitze_s": 0.003,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.15,
+   "stimmbar": true,
+   "ton": "B8",
+   "ton_hz": 8000.0,
+   "beschreibung_en": "hover, list rows passing, tiny ticks",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "hover_tick/mid",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "tick"
+   ],
+   "datei": "klaenge/hover_tick/mid.wav",
+   "varianten": 3,
+   "dauer": 0.089,
+   "spitze_s": 0.003,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.14,
+   "stimmbar": true,
+   "ton": "B8",
+   "ton_hz": 8000.0,
+   "beschreibung_en": "hover, list rows passing, tiny ticks",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "hover_tick/ping",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "tick"
+   ],
+   "datei": "klaenge/hover_tick/ping.wav",
+   "varianten": 3,
+   "dauer": 0.05,
+   "spitze_s": 0.003,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.01,
+   "stimmbar": true,
+   "ton": "Bb8",
+   "ton_hz": 7396.27,
+   "beschreibung_en": "hover, list rows passing, tiny ticks",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "impact/blast",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit",
+    "land"
+   ],
+   "datei": "klaenge/impact/blast.wav",
+   "varianten": 1,
+   "dauer": 5.759,
+   "spitze_s": 0.022,
+   "einsatz_s": 0.0,
+   "spitze_db": -2.81,
+   "stimmbar": true,
+   "ton": "G1",
+   "ton_hz": 48.0,
+   "beschreibung_en": "a cinematic hit: reveal, title slam (long tails: trim with dur or max_s)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "impact/classic",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit",
+    "land"
+   ],
+   "datei": "klaenge/impact/classic.wav",
+   "varianten": 1,
+   "dauer": 4.797,
+   "spitze_s": 0.115,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.6,
+   "stimmbar": true,
+   "ton": "B1",
+   "ton_hz": 62.0,
+   "beschreibung_en": "a cinematic hit: reveal, title slam (long tails: trim with dur or max_s)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "impact/deep",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit",
+    "land"
+   ],
+   "datei": "klaenge/impact/deep.wav",
+   "varianten": 1,
+   "dauer": 6.205,
+   "spitze_s": 0.084,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.85,
+   "stimmbar": true,
+   "ton": "Eb1",
+   "ton_hz": 38.0,
+   "beschreibung_en": "a cinematic hit: reveal, title slam (long tails: trim with dur or max_s)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "impact/metal",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit",
+    "land"
+   ],
+   "datei": "klaenge/impact/metal.wav",
+   "varianten": 1,
+   "dauer": 5.022,
+   "spitze_s": 0.029,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.57,
+   "stimmbar": true,
+   "ton": "B1",
+   "ton_hz": 62.0,
+   "beschreibung_en": "a cinematic hit: reveal, title slam (long tails: trim with dur or max_s)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "impact/punch",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit",
+    "land"
+   ],
+   "datei": "klaenge/impact/punch.wav",
+   "varianten": 1,
+   "dauer": 2.845,
+   "spitze_s": 0.039,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.8,
+   "stimmbar": true,
+   "ton": "C2",
+   "ton_hz": 66.0,
+   "beschreibung_en": "a cinematic hit: reveal, title slam (long tails: trim with dur or max_s)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "impact/swell",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit",
+    "land"
+   ],
+   "datei": "klaenge/impact/swell.wav",
+   "varianten": 1,
+   "dauer": 6.232,
+   "spitze_s": 0.615,
+   "einsatz_s": 0.338,
+   "spitze_db": -1.52,
+   "stimmbar": true,
+   "ton": "B1",
+   "ton_hz": 62.0,
+   "beschreibung_en": "a cinematic hit: reveal, title slam (long tails: trim with dur or max_s)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "knock/desk",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "tock",
+    "land.light"
+   ],
+   "datei": "klaenge/knock/desk.wav",
+   "varianten": 3,
+   "dauer": 0.224,
+   "spitze_s": 0.022,
+   "einsatz_s": 0.0,
+   "spitze_db": -4.07,
+   "stimmbar": true,
+   "ton": "F5",
+   "ton_hz": 699.2,
+   "beschreibung_en": "a knuckle on a desk: a low wooden knock with the table under it",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "knock/double",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "tock"
+   ],
+   "datei": "klaenge/knock/double.wav",
+   "varianten": 3,
+   "dauer": 0.156,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.35,
+   "stimmbar": true,
+   "ton": "C5",
+   "ton_hz": 537.0,
+   "beschreibung_en": "a knock-knock: two wooden taps 55 ms apart",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "knock/plastic",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "tock"
+   ],
+   "datei": "klaenge/knock/plastic.wav",
+   "varianten": 3,
+   "dauer": 0.153,
+   "spitze_s": 0.051,
+   "einsatz_s": 0.003,
+   "spitze_db": -1.25,
+   "stimmbar": true,
+   "ton": "D5",
+   "ton_hz": 589.7,
+   "beschreibung_en": "a plastic click that bounces back 18 ms later (2.4 kHz)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "knock/snap",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "tock"
+   ],
+   "datei": "klaenge/knock/snap.wav",
+   "varianten": 3,
+   "dauer": 0.134,
+   "spitze_s": 0.041,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.27,
+   "stimmbar": true,
+   "ton": "C6",
+   "ton_hz": 1055.0,
+   "beschreibung_en": "a soft contact, then a bright plastic snap with a bounce (3 kHz)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "knock/wood",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "tock",
+    "land.light"
+   ],
+   "datei": "klaenge/knock/wood.wav",
+   "varianten": 3,
+   "dauer": 0.154,
+   "spitze_s": 0.014,
+   "einsatz_s": 0.013,
+   "spitze_db": -1.18,
+   "stimmbar": true,
+   "ton": "G4",
+   "ton_hz": 400.0,
+   "beschreibung_en": "a mid-band wooden knock: a 400 Hz block and its faint rattle",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "logo_sting/reverse_bloom",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "sting"
+   ],
+   "datei": "klaenge/logo_sting/reverse_bloom.wav",
+   "varianten": 1,
+   "dauer": 2.127,
+   "spitze_s": 0.382,
+   "einsatz_s": 0.192,
+   "spitze_db": -2.09,
+   "stimmbar": true,
+   "ton": "F#6",
+   "ton_hz": 1480.0,
+   "beschreibung_en": "a composite logo reveal (lead-in + hit + chime)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "logo_sting/soft_bloom",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "sting"
+   ],
+   "datei": "klaenge/logo_sting/soft_bloom.wav",
+   "varianten": 1,
+   "dauer": 1.85,
+   "spitze_s": 0.307,
+   "einsatz_s": 0.187,
+   "spitze_db": -1.13,
+   "stimmbar": true,
+   "ton": "B5",
+   "ton_hz": 987.8,
+   "beschreibung_en": "a composite logo reveal (lead-in + hit + chime)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "logo_sting/spark",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "sting"
+   ],
+   "datei": "klaenge/logo_sting/spark.wav",
+   "varianten": 1,
+   "dauer": 1.84,
+   "spitze_s": 0.008,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.71,
+   "stimmbar": true,
+   "ton": "E6",
+   "ton_hz": 1318.5,
+   "beschreibung_en": "a composite logo reveal (lead-in + hit + chime)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "logo_sting/whoosh_glass",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "sting"
+   ],
+   "datei": "klaenge/logo_sting/whoosh_glass.wav",
+   "varianten": 1,
+   "dauer": 1.912,
+   "spitze_s": 0.203,
+   "einsatz_s": 0.126,
+   "spitze_db": -1.08,
+   "stimmbar": true,
+   "ton": "E6",
+   "ton_hz": 1318.5,
+   "beschreibung_en": "a composite logo reveal (lead-in + hit + chime)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "logo_sting/zip_ping",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "sting"
+   ],
+   "datei": "klaenge/logo_sting/zip_ping.wav",
+   "varianten": 1,
+   "dauer": 1.656,
+   "spitze_s": 0.178,
+   "einsatz_s": 0.05,
+   "spitze_db": -1.01,
+   "stimmbar": true,
+   "ton": "A6",
+   "ton_hz": 1760.0,
+   "beschreibung_en": "a composite logo reveal (lead-in + hit + chime)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "mallet/celesta",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "text"
+   ],
+   "datei": "klaenge/mallet/celesta.wav",
+   "varianten": 3,
+   "dauer": 0.414,
+   "spitze_s": 0.026,
+   "einsatz_s": 0.001,
+   "spitze_db": -5.24,
+   "stimmbar": true,
+   "ton": "G5",
+   "ton_hz": 784.0,
+   "beschreibung_en": "a wide celesta note (G5, L / R correlation ~0.5), gated",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "mallet/flourish",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell"
+   ],
+   "datei": "klaenge/mallet/flourish.wav",
+   "varianten": 3,
+   "dauer": 0.504,
+   "spitze_s": 0.049,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.43,
+   "stimmbar": true,
+   "ton": "G5",
+   "ton_hz": 802.3,
+   "beschreibung_en": "a quick three-note chime flourish in an arc, near mono",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "mallet/glock",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "text"
+   ],
+   "datei": "klaenge/mallet/glock.wav",
+   "varianten": 3,
+   "dauer": 0.412,
+   "spitze_s": 0.01,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.31,
+   "stimmbar": true,
+   "ton": "Eb6",
+   "ton_hz": 1274.0,
+   "beschreibung_en": "a gated glockenspiel note doubled an octave under (0.35 s)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "mallet/marimba",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "text"
+   ],
+   "datei": "klaenge/mallet/marimba.wav",
+   "varianten": 3,
+   "dauer": 0.564,
+   "spitze_s": 0.008,
+   "einsatz_s": 0.0,
+   "spitze_db": -2.46,
+   "stimmbar": true,
+   "ton": "G4",
+   "ton_hz": 392.0,
+   "beschreibung_en": "a short dry wooden marimba note (G4)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "mallet/pluck",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "text",
+    "bell"
+   ],
+   "datei": "klaenge/mallet/pluck.wav",
+   "varianten": 3,
+   "dauer": 0.494,
+   "spitze_s": 0.06,
+   "einsatz_s": 0.008,
+   "spitze_db": -1.23,
+   "stimmbar": true,
+   "ton": "C#4",
+   "ton_hz": 284.2,
+   "beschreibung_en": "a soft, felt-like low pluck",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "mallet/up4",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell"
+   ],
+   "datei": "klaenge/mallet/up4.wav",
+   "varianten": 1,
+   "dauer": 0.749,
+   "spitze_s": 0.334,
+   "einsatz_s": 0.001,
+   "spitze_db": -2.54,
+   "stimmbar": true,
+   "ton": "C6",
+   "ton_hz": 1046.5,
+   "beschreibung_en": "four gated chime notes up a pentatonic scale in skips, 110 ms apart, panned note by note",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "notify/m0",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "hit",
+    "text",
+    "click.confirm"
+   ],
+   "datei": "klaenge/notify/m0.wav",
+   "varianten": 1,
+   "dauer": 2.3,
+   "spitze_s": 0.003,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.03,
+   "stimmbar": true,
+   "ton": "C5",
+   "ton_hz": 523.25,
+   "beschreibung_en": "struck bell chimes (A4-E6): success, a message, a soft lockup",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "notify/m1",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "hit",
+    "text",
+    "click.confirm"
+   ],
+   "datei": "klaenge/notify/m1.wav",
+   "varianten": 1,
+   "dauer": 2.0,
+   "spitze_s": 0.007,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.14,
+   "stimmbar": true,
+   "ton": "A5",
+   "ton_hz": 880.0,
+   "beschreibung_en": "struck bell chimes (A4-E6): success, a message, a soft lockup",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "notify/m2",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "hit",
+    "text",
+    "click.confirm"
+   ],
+   "datei": "klaenge/notify/m2.wav",
+   "varianten": 1,
+   "dauer": 1.8,
+   "spitze_s": 0.003,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.04,
+   "stimmbar": true,
+   "ton": "G5",
+   "ton_hz": 783.99,
+   "beschreibung_en": "struck bell chimes (A4-E6): success, a message, a soft lockup",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "notify/m3",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "hit",
+    "text",
+    "click.confirm"
+   ],
+   "datei": "klaenge/notify/m3.wav",
+   "varianten": 1,
+   "dauer": 2.5,
+   "spitze_s": 0.007,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.01,
+   "stimmbar": true,
+   "ton": "A4",
+   "ton_hz": 440.0,
+   "beschreibung_en": "struck bell chimes (A4-E6): success, a message, a soft lockup",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "notify/m4",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "hit",
+    "text",
+    "click.confirm"
+   ],
+   "datei": "klaenge/notify/m4.wav",
+   "varianten": 1,
+   "dauer": 1.8,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.04,
+   "stimmbar": true,
+   "ton": "D5",
+   "ton_hz": 587.33,
+   "beschreibung_en": "struck bell chimes (A4-E6): success, a message, a soft lockup",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "notify/m5",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "hit",
+    "text",
+    "click.confirm"
+   ],
+   "datei": "klaenge/notify/m5.wav",
+   "varianten": 1,
+   "dauer": 1.7,
+   "spitze_s": 0.004,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.09,
+   "stimmbar": true,
+   "ton": "E6",
+   "ton_hz": 1318.5,
+   "beschreibung_en": "struck bell chimes (A4-E6): success, a message, a soft lockup",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "notify/mid_tine",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "click.confirm",
+    "bell"
+   ],
+   "datei": "klaenge/notify/mid_tine.wav",
+   "varianten": 3,
+   "dauer": 0.425,
+   "spitze_s": 0.039,
+   "einsatz_s": 0.005,
+   "spitze_db": -1.13,
+   "stimmbar": true,
+   "ton": "Ab5",
+   "ton_hz": 830.61,
+   "beschreibung_en": "a rounded mid ding: a felt-struck tine over its octave (690 Hz, 32 ms onset)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "notify/mid_wood",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "click.confirm",
+    "bell"
+   ],
+   "datei": "klaenge/notify/mid_wood.wav",
+   "varianten": 3,
+   "dauer": 0.317,
+   "spitze_s": 0.032,
+   "einsatz_s": 0.006,
+   "spitze_db": -2.2,
+   "stimmbar": true,
+   "ton": "A5",
+   "ton_hz": 880.0,
+   "beschreibung_en": "a soft wooden bar with its octave body, a step higher",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pluck/kalimba",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "text",
+    "hit"
+   ],
+   "datei": "klaenge/pluck/kalimba.wav",
+   "varianten": 1,
+   "dauer": 3.0,
+   "spitze_s": 0.013,
+   "einsatz_s": 0.004,
+   "spitze_db": -1.01,
+   "stimmbar": true,
+   "ton": "C5",
+   "ton_hz": 523.25,
+   "beschreibung_en": "the launch film kalimba: a bright steel tine over a small wooden box",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pluck/kalimba_ring",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "text",
+    "hit"
+   ],
+   "datei": "klaenge/pluck/kalimba_ring.wav",
+   "varianten": 1,
+   "dauer": 3.0,
+   "spitze_s": 0.013,
+   "einsatz_s": 0.004,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "C5",
+   "ton_hz": 523.25,
+   "beschreibung_en": "a longer ring (the film's chord tones): end cards, a tonal lockup",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pluck/kalimba_soft",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "text",
+    "hit"
+   ],
+   "datei": "klaenge/pluck/kalimba_soft.wav",
+   "varianten": 1,
+   "dauer": 3.0,
+   "spitze_s": 0.015,
+   "einsatz_s": 0.004,
+   "spitze_db": -1.01,
+   "stimmbar": true,
+   "ton": "C5",
+   "ton_hz": 523.25,
+   "beschreibung_en": "a fleshy-thumb pluck: darker and softer at the attack (the film's soft notes)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pop/0",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/pop/0.wav",
+   "varianten": 3,
+   "dauer": 0.2,
+   "spitze_s": 0.004,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "C5",
+   "ton_hz": 520.0,
+   "beschreibung_en": "bubble and cork pops (the bubble rises in pitch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pop/1",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/pop/1.wav",
+   "varianten": 3,
+   "dauer": 0.15,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "C#6",
+   "ton_hz": 1100.0,
+   "beschreibung_en": "bubble and cork pops (the bubble rises in pitch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pop/2",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/pop/2.wav",
+   "varianten": 3,
+   "dauer": 0.25,
+   "spitze_s": 0.01,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.03,
+   "stimmbar": true,
+   "ton": "E4",
+   "ton_hz": 330.0,
+   "beschreibung_en": "bubble and cork pops (the bubble rises in pitch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pop/3",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/pop/3.wav",
+   "varianten": 3,
+   "dauer": 0.16,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "F#5",
+   "ton_hz": 720.0,
+   "beschreibung_en": "bubble and cork pops (the bubble rises in pitch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pop/4",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/pop/4.wav",
+   "varianten": 3,
+   "dauer": 0.22,
+   "spitze_s": 0.005,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.01,
+   "stimmbar": true,
+   "ton": "A4",
+   "ton_hz": 450.0,
+   "beschreibung_en": "bubble and cork pops (the bubble rises in pitch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_click/glass",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "click",
+    "tick.crisp"
+   ],
+   "datei": "klaenge/pro_click/glass.wav",
+   "varianten": 3,
+   "dauer": 0.062,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "C9",
+   "ton_hz": 8146.55,
+   "beschreibung_en": "bright designed UI ticks",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_click/mouse",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "click",
+    "tick.crisp"
+   ],
+   "datei": "klaenge/pro_click/mouse.wav",
+   "varianten": 3,
+   "dauer": 0.054,
+   "spitze_s": 0.003,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "G7",
+   "ton_hz": 3130.72,
+   "beschreibung_en": "bright designed UI ticks",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_click/snap",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "click",
+    "tick.crisp"
+   ],
+   "datei": "klaenge/pro_click/snap.wav",
+   "varianten": 3,
+   "dauer": 0.047,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "Bb8",
+   "ton_hz": 7268.6,
+   "beschreibung_en": "bright designed UI ticks",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_click/soft",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "click",
+    "tick.crisp"
+   ],
+   "datei": "klaenge/pro_click/soft.wav",
+   "varianten": 3,
+   "dauer": 0.053,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "F8",
+   "ton_hz": 5470.21,
+   "beschreibung_en": "bright designed UI ticks",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_click/tink",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "click",
+    "tick.crisp"
+   ],
+   "datei": "klaenge/pro_click/tink.wav",
+   "varianten": 3,
+   "dauer": 0.037,
+   "spitze_s": 0.003,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "Bb8",
+   "ton_hz": 7506.72,
+   "beschreibung_en": "bright designed UI ticks",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_glitch/crunchy",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/pro_glitch/crunchy.wav",
+   "varianten": 1,
+   "dauer": 0.71,
+   "spitze_s": 0.651,
+   "einsatz_s": 0.009,
+   "spitze_db": -5.14,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a designed stutter ending on the cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_glitch/data",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/pro_glitch/data.wav",
+   "varianten": 1,
+   "dauer": 0.67,
+   "spitze_s": 0.618,
+   "einsatz_s": 0.058,
+   "spitze_db": -3.67,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a designed stutter ending on the cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_glitch/fastroll",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/pro_glitch/fastroll.wav",
+   "varianten": 3,
+   "dauer": 0.55,
+   "spitze_s": 0.505,
+   "einsatz_s": 0.006,
+   "spitze_db": -3.15,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a designed stutter ending on the cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_glitch/framelock",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/pro_glitch/framelock.wav",
+   "varianten": 1,
+   "dauer": 0.73,
+   "spitze_s": 0.666,
+   "einsatz_s": 0.16,
+   "spitze_db": -1.73,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a designed stutter ending on the cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_glitch/sparse",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/pro_glitch/sparse.wav",
+   "varianten": 1,
+   "dauer": 0.75,
+   "spitze_s": 0.702,
+   "einsatz_s": 0.077,
+   "spitze_db": -2.69,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a designed stutter ending on the cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_glitch/standard",
+   "gruppe": "Glitch & Digital",
+   "art": [
+    "glitch"
+   ],
+   "datei": "klaenge/pro_glitch/standard.wav",
+   "varianten": 1,
+   "dauer": 0.71,
+   "spitze_s": 0.658,
+   "einsatz_s": 0.01,
+   "spitze_db": -2.76,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a designed stutter ending on the cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_hover_tick/air",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "tick",
+    "tick.crisp"
+   ],
+   "datei": "klaenge/pro_hover_tick/air.wav",
+   "varianten": 3,
+   "dauer": 0.055,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -2.33,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "airy digital ticks: cursor blinks, counters",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_hover_tick/detent",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "tick",
+    "tick.crisp"
+   ],
+   "datei": "klaenge/pro_hover_tick/detent.wav",
+   "varianten": 3,
+   "dauer": 0.036,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.82,
+   "stimmbar": true,
+   "ton": "F#9",
+   "ton_hz": 11614.16,
+   "beschreibung_en": "airy digital ticks: cursor blinks, counters",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_hover_tick/glass",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "tick",
+    "tick.crisp"
+   ],
+   "datei": "klaenge/pro_hover_tick/glass.wav",
+   "varianten": 3,
+   "dauer": 0.044,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -4.09,
+   "stimmbar": true,
+   "ton": "Bb8",
+   "ton_hz": 7484.32,
+   "beschreibung_en": "airy digital ticks: cursor blinks, counters",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_hover_tick/ping",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "tick",
+    "tick.crisp"
+   ],
+   "datei": "klaenge/pro_hover_tick/ping.wav",
+   "varianten": 3,
+   "dauer": 0.039,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -3.95,
+   "stimmbar": true,
+   "ton": "A9",
+   "ton_hz": 13904.5,
+   "beschreibung_en": "airy digital ticks: cursor blinks, counters",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_hover_tick/soft",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "tick",
+    "tick.crisp"
+   ],
+   "datei": "klaenge/pro_hover_tick/soft.wav",
+   "varianten": 3,
+   "dauer": 0.032,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -4.32,
+   "stimmbar": true,
+   "ton": "F#9",
+   "ton_hz": 11680.46,
+   "beschreibung_en": "airy digital ticks: cursor blinks, counters",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_impact/air",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit",
+    "land"
+   ],
+   "datei": "klaenge/pro_impact/air.wav",
+   "varianten": 1,
+   "dauer": 0.848,
+   "spitze_s": 0.173,
+   "einsatz_s": 0.0,
+   "spitze_db": -4.38,
+   "stimmbar": true,
+   "ton": "F1",
+   "ton_hz": 42.81,
+   "beschreibung_en": "a designed gated sub impact",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_impact/deep",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit",
+    "land"
+   ],
+   "datei": "klaenge/pro_impact/deep.wav",
+   "varianten": 1,
+   "dauer": 1.315,
+   "spitze_s": 0.213,
+   "einsatz_s": 0.001,
+   "spitze_db": -4.93,
+   "stimmbar": true,
+   "ton": "Ab1",
+   "ton_hz": 50.83,
+   "beschreibung_en": "a designed gated sub impact",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_impact/rumble",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit",
+    "land"
+   ],
+   "datei": "klaenge/pro_impact/rumble.wav",
+   "varianten": 1,
+   "dauer": 0.993,
+   "spitze_s": 0.619,
+   "einsatz_s": 0.0,
+   "spitze_db": -7.2,
+   "stimmbar": true,
+   "ton": "Eb1",
+   "ton_hz": 39.53,
+   "beschreibung_en": "a designed gated sub impact",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_impact/short",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit",
+    "land"
+   ],
+   "datei": "klaenge/pro_impact/short.wav",
+   "varianten": 1,
+   "dauer": 0.667,
+   "spitze_s": 0.18,
+   "einsatz_s": 0.0,
+   "spitze_db": -6.17,
+   "stimmbar": true,
+   "ton": "D2",
+   "ton_hz": 75.0,
+   "beschreibung_en": "a designed gated sub impact",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_impact/swell",
+   "gruppe": "Einschlag & Hit",
+   "art": [
+    "hit",
+    "land"
+   ],
+   "datei": "klaenge/pro_impact/swell.wav",
+   "varianten": 1,
+   "dauer": 1.118,
+   "spitze_s": 0.457,
+   "einsatz_s": 0.1,
+   "spitze_db": -6.0,
+   "stimmbar": true,
+   "ton": "D2",
+   "ton_hz": 75.0,
+   "beschreibung_en": "a designed gated sub impact",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_logo_sting/chirp_hum",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "sting"
+   ],
+   "datei": "klaenge/pro_logo_sting/chirp_hum.wav",
+   "varianten": 1,
+   "dauer": 0.985,
+   "spitze_s": 0.084,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.14,
+   "stimmbar": true,
+   "ton": "Eb2",
+   "ton_hz": 76.0,
+   "beschreibung_en": "designed launch gestures onto a tone",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_logo_sting/sweep_hit",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "sting"
+   ],
+   "datei": "klaenge/pro_logo_sting/sweep_hit.wav",
+   "varianten": 1,
+   "dauer": 1.07,
+   "spitze_s": 0.321,
+   "einsatz_s": 0.157,
+   "spitze_db": -1.02,
+   "stimmbar": true,
+   "ton": "E4",
+   "ton_hz": 330.0,
+   "beschreibung_en": "designed launch gestures onto a tone",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_logo_sting/swell_sting",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "sting"
+   ],
+   "datei": "klaenge/pro_logo_sting/swell_sting.wav",
+   "varianten": 1,
+   "dauer": 1.3,
+   "spitze_s": 0.467,
+   "einsatz_s": 0.184,
+   "spitze_db": -1.54,
+   "stimmbar": true,
+   "ton": "D4",
+   "ton_hz": 293.66,
+   "beschreibung_en": "designed launch gestures onto a tone",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_logo_sting/taps_tone",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "sting"
+   ],
+   "datei": "klaenge/pro_logo_sting/taps_tone.wav",
+   "varianten": 1,
+   "dauer": 0.95,
+   "spitze_s": 0.158,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.25,
+   "stimmbar": true,
+   "ton": "C5",
+   "ton_hz": 523.25,
+   "beschreibung_en": "designed launch gestures onto a tone",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_logo_sting/zap_bloom",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "sting"
+   ],
+   "datei": "klaenge/pro_logo_sting/zap_bloom.wav",
+   "varianten": 1,
+   "dauer": 0.96,
+   "spitze_s": 0.077,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.24,
+   "stimmbar": true,
+   "ton": "C4",
+   "ton_hz": 261.6,
+   "beschreibung_en": "designed launch gestures onto a tone",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_notify/ding_1822",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "click.confirm"
+   ],
+   "datei": "klaenge/pro_notify/ding_1822.wav",
+   "varianten": 3,
+   "dauer": 0.26,
+   "spitze_s": 0.004,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.09,
+   "stimmbar": true,
+   "ton": "Bb6",
+   "ton_hz": 1822.0,
+   "beschreibung_en": "short clean dings a semitone apart",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_notify/ding_1930",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "click.confirm"
+   ],
+   "datei": "klaenge/pro_notify/ding_1930.wav",
+   "varianten": 3,
+   "dauer": 0.27,
+   "spitze_s": 0.012,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.03,
+   "stimmbar": true,
+   "ton": "B6",
+   "ton_hz": 1930.34,
+   "beschreibung_en": "short clean dings a semitone apart",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_notify/ding_2045",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "click.confirm"
+   ],
+   "datei": "klaenge/pro_notify/ding_2045.wav",
+   "varianten": 3,
+   "dauer": 0.36,
+   "spitze_s": 0.004,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.06,
+   "stimmbar": true,
+   "ton": "C7",
+   "ton_hz": 2045.13,
+   "beschreibung_en": "short clean dings a semitone apart",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_notify/ding_2167",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "click.confirm"
+   ],
+   "datei": "klaenge/pro_notify/ding_2167.wav",
+   "varianten": 3,
+   "dauer": 0.3,
+   "spitze_s": 0.011,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.2,
+   "stimmbar": true,
+   "ton": "C#7",
+   "ton_hz": 2166.74,
+   "beschreibung_en": "short clean dings a semitone apart",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_notify/ding_2296",
+   "gruppe": "Töne & Glocken",
+   "art": [
+    "bell",
+    "click.confirm"
+   ],
+   "datei": "klaenge/pro_notify/ding_2296.wav",
+   "varianten": 3,
+   "dauer": 0.26,
+   "spitze_s": 0.008,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.14,
+   "stimmbar": true,
+   "ton": "D7",
+   "ton_hz": 2295.58,
+   "beschreibung_en": "short clean dings a semitone apart",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_pop/bloop",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/pro_pop/bloop.wav",
+   "varianten": 3,
+   "dauer": 0.123,
+   "spitze_s": 0.005,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "C5",
+   "ton_hz": 520.0,
+   "beschreibung_en": "tonal pops for a word or badge appearing",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_pop/boop",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/pro_pop/boop.wav",
+   "varianten": 3,
+   "dauer": 0.114,
+   "spitze_s": 0.001,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "C5",
+   "ton_hz": 520.0,
+   "beschreibung_en": "tonal pops for a word or badge appearing",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_pop/chirp",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/pro_pop/chirp.wav",
+   "varianten": 3,
+   "dauer": 0.162,
+   "spitze_s": 0.037,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "C5",
+   "ton_hz": 520.0,
+   "beschreibung_en": "tonal pops for a word or badge appearing",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_pop/double",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/pro_pop/double.wav",
+   "varianten": 3,
+   "dauer": 0.157,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "C5",
+   "ton_hz": 520.0,
+   "beschreibung_en": "tonal pops for a word or badge appearing",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_pop/thup",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/pro_pop/thup.wav",
+   "varianten": 3,
+   "dauer": 0.099,
+   "spitze_s": 0.003,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "C5",
+   "ton_hz": 520.0,
+   "beschreibung_en": "tonal pops for a word or badge appearing",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_pop/tink",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/pro_pop/tink.wav",
+   "varianten": 3,
+   "dauer": 0.093,
+   "spitze_s": 0.001,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "C5",
+   "ton_hz": 520.0,
+   "beschreibung_en": "tonal pops for a word or badge appearing",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_pop_in/airy",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop",
+    "land",
+    "land.light",
+    "snap"
+   ],
+   "datei": "klaenge/pro_pop_in/airy.wav",
+   "varianten": 3,
+   "dauer": 0.17,
+   "spitze_s": 0.016,
+   "einsatz_s": 0.002,
+   "spitze_db": -2.25,
+   "stimmbar": true,
+   "ton": "A2",
+   "ton_hz": 107.13,
+   "beschreibung_en": "an icon or element popping in: a round low thump",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_pop_in/deep",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop",
+    "land",
+    "land.light",
+    "snap"
+   ],
+   "datei": "klaenge/pro_pop_in/deep.wav",
+   "varianten": 3,
+   "dauer": 0.176,
+   "spitze_s": 0.02,
+   "einsatz_s": 0.002,
+   "spitze_db": -2.34,
+   "stimmbar": true,
+   "ton": "D2",
+   "ton_hz": 75.39,
+   "beschreibung_en": "an icon or element popping in: a round low thump",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_pop_in/double",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop",
+    "land",
+    "land.light",
+    "snap"
+   ],
+   "datei": "klaenge/pro_pop_in/double.wav",
+   "varianten": 3,
+   "dauer": 0.165,
+   "spitze_s": 0.013,
+   "einsatz_s": 0.002,
+   "spitze_db": -2.96,
+   "stimmbar": true,
+   "ton": "Bb2",
+   "ton_hz": 113.58,
+   "beschreibung_en": "an icon or element popping in: a round low thump",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_pop_in/knock",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop",
+    "land",
+    "land.light",
+    "snap"
+   ],
+   "datei": "klaenge/pro_pop_in/knock.wav",
+   "varianten": 3,
+   "dauer": 0.152,
+   "spitze_s": 0.013,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.7,
+   "stimmbar": true,
+   "ton": "Bb2",
+   "ton_hz": 115.0,
+   "beschreibung_en": "an icon or element popping in: a round low thump",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_pop_in/round",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop",
+    "land",
+    "land.light",
+    "snap"
+   ],
+   "datei": "klaenge/pro_pop_in/round.wav",
+   "varianten": 3,
+   "dauer": 0.172,
+   "spitze_s": 0.02,
+   "einsatz_s": 0.002,
+   "spitze_db": -2.06,
+   "stimmbar": true,
+   "ton": "A2",
+   "ton_hz": 112.18,
+   "beschreibung_en": "an icon or element popping in: a round low thump",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_riser/air_gate",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "riser"
+   ],
+   "datei": "klaenge/pro_riser/air_gate.wav",
+   "varianten": 1,
+   "dauer": 1.2,
+   "spitze_s": 1.155,
+   "einsatz_s": 0.005,
+   "spitze_db": -1.06,
+   "stimmbar": true,
+   "ton": "G4",
+   "ton_hz": 400.0,
+   "beschreibung_en": "a short stutter riser into a cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_riser/chop",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "riser"
+   ],
+   "datei": "klaenge/pro_riser/chop.wav",
+   "varianten": 1,
+   "dauer": 1.0,
+   "spitze_s": 0.994,
+   "einsatz_s": 0.004,
+   "spitze_db": -1.38,
+   "stimmbar": true,
+   "ton": "Ab6",
+   "ton_hz": 1700.0,
+   "beschreibung_en": "a short stutter riser into a cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_riser/nblips",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "riser"
+   ],
+   "datei": "klaenge/pro_riser/nblips.wav",
+   "varianten": 1,
+   "dauer": 1.0,
+   "spitze_s": 0.993,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.39,
+   "stimmbar": true,
+   "ton": "Ab6",
+   "ton_hz": 1700.0,
+   "beschreibung_en": "a short stutter riser into a cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_riser/nblips_hi",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "riser"
+   ],
+   "datei": "klaenge/pro_riser/nblips_hi.wav",
+   "varianten": 1,
+   "dauer": 0.85,
+   "spitze_s": 0.845,
+   "einsatz_s": 0.004,
+   "spitze_db": -1.13,
+   "stimmbar": true,
+   "ton": "E7",
+   "ton_hz": 2600.0,
+   "beschreibung_en": "a short stutter riser into a cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_riser/roll",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "riser"
+   ],
+   "datei": "klaenge/pro_riser/roll.wav",
+   "varianten": 1,
+   "dauer": 1.3,
+   "spitze_s": 1.278,
+   "einsatz_s": 0.008,
+   "spitze_db": -1.22,
+   "stimmbar": true,
+   "ton": "Ab6",
+   "ton_hz": 1700.0,
+   "beschreibung_en": "a short stutter riser into a cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_shimmer/m0",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "shimmer"
+   ],
+   "datei": "klaenge/pro_shimmer/m0.wav",
+   "varianten": 1,
+   "dauer": 1.95,
+   "spitze_s": 0.724,
+   "einsatz_s": 0.256,
+   "spitze_db": -4.04,
+   "stimmbar": true,
+   "ton": "D",
+   "ton_hz": null,
+   "beschreibung_en": "granular sparkle",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_shimmer/m1",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "shimmer"
+   ],
+   "datei": "klaenge/pro_shimmer/m1.wav",
+   "varianten": 1,
+   "dauer": 1.4,
+   "spitze_s": 0.361,
+   "einsatz_s": 0.176,
+   "spitze_db": -4.9,
+   "stimmbar": true,
+   "ton": "D",
+   "ton_hz": null,
+   "beschreibung_en": "granular sparkle",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_shimmer/m2",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "shimmer"
+   ],
+   "datei": "klaenge/pro_shimmer/m2.wav",
+   "varianten": 1,
+   "dauer": 1.65,
+   "spitze_s": 1.064,
+   "einsatz_s": 0.317,
+   "spitze_db": -4.11,
+   "stimmbar": true,
+   "ton": "D",
+   "ton_hz": null,
+   "beschreibung_en": "granular sparkle",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_shimmer/m3",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "shimmer"
+   ],
+   "datei": "klaenge/pro_shimmer/m3.wav",
+   "varianten": 1,
+   "dauer": 1.15,
+   "spitze_s": 0.109,
+   "einsatz_s": 0.0,
+   "spitze_db": -5.27,
+   "stimmbar": true,
+   "ton": "G",
+   "ton_hz": null,
+   "beschreibung_en": "granular sparkle",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_shimmer/m4",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "shimmer"
+   ],
+   "datei": "klaenge/pro_shimmer/m4.wav",
+   "varianten": 1,
+   "dauer": 2.4,
+   "spitze_s": 0.951,
+   "einsatz_s": 0.256,
+   "spitze_db": -3.66,
+   "stimmbar": true,
+   "ton": "F",
+   "ton_hz": null,
+   "beschreibung_en": "granular sparkle",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_sub_drop/bright",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/pro_sub_drop/bright.wav",
+   "varianten": 1,
+   "dauer": 1.25,
+   "spitze_s": 0.333,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.05,
+   "stimmbar": true,
+   "ton": "F1",
+   "ton_hz": 44.0,
+   "beschreibung_en": "the designed low drop that blooms after the cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_sub_drop/low",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/pro_sub_drop/low.wav",
+   "varianten": 1,
+   "dauer": 1.139,
+   "spitze_s": 0.467,
+   "einsatz_s": 0.07,
+   "spitze_db": -1.01,
+   "stimmbar": true,
+   "ton": "D1",
+   "ton_hz": 37.0,
+   "beschreibung_en": "the designed low drop that blooms after the cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_sub_drop/quick",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/pro_sub_drop/quick.wav",
+   "varianten": 1,
+   "dauer": 1.0,
+   "spitze_s": 0.249,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.02,
+   "stimmbar": true,
+   "ton": "F#1",
+   "ton_hz": 46.0,
+   "beschreibung_en": "the designed low drop that blooms after the cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_sub_drop/ref",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/pro_sub_drop/ref.wav",
+   "varianten": 1,
+   "dauer": 1.445,
+   "spitze_s": 0.415,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.04,
+   "stimmbar": true,
+   "ton": "F1",
+   "ton_hz": 44.0,
+   "beschreibung_en": "the designed low drop that blooms after the cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_sub_drop/soft",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/pro_sub_drop/soft.wav",
+   "varianten": 1,
+   "dauer": 1.482,
+   "spitze_s": 0.493,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.01,
+   "stimmbar": true,
+   "ton": "F1",
+   "ton_hz": 44.0,
+   "beschreibung_en": "the designed low drop that blooms after the cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_tap/double",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "land.light",
+    "tock"
+   ],
+   "datei": "klaenge/pro_tap/double.wav",
+   "varianten": 3,
+   "dauer": 0.118,
+   "spitze_s": 0.011,
+   "einsatz_s": 0.002,
+   "spitze_db": -2.54,
+   "stimmbar": true,
+   "ton": "C#3",
+   "ton_hz": 138.85,
+   "beschreibung_en": "the soft low thump of a touch",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_tap/finger",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "land.light",
+    "tock"
+   ],
+   "datei": "klaenge/pro_tap/finger.wav",
+   "varianten": 3,
+   "dauer": 0.09,
+   "spitze_s": 0.011,
+   "einsatz_s": 0.002,
+   "spitze_db": -2.45,
+   "stimmbar": true,
+   "ton": "C#3",
+   "ton_hz": 141.12,
+   "beschreibung_en": "the soft low thump of a touch",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_tap/glass",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "land.light",
+    "tock"
+   ],
+   "datei": "klaenge/pro_tap/glass.wav",
+   "varianten": 3,
+   "dauer": 0.098,
+   "spitze_s": 0.011,
+   "einsatz_s": 0.002,
+   "spitze_db": -2.71,
+   "stimmbar": true,
+   "ton": "D3",
+   "ton_hz": 148.6,
+   "beschreibung_en": "the soft low thump of a touch",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_tap/knock",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "land.light",
+    "tock"
+   ],
+   "datei": "klaenge/pro_tap/knock.wav",
+   "varianten": 3,
+   "dauer": 0.086,
+   "spitze_s": 0.012,
+   "einsatz_s": 0.002,
+   "spitze_db": -2.14,
+   "stimmbar": true,
+   "ton": "D3",
+   "ton_hz": 150.57,
+   "beschreibung_en": "the soft low thump of a touch",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_tap/soft",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "land.light",
+    "tock"
+   ],
+   "datei": "klaenge/pro_tap/soft.wav",
+   "varianten": 3,
+   "dauer": 0.098,
+   "spitze_s": 0.02,
+   "einsatz_s": 0.002,
+   "spitze_db": -2.92,
+   "stimmbar": true,
+   "ton": "B2",
+   "ton_hz": 122.42,
+   "beschreibung_en": "the soft low thump of a touch",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_typing_key/blip",
+   "gruppe": "Tastatur",
+   "art": [
+    "key"
+   ],
+   "datei": "klaenge/pro_typing_key/blip.wav",
+   "varianten": 3,
+   "dauer": 0.081,
+   "spitze_s": 0.006,
+   "einsatz_s": 0.005,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "high-passed designed ticks for kinetic type",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_typing_key/crackle",
+   "gruppe": "Tastatur",
+   "art": [
+    "key"
+   ],
+   "datei": "klaenge/pro_typing_key/crackle.wav",
+   "varianten": 3,
+   "dauer": 0.072,
+   "spitze_s": 0.009,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "high-passed designed ticks for kinetic type",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_typing_key/double",
+   "gruppe": "Tastatur",
+   "art": [
+    "key"
+   ],
+   "datei": "klaenge/pro_typing_key/double.wav",
+   "varianten": 3,
+   "dauer": 0.092,
+   "spitze_s": 0.007,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "high-passed designed ticks for kinetic type",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_typing_key/glass",
+   "gruppe": "Tastatur",
+   "art": [
+    "key"
+   ],
+   "datei": "klaenge/pro_typing_key/glass.wav",
+   "varianten": 3,
+   "dauer": 0.065,
+   "spitze_s": 0.007,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "high-passed designed ticks for kinetic type",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_typing_key/soft",
+   "gruppe": "Tastatur",
+   "art": [
+    "key"
+   ],
+   "datei": "klaenge/pro_typing_key/soft.wav",
+   "varianten": 3,
+   "dauer": 0.072,
+   "spitze_s": 0.009,
+   "einsatz_s": 0.007,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "high-passed designed ticks for kinetic type",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_typing_key/tick",
+   "gruppe": "Tastatur",
+   "art": [
+    "key"
+   ],
+   "datei": "klaenge/pro_typing_key/tick.wav",
+   "varianten": 3,
+   "dauer": 0.061,
+   "spitze_s": 0.006,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "high-passed designed ticks for kinetic type",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_typing_run/blip",
+   "gruppe": "Tastatur",
+   "art": [
+    "key.run"
+   ],
+   "datei": "klaenge/pro_typing_run/blip.wav",
+   "varianten": 1,
+   "dauer": 1.507,
+   "spitze_s": 0.378,
+   "einsatz_s": 0.003,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a whole typed run as one file",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_typing_run/double",
+   "gruppe": "Tastatur",
+   "art": [
+    "key.run"
+   ],
+   "datei": "klaenge/pro_typing_run/double.wav",
+   "varianten": 1,
+   "dauer": 1.593,
+   "spitze_s": 0.008,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a whole typed run as one file",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_typing_run/glass",
+   "gruppe": "Tastatur",
+   "art": [
+    "key.run"
+   ],
+   "datei": "klaenge/pro_typing_run/glass.wav",
+   "varianten": 1,
+   "dauer": 1.474,
+   "spitze_s": 0.687,
+   "einsatz_s": 0.003,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a whole typed run as one file",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_typing_run/soft",
+   "gruppe": "Tastatur",
+   "art": [
+    "key.run"
+   ],
+   "datei": "klaenge/pro_typing_run/soft.wav",
+   "varianten": 1,
+   "dauer": 1.755,
+   "spitze_s": 0.527,
+   "einsatz_s": 0.006,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a whole typed run as one file",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_typing_run/standard",
+   "gruppe": "Tastatur",
+   "art": [
+    "key.run"
+   ],
+   "datei": "klaenge/pro_typing_run/standard.wav",
+   "varianten": 1,
+   "dauer": 1.444,
+   "spitze_s": 0.975,
+   "einsatz_s": 0.004,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a whole typed run as one file",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_typing_run/tick",
+   "gruppe": "Tastatur",
+   "art": [
+    "key.run"
+   ],
+   "datei": "klaenge/pro_typing_run/tick.wav",
+   "varianten": 1,
+   "dauer": 1.266,
+   "spitze_s": 0.95,
+   "einsatz_s": 0.004,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a whole typed run as one file",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_whoosh_big/gritty",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long",
+    "swell"
+   ],
+   "datei": "klaenge/pro_whoosh_big/gritty.wav",
+   "varianten": 1,
+   "dauer": 0.931,
+   "spitze_s": 0.322,
+   "einsatz_s": 0.085,
+   "spitze_db": -1.04,
+   "stimmbar": true,
+   "ton": "F#1",
+   "ton_hz": 46.09,
+   "beschreibung_en": "a designed low sub swell into a cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_whoosh_big/long",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long",
+    "swell"
+   ],
+   "datei": "klaenge/pro_whoosh_big/long.wav",
+   "varianten": 1,
+   "dauer": 1.12,
+   "spitze_s": 0.512,
+   "einsatz_s": 0.137,
+   "spitze_db": -1.07,
+   "stimmbar": true,
+   "ton": "F1",
+   "ton_hz": 43.45,
+   "beschreibung_en": "a designed low sub swell into a cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_whoosh_big/reverse",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long",
+    "swell"
+   ],
+   "datei": "klaenge/pro_whoosh_big/reverse.wav",
+   "varianten": 1,
+   "dauer": 1.055,
+   "spitze_s": 0.705,
+   "einsatz_s": 0.167,
+   "spitze_db": -1.08,
+   "stimmbar": true,
+   "ton": "F#1",
+   "ton_hz": 45.14,
+   "beschreibung_en": "a designed low sub swell into a cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_whoosh_big/swell",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long",
+    "swell"
+   ],
+   "datei": "klaenge/pro_whoosh_big/swell.wav",
+   "varianten": 1,
+   "dauer": 0.805,
+   "spitze_s": 0.355,
+   "einsatz_s": 0.076,
+   "spitze_db": -1.04,
+   "stimmbar": true,
+   "ton": "G1",
+   "ton_hz": 47.96,
+   "beschreibung_en": "a designed low sub swell into a cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_whoosh_big/tonal",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long",
+    "swell"
+   ],
+   "datei": "klaenge/pro_whoosh_big/tonal.wav",
+   "varianten": 1,
+   "dauer": 0.806,
+   "spitze_s": 0.349,
+   "einsatz_s": 0.077,
+   "spitze_db": -1.02,
+   "stimmbar": true,
+   "ton": "C#2",
+   "ton_hz": 70.02,
+   "beschreibung_en": "a designed low sub swell into a cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_whoosh_big/windy",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long",
+    "swell"
+   ],
+   "datei": "klaenge/pro_whoosh_big/windy.wav",
+   "varianten": 1,
+   "dauer": 0.77,
+   "spitze_s": 0.288,
+   "einsatz_s": 0.085,
+   "spitze_db": -1.04,
+   "stimmbar": true,
+   "ton": "F#1",
+   "ton_hz": 46.86,
+   "beschreibung_en": "a designed low sub swell into a cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_zip/arc",
+   "gruppe": "Zip & Bewegung",
+   "art": [
+    "zip"
+   ],
+   "datei": "klaenge/pro_zip/arc.wav",
+   "varianten": 3,
+   "dauer": 0.459,
+   "spitze_s": 0.126,
+   "einsatz_s": 0.003,
+   "spitze_db": -1.54,
+   "stimmbar": true,
+   "ton": "B5",
+   "ton_hz": 999.97,
+   "beschreibung_en": "tonal sweeps across a cut (up / arc members rise in pitch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_zip/down",
+   "gruppe": "Zip & Bewegung",
+   "art": [
+    "zip"
+   ],
+   "datei": "klaenge/pro_zip/down.wav",
+   "varianten": 3,
+   "dauer": 0.287,
+   "spitze_s": 0.022,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.03,
+   "stimmbar": true,
+   "ton": "Bb4",
+   "ton_hz": 477.63,
+   "beschreibung_en": "tonal sweeps across a cut (up / arc members rise in pitch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_zip/down_warm",
+   "gruppe": "Zip & Bewegung",
+   "art": [
+    "zip"
+   ],
+   "datei": "klaenge/pro_zip/down_warm.wav",
+   "varianten": 3,
+   "dauer": 0.372,
+   "spitze_s": 0.018,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.21,
+   "stimmbar": true,
+   "ton": "D3",
+   "ton_hz": 149.36,
+   "beschreibung_en": "tonal sweeps across a cut (up / arc members rise in pitch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_zip/up",
+   "gruppe": "Zip & Bewegung",
+   "art": [
+    "zip"
+   ],
+   "datei": "klaenge/pro_zip/up.wav",
+   "varianten": 3,
+   "dauer": 0.35,
+   "spitze_s": 0.16,
+   "einsatz_s": 0.007,
+   "spitze_db": -1.42,
+   "stimmbar": true,
+   "ton": "Ab6",
+   "ton_hz": 1707.53,
+   "beschreibung_en": "tonal sweeps across a cut (up / arc members rise in pitch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "pro_zip/up_hi",
+   "gruppe": "Zip & Bewegung",
+   "art": [
+    "zip"
+   ],
+   "datei": "klaenge/pro_zip/up_hi.wav",
+   "varianten": 3,
+   "dauer": 0.344,
+   "spitze_s": 0.219,
+   "einsatz_s": 0.004,
+   "spitze_db": -1.03,
+   "stimmbar": true,
+   "ton": "C#9",
+   "ton_hz": 8868.99,
+   "beschreibung_en": "tonal sweeps across a cut (up / arc members rise in pitch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "reverse_swell/breath",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "swell"
+   ],
+   "datei": "klaenge/reverse_swell/breath.wav",
+   "varianten": 1,
+   "dauer": 1.235,
+   "spitze_s": 0.732,
+   "einsatz_s": 0.106,
+   "spitze_db": -3.38,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a mid-band reverse breath, half wide (1.3 kHz)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "reverse_swell/cymbal",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "swell"
+   ],
+   "datei": "klaenge/reverse_swell/cymbal.wav",
+   "varianten": 1,
+   "dauer": 0.895,
+   "spitze_s": 0.535,
+   "einsatz_s": 0.017,
+   "spitze_db": -3.94,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a bright wide reverse cymbal: a plateau after the peak, then a stop",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "reverse_swell/dark",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "swell"
+   ],
+   "datei": "klaenge/reverse_swell/dark.wav",
+   "varianten": 1,
+   "dauer": 0.919,
+   "spitze_s": 0.568,
+   "einsatz_s": 0.111,
+   "spitze_db": -2.18,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a darker, near-mono reverse swell with a low body",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "reverse_swell/ring",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "swell"
+   ],
+   "datei": "klaenge/reverse_swell/ring.wav",
+   "varianten": 1,
+   "dauer": 1.68,
+   "spitze_s": 0.614,
+   "einsatz_s": 0.238,
+   "spitze_db": -6.01,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a reverse cymbal that swells harder and rings out",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "reverse_swell/short",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "swell"
+   ],
+   "datei": "klaenge/reverse_swell/short.wav",
+   "varianten": 1,
+   "dauer": 0.651,
+   "spitze_s": 0.334,
+   "einsatz_s": 0.012,
+   "spitze_db": -5.25,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a short bright reverse cymbal for a quick cut (0.33 s to the peak)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "riser/air",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "riser"
+   ],
+   "datei": "klaenge/riser/air.wav",
+   "varianten": 1,
+   "dauer": 2.4,
+   "spitze_s": 2.394,
+   "einsatz_s": 0.866,
+   "spitze_db": -1.84,
+   "stimmbar": true,
+   "ton": "F5",
+   "ton_hz": 700.0,
+   "beschreibung_en": "a build into a reveal; it stops on its loudest sample",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "riser/build",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "riser"
+   ],
+   "datei": "klaenge/riser/build.wav",
+   "varianten": 1,
+   "dauer": 1.758,
+   "spitze_s": 1.128,
+   "einsatz_s": 0.501,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a sub-heavy build with crackle and a speeding gate (1.1 s)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "riser/dark",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "riser"
+   ],
+   "datei": "klaenge/riser/dark.wav",
+   "varianten": 1,
+   "dauer": 0.951,
+   "spitze_s": 0.698,
+   "einsatz_s": 0.238,
+   "spitze_db": -1.28,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a short dark riser (noise, sub, a speeding stutter), no synth sweep",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "riser/rush",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "riser"
+   ],
+   "datei": "klaenge/riser/rush.wav",
+   "varianten": 1,
+   "dauer": 1.756,
+   "spitze_s": 1.727,
+   "einsatz_s": 1.107,
+   "spitze_db": -1.26,
+   "stimmbar": true,
+   "ton": "G4",
+   "ton_hz": 397.2,
+   "beschreibung_en": "a build into a reveal; it stops on its loudest sample",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "riser/shepard",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "riser"
+   ],
+   "datei": "klaenge/riser/shepard.wav",
+   "varianten": 1,
+   "dauer": 3.708,
+   "spitze_s": 3.668,
+   "einsatz_s": 0.057,
+   "spitze_db": -2.11,
+   "stimmbar": true,
+   "ton": "C4",
+   "ton_hz": 260.0,
+   "beschreibung_en": "a build into a reveal; it stops on its loudest sample",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "riser/snatch",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "riser"
+   ],
+   "datei": "klaenge/riser/snatch.wav",
+   "varianten": 1,
+   "dauer": 0.635,
+   "spitze_s": 0.39,
+   "einsatz_s": 0.006,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a half-second stutter snatch into a cut",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "riser/swell",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "riser"
+   ],
+   "datei": "klaenge/riser/swell.wav",
+   "varianten": 1,
+   "dauer": 2.2,
+   "spitze_s": 2.194,
+   "einsatz_s": 1.447,
+   "spitze_db": -1.35,
+   "stimmbar": true,
+   "ton": "F#6",
+   "ton_hz": 1500.0,
+   "beschreibung_en": "a build into a reveal; it stops on its loudest sample",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "riser/tension",
+   "gruppe": "Riser & Spannung",
+   "art": [
+    "riser"
+   ],
+   "datei": "klaenge/riser/tension.wav",
+   "varianten": 1,
+   "dauer": 2.8,
+   "spitze_s": 2.78,
+   "einsatz_s": 0.014,
+   "spitze_db": -1.44,
+   "stimmbar": true,
+   "ton": "D5",
+   "ton_hz": 600.0,
+   "beschreibung_en": "a build into a reveal; it stops on its loudest sample",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "shimmer/m0",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "shimmer"
+   ],
+   "datei": "klaenge/shimmer/m0.wav",
+   "varianten": 1,
+   "dauer": 4.2,
+   "spitze_s": 0.744,
+   "einsatz_s": 0.0,
+   "spitze_db": -4.09,
+   "stimmbar": true,
+   "ton": "D",
+   "ton_hz": null,
+   "beschreibung_en": "chimes ringing out (end-card sparkle)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "shimmer/m1",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "shimmer"
+   ],
+   "datei": "klaenge/shimmer/m1.wav",
+   "varianten": 1,
+   "dauer": 4.0,
+   "spitze_s": 0.499,
+   "einsatz_s": 0.0,
+   "spitze_db": -5.32,
+   "stimmbar": true,
+   "ton": "D",
+   "ton_hz": null,
+   "beschreibung_en": "chimes ringing out (end-card sparkle)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "shimmer/m2",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "shimmer"
+   ],
+   "datei": "klaenge/shimmer/m2.wav",
+   "varianten": 1,
+   "dauer": 4.2,
+   "spitze_s": 0.031,
+   "einsatz_s": 0.0,
+   "spitze_db": -3.9,
+   "stimmbar": true,
+   "ton": "D",
+   "ton_hz": null,
+   "beschreibung_en": "chimes ringing out (end-card sparkle)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "shimmer/m3",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "shimmer"
+   ],
+   "datei": "klaenge/shimmer/m3.wav",
+   "varianten": 1,
+   "dauer": 3.6,
+   "spitze_s": 0.605,
+   "einsatz_s": 0.0,
+   "spitze_db": -4.6,
+   "stimmbar": true,
+   "ton": "C",
+   "ton_hz": null,
+   "beschreibung_en": "chimes ringing out (end-card sparkle)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "shimmer/m4",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "shimmer"
+   ],
+   "datei": "klaenge/shimmer/m4.wav",
+   "varianten": 1,
+   "dauer": 4.2,
+   "spitze_s": 0.784,
+   "einsatz_s": 0.258,
+   "spitze_db": -4.89,
+   "stimmbar": true,
+   "ton": "D",
+   "ton_hz": null,
+   "beschreibung_en": "chimes ringing out (end-card sparkle)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "shimmer/m5",
+   "gruppe": "Glanz & Sting",
+   "art": [
+    "shimmer"
+   ],
+   "datei": "klaenge/shimmer/m5.wav",
+   "varianten": 1,
+   "dauer": 4.4,
+   "spitze_s": 0.989,
+   "einsatz_s": 0.0,
+   "spitze_db": -4.38,
+   "stimmbar": true,
+   "ton": "A",
+   "ton_hz": null,
+   "beschreibung_en": "chimes ringing out (end-card sparkle)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "shutter/dslr",
+   "gruppe": "Kamera",
+   "art": [
+    "snap",
+    "click"
+   ],
+   "datei": "klaenge/shutter/dslr.wav",
+   "varianten": 3,
+   "dauer": 0.242,
+   "spitze_s": 0.04,
+   "einsatz_s": 0.004,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a camera shutter: latch, 39 ms of curtain travel, the landing on a 1.4 kHz box",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "shutter/film",
+   "gruppe": "Kamera",
+   "art": [
+    "snap"
+   ],
+   "datei": "klaenge/shutter/film.wav",
+   "varianten": 3,
+   "dauer": 0.284,
+   "spitze_s": 0.098,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.11,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a heavier film camera: a dark box after 95 ms of travel, the body's thump, a spring rattle",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "shutter/mirror",
+   "gruppe": "Kamera",
+   "art": [
+    "snap"
+   ],
+   "datei": "klaenge/shutter/mirror.wav",
+   "varianten": 3,
+   "dauer": 0.331,
+   "spitze_s": 0.068,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.32,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a slower mirror-box shutter with an audible travel",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "shutter/quick",
+   "gruppe": "Kamera",
+   "art": [
+    "snap",
+    "click"
+   ],
+   "datei": "klaenge/shutter/quick.wav",
+   "varianten": 3,
+   "dauer": 0.16,
+   "spitze_s": 0.022,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.15,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a quick double click: release and curtain 21 ms apart",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "shutter/snap",
+   "gruppe": "Kamera",
+   "art": [
+    "snap",
+    "click"
+   ],
+   "datei": "klaenge/shutter/snap.wav",
+   "varianten": 3,
+   "dauer": 0.137,
+   "spitze_s": 0.059,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.29,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a dry, bright 2 kHz snap-zoom shutter",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "sub_drop/808",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/sub_drop/808.wav",
+   "varianten": 1,
+   "dauer": 2.054,
+   "spitze_s": 0.03,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.01,
+   "stimmbar": true,
+   "ton": "Eb1",
+   "ton_hz": 40.0,
+   "beschreibung_en": "weight under a hit, a music drop",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "sub_drop/gritty",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/sub_drop/gritty.wav",
+   "varianten": 1,
+   "dauer": 2.15,
+   "spitze_s": 0.145,
+   "einsatz_s": 0.001,
+   "spitze_db": -1.13,
+   "stimmbar": true,
+   "ton": "D1",
+   "ton_hz": 36.0,
+   "beschreibung_en": "weight under a hit, a music drop",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "sub_drop/long",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/sub_drop/long.wav",
+   "varianten": 1,
+   "dauer": 2.088,
+   "spitze_s": 0.273,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.01,
+   "stimmbar": true,
+   "ton": "B0",
+   "ton_hz": 30.0,
+   "beschreibung_en": "weight under a hit, a music drop",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "sub_drop/pro",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/sub_drop/pro.wav",
+   "varianten": 1,
+   "dauer": 2.097,
+   "spitze_s": 0.428,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "F1",
+   "ton_hz": 44.0,
+   "beschreibung_en": "weight under a hit, a music drop",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "sub_drop/punch",
+   "gruppe": "Fall & Bass",
+   "art": [
+    "drop"
+   ],
+   "datei": "klaenge/sub_drop/punch.wav",
+   "varianten": 1,
+   "dauer": 1.004,
+   "spitze_s": 0.008,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.07,
+   "stimmbar": true,
+   "ton": "G1",
+   "ton_hz": 50.0,
+   "beschreibung_en": "weight under a hit, a music drop",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "swipe/cloth",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/swipe/cloth.wav",
+   "varianten": 1,
+   "dauer": 0.676,
+   "spitze_s": 0.155,
+   "einsatz_s": 0.036,
+   "spitze_db": -1.71,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "card and panel swipes, page turns (cloth, paper)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "swipe/flick",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/swipe/flick.wav",
+   "varianten": 3,
+   "dauer": 0.568,
+   "spitze_s": 0.108,
+   "einsatz_s": 0.012,
+   "spitze_db": -1.85,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "card and panel swipes, page turns (cloth, paper)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "swipe/glide",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/swipe/glide.wav",
+   "varianten": 1,
+   "dauer": 0.736,
+   "spitze_s": 0.257,
+   "einsatz_s": 0.062,
+   "spitze_db": -2.67,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "card and panel swipes, page turns (cloth, paper)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "swipe/paper",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/swipe/paper.wav",
+   "varianten": 1,
+   "dauer": 0.77,
+   "spitze_s": 0.13,
+   "einsatz_s": 0.045,
+   "spitze_db": -1.12,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "card and panel swipes, page turns (cloth, paper)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "swipe/velvet",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/swipe/velvet.wav",
+   "varianten": 1,
+   "dauer": 1.15,
+   "spitze_s": 0.266,
+   "einsatz_s": 0.049,
+   "spitze_db": -2.01,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "card and panel swipes, page turns (cloth, paper)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "swish/blade",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/swish/blade.wav",
+   "varianten": 3,
+   "dauer": 0.369,
+   "spitze_s": 0.051,
+   "einsatz_s": 0.013,
+   "spitze_db": -1.53,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "thin quick flicks, text slides, small UI moves",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "swish/bright",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/swish/bright.wav",
+   "varianten": 3,
+   "dauer": 0.345,
+   "spitze_s": 0.157,
+   "einsatz_s": 0.035,
+   "spitze_db": -1.56,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a bright (~2.4 kHz) quick swish",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "swish/cane",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/swish/cane.wav",
+   "varianten": 1,
+   "dauer": 0.7,
+   "spitze_s": 0.087,
+   "einsatz_s": 0.038,
+   "spitze_db": -1.48,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "thin quick flicks, text slides, small UI moves",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "swish/flick",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/swish/flick.wav",
+   "varianten": 3,
+   "dauer": 0.32,
+   "spitze_s": 0.109,
+   "einsatz_s": 0.056,
+   "spitze_db": -2.95,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a high flick that rises and stops dead, wide",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "swish/soft",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/swish/soft.wav",
+   "varianten": 1,
+   "dauer": 0.883,
+   "spitze_s": 0.111,
+   "einsatz_s": 0.023,
+   "spitze_db": -2.81,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "thin quick flicks, text slides, small UI moves",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "swish/stick",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/swish/stick.wav",
+   "varianten": 3,
+   "dauer": 0.527,
+   "spitze_s": 0.097,
+   "einsatz_s": 0.042,
+   "spitze_db": -1.39,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "thin quick flicks, text slides, small UI moves",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "swish/zing",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/swish/zing.wav",
+   "varianten": 3,
+   "dauer": 0.535,
+   "spitze_s": 0.073,
+   "einsatz_s": 0.027,
+   "spitze_db": -1.89,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "thin quick flicks, text slides, small UI moves",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "tap/finger",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "tock",
+    "land.light",
+    "click",
+    "tick"
+   ],
+   "datei": "klaenge/tap/finger.wav",
+   "varianten": 3,
+   "dauer": 0.12,
+   "spitze_s": 0.004,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.92,
+   "stimmbar": true,
+   "ton": "Bb2",
+   "ton_hz": 116.02,
+   "beschreibung_en": "screen taps and light touches on a surface",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "tap/glass",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "tock",
+    "land.light",
+    "click",
+    "tick"
+   ],
+   "datei": "klaenge/tap/glass.wav",
+   "varianten": 3,
+   "dauer": 0.152,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.04,
+   "stimmbar": true,
+   "ton": "C#3",
+   "ton_hz": 142.0,
+   "beschreibung_en": "screen taps and light touches on a surface",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "tap/knuckle",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "tock",
+    "land.light",
+    "click",
+    "tick"
+   ],
+   "datei": "klaenge/tap/knuckle.wav",
+   "varianten": 3,
+   "dauer": 0.152,
+   "spitze_s": 0.006,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.46,
+   "stimmbar": true,
+   "ton": "D3",
+   "ton_hz": 150.0,
+   "beschreibung_en": "screen taps and light touches on a surface",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "tap/soft",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "tock",
+    "land.light",
+    "click",
+    "tick"
+   ],
+   "datei": "klaenge/tap/soft.wav",
+   "varianten": 3,
+   "dauer": 0.13,
+   "spitze_s": 0.006,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.03,
+   "stimmbar": true,
+   "ton": "F#2",
+   "ton_hz": 91.05,
+   "beschreibung_en": "screen taps and light touches on a surface",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "tap/table",
+   "gruppe": "Tippen & Klopfen",
+   "art": [
+    "tock",
+    "land.light",
+    "click",
+    "tick"
+   ],
+   "datei": "klaenge/tap/table.wav",
+   "varianten": 3,
+   "dauer": 0.135,
+   "spitze_s": 0.003,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.55,
+   "stimmbar": true,
+   "ton": "G2",
+   "ton_hz": 100.06,
+   "beschreibung_en": "screen taps and light touches on a surface",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "toggle/latch",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "snap",
+    "click"
+   ],
+   "datei": "klaenge/toggle/latch.wav",
+   "varianten": 3,
+   "dauer": 0.217,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "Ab7",
+   "ton_hz": 3369.76,
+   "beschreibung_en": "switches, settings toggles, lock-ins (press + latch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "toggle/micro",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "snap",
+    "click"
+   ],
+   "datei": "klaenge/toggle/micro.wav",
+   "varianten": 3,
+   "dauer": 0.123,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "switches, settings toggles, lock-ins (press + latch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "toggle/off",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "snap",
+    "click"
+   ],
+   "datei": "klaenge/toggle/off.wav",
+   "varianten": 3,
+   "dauer": 0.136,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "D7",
+   "ton_hz": 2382.64,
+   "beschreibung_en": "switches, settings toggles, lock-ins (press + latch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "toggle/on",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "snap",
+    "click"
+   ],
+   "datei": "klaenge/toggle/on.wav",
+   "varianten": 3,
+   "dauer": 0.167,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "B7",
+   "ton_hz": 3935.05,
+   "beschreibung_en": "switches, settings toggles, lock-ins (press + latch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "toggle/rocker",
+   "gruppe": "Klick & Tick",
+   "art": [
+    "snap",
+    "click"
+   ],
+   "datei": "klaenge/toggle/rocker.wav",
+   "varianten": 3,
+   "dauer": 0.235,
+   "spitze_s": 0.081,
+   "einsatz_s": 0.002,
+   "spitze_db": -1.0,
+   "stimmbar": true,
+   "ton": "C#7",
+   "ton_hz": 2181.14,
+   "beschreibung_en": "switches, settings toggles, lock-ins (press + latch)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "typing_key/clicky",
+   "gruppe": "Tastatur",
+   "art": [
+    "key",
+    "key.space",
+    "key.return"
+   ],
+   "datei": "klaenge/typing_key/clicky.wav",
+   "varianten": 3,
+   "dauer": 0.194,
+   "spitze_s": 0.022,
+   "einsatz_s": 0.011,
+   "spitze_db": -1.94,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "realistic mechanical keys, one take per character",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "typing_key/crisp",
+   "gruppe": "Tastatur",
+   "art": [
+    "key",
+    "key.space",
+    "key.return"
+   ],
+   "datei": "klaenge/typing_key/crisp.wav",
+   "varianten": 3,
+   "dauer": 0.223,
+   "spitze_s": 0.01,
+   "einsatz_s": 0.01,
+   "spitze_db": -1.28,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "realistic mechanical keys, one take per character",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "typing_key/deep",
+   "gruppe": "Tastatur",
+   "art": [
+    "key",
+    "key.space",
+    "key.return"
+   ],
+   "datei": "klaenge/typing_key/deep.wav",
+   "varianten": 3,
+   "dauer": 0.319,
+   "spitze_s": 0.011,
+   "einsatz_s": 0.011,
+   "spitze_db": -1.41,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "realistic mechanical keys, one take per character",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "typing_key/laptop",
+   "gruppe": "Tastatur",
+   "art": [
+    "key",
+    "key.space",
+    "key.return"
+   ],
+   "datei": "klaenge/typing_key/laptop.wav",
+   "varianten": 3,
+   "dauer": 0.192,
+   "spitze_s": 0.012,
+   "einsatz_s": 0.011,
+   "spitze_db": -1.48,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "realistic mechanical keys, one take per character",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "typing_key/light",
+   "gruppe": "Tastatur",
+   "art": [
+    "key",
+    "key.space",
+    "key.return"
+   ],
+   "datei": "klaenge/typing_key/light.wav",
+   "varianten": 3,
+   "dauer": 0.158,
+   "spitze_s": 0.011,
+   "einsatz_s": 0.011,
+   "spitze_db": -1.15,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "realistic mechanical keys, one take per character",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "typing_key/thock",
+   "gruppe": "Tastatur",
+   "art": [
+    "key",
+    "key.space",
+    "key.return"
+   ],
+   "datei": "klaenge/typing_key/thock.wav",
+   "varianten": 3,
+   "dauer": 0.337,
+   "spitze_s": 0.012,
+   "einsatz_s": 0.011,
+   "spitze_db": -1.08,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "realistic mechanical keys, one take per character",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "ui_pop/blip",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/ui_pop/blip.wav",
+   "varianten": 3,
+   "dauer": 0.118,
+   "spitze_s": 0.015,
+   "einsatz_s": 0.007,
+   "spitze_db": -2.37,
+   "stimmbar": true,
+   "ton": "A5",
+   "ton_hz": 889.1,
+   "beschreibung_en": "a bright 890 Hz blip, fully decorrelated (L / R correlation ~0.1)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "ui_pop/boop",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/ui_pop/boop.wav",
+   "varianten": 3,
+   "dauer": 0.195,
+   "spitze_s": 0.029,
+   "einsatz_s": 0.004,
+   "spitze_db": -1.59,
+   "stimmbar": true,
+   "ton": "F4",
+   "ton_hz": 357.1,
+   "beschreibung_en": "a rounder boop falling 9 st",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "ui_pop/fall",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/ui_pop/fall.wav",
+   "varianten": 3,
+   "dauer": 0.204,
+   "spitze_s": 0.02,
+   "einsatz_s": 0.007,
+   "spitze_db": -1.86,
+   "stimmbar": true,
+   "ton": "F4",
+   "ton_hz": 345.76,
+   "beschreibung_en": "an eased 7 st fall with a faint second pop",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "ui_pop/soft",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop",
+    "land.light"
+   ],
+   "datei": "klaenge/ui_pop/soft.wav",
+   "varianten": 3,
+   "dauer": 0.18,
+   "spitze_s": 0.042,
+   "einsatz_s": 0.006,
+   "spitze_db": -1.01,
+   "stimmbar": true,
+   "ton": "F#4",
+   "ton_hz": 370.0,
+   "beschreibung_en": "a soft rounded mid pop: 550 Hz, 22 ms onset, t20 75 ms",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "ui_pop/step",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/ui_pop/step.wav",
+   "varianten": 3,
+   "dauer": 0.187,
+   "spitze_s": 0.045,
+   "einsatz_s": 0.006,
+   "spitze_db": -1.35,
+   "stimmbar": true,
+   "ton": "Bb4",
+   "ton_hz": 466.16,
+   "beschreibung_en": "the soft pop a step higher, falling 3 st",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "ui_pop/wide",
+   "gruppe": "Pop & Erscheinen",
+   "art": [
+    "pop"
+   ],
+   "datei": "klaenge/ui_pop/wide.wav",
+   "varianten": 3,
+   "dauer": 0.19,
+   "spitze_s": 0.042,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.2,
+   "stimmbar": true,
+   "ton": "Eb5",
+   "ton_hz": 622.5,
+   "beschreibung_en": "a wide 620 Hz pop with a lip click (correlation ~0.5)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_big/cape",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long",
+    "swell"
+   ],
+   "datei": "klaenge/whoosh_big/cape.wav",
+   "varianten": 1,
+   "dauer": 1.327,
+   "spitze_s": 0.347,
+   "einsatz_s": 0.053,
+   "spitze_db": -1.48,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "big scene transitions, large objects passing",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_big/deep",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long",
+    "swell"
+   ],
+   "datei": "klaenge/whoosh_big/deep.wav",
+   "varianten": 1,
+   "dauer": 2.038,
+   "spitze_s": 0.746,
+   "einsatz_s": 0.27,
+   "spitze_db": -1.62,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "big scene transitions, large objects passing",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_big/gust",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long",
+    "swell"
+   ],
+   "datei": "klaenge/whoosh_big/gust.wav",
+   "varianten": 1,
+   "dauer": 1.886,
+   "spitze_s": 0.604,
+   "einsatz_s": 0.212,
+   "spitze_db": -1.62,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "big scene transitions, large objects passing",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_big/jet",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long",
+    "swell"
+   ],
+   "datei": "klaenge/whoosh_big/jet.wav",
+   "varianten": 1,
+   "dauer": 1.649,
+   "spitze_s": 0.542,
+   "einsatz_s": 0.205,
+   "spitze_db": -1.23,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "big scene transitions, large objects passing",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_big/reverse",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long",
+    "swell"
+   ],
+   "datei": "klaenge/whoosh_big/reverse.wav",
+   "varianten": 1,
+   "dauer": 1.505,
+   "spitze_s": 0.852,
+   "einsatz_s": 0.184,
+   "spitze_db": -1.06,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "big scene transitions, large objects passing",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_big/swell",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long",
+    "swell"
+   ],
+   "datei": "klaenge/whoosh_big/swell.wav",
+   "varianten": 1,
+   "dauer": 1.355,
+   "spitze_s": 0.435,
+   "einsatz_s": 0.089,
+   "spitze_db": -1.14,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "big scene transitions, large objects passing",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_big/thump",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long"
+   ],
+   "datei": "klaenge/whoosh_big/thump.wav",
+   "varianten": 1,
+   "dauer": 1.03,
+   "spitze_s": 0.162,
+   "einsatz_s": 0.054,
+   "spitze_db": -1.62,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a big low whoosh that lands with a thump (~80 ms in, rings ~0.35 s)",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_big/thump_airy",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long"
+   ],
+   "datei": "klaenge/whoosh_big/thump_airy.wav",
+   "varianten": 1,
+   "dauer": 0.915,
+   "spitze_s": 0.155,
+   "einsatz_s": 0.047,
+   "spitze_db": -1.47,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "the thump-whoosh, airier",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_big/thump_deep",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.long"
+   ],
+   "datei": "klaenge/whoosh_big/thump_deep.wav",
+   "varianten": 1,
+   "dauer": 1.36,
+   "spitze_s": 0.255,
+   "einsatz_s": 0.104,
+   "spitze_db": -1.62,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "the thump-whoosh, deeper and longer",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_fast/crisp",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short",
+    "suck"
+   ],
+   "datei": "klaenge/whoosh_fast/crisp.wav",
+   "varianten": 1,
+   "dauer": 1.056,
+   "spitze_s": 0.136,
+   "einsatz_s": 0.037,
+   "spitze_db": -1.35,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "whip pans, fast fly-ins, element moves",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_fast/heavy",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short",
+    "suck"
+   ],
+   "datei": "klaenge/whoosh_fast/heavy.wav",
+   "varianten": 1,
+   "dauer": 0.765,
+   "spitze_s": 0.133,
+   "einsatz_s": 0.049,
+   "spitze_db": -1.84,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "whip pans, fast fly-ins, element moves",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_fast/reverse",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short",
+    "suck"
+   ],
+   "datei": "klaenge/whoosh_fast/reverse.wav",
+   "varianten": 1,
+   "dauer": 0.768,
+   "spitze_s": 0.3,
+   "einsatz_s": 0.094,
+   "spitze_db": -1.22,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "whip pans, fast fly-ins, element moves",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_fast/sleeve",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short",
+    "suck"
+   ],
+   "datei": "klaenge/whoosh_fast/sleeve.wav",
+   "varianten": 1,
+   "dauer": 1.09,
+   "spitze_s": 0.155,
+   "einsatz_s": 0.079,
+   "spitze_db": -1.2,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "whip pans, fast fly-ins, element moves",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_fast/tight",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short",
+    "suck"
+   ],
+   "datei": "klaenge/whoosh_fast/tight.wav",
+   "varianten": 3,
+   "dauer": 0.536,
+   "spitze_s": 0.154,
+   "einsatz_s": 0.063,
+   "spitze_db": -1.26,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "whip pans, fast fly-ins, element moves",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_fast/whip",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short"
+   ],
+   "datei": "klaenge/whoosh_fast/whip.wav",
+   "varianten": 1,
+   "dauer": 0.91,
+   "spitze_s": 0.033,
+   "einsatz_s": 0.008,
+   "spitze_db": -4.82,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "a designed bright whip: a wide ring that falls",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "whoosh_fast/whistle",
+   "gruppe": "Whoosh & Wischer",
+   "art": [
+    "whoosh.short",
+    "suck"
+   ],
+   "datei": "klaenge/whoosh_fast/whistle.wav",
+   "varianten": 1,
+   "dauer": 0.997,
+   "spitze_s": 0.182,
+   "einsatz_s": 0.064,
+   "spitze_db": -1.11,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "whip pans, fast fly-ins, element moves",
+   "quelle": "earshot forge"
+  },
+  {
+   "id": "musikbett/bett_loop",
+   "gruppe": "Musikbett",
+   "art": [
+    "bed"
+   ],
+   "datei": "klaenge/musikbett/bett_loop.mp3",
+   "varianten": 1,
+   "dauer": 221.0,
+   "spitze_s": 30.865,
+   "einsatz_s": 0.0,
+   "spitze_db": -4.04,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "seamless ambient music bed loop (221 s), use quietly under the voice",
+   "quelle": "eigene Synthese (Gedankenwerk)"
+  }
+ ]
+}

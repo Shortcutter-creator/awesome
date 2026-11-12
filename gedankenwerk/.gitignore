@@ -1,0 +1,8 @@
+# lokal erzeugt, nicht ins Repo
+vorlage/node_modules/
+vorlage/public/
+werkzeug/.venv/
+__pycache__/
+stimmen/*.onnx
+stimmen/*.onnx.json
+videos/*/stimme/

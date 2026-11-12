@@ -1,0 +1,2 @@
+# Python-Pakete für die Gedankenwerk-Werkzeuge. Zurzeit keine Pflicht-Pakete: alles läuft mit der Standardbibliothek.
+# Nur bei Zertifikatsfehlern (Python von python.org auf dem Mac): python -m pip install certifi
