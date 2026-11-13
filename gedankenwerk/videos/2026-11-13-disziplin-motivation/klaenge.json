@@ -1,0 +1,259 @@
+{
+ "bett": {
+  "klang": "musikbett/bett_loop",
+  "lautstaerke": 0.15
+ },
+ "cues": [
+  {
+   "klang": "whoosh_big/thump_deep",
+   "t": 0.05
+  },
+  {
+   "klang": "cut_hit/kick",
+   "wort": "Motivation",
+   "n": 1,
+   "pegel": -16
+  },
+  {
+   "klang": "cut_hit/kick",
+   "wort": "Disziplin",
+   "n": 1,
+   "pegel": -16
+  },
+  {
+   "klang": "riser/rush",
+   "wort": "Rakete",
+   "ausrichtung": "start",
+   "laenge": 1.2,
+   "pegel": -24
+  },
+  {
+   "klang": "downlifter/air_fall",
+   "wort": "langsamer"
+  },
+  {
+   "klang": "impact/deep",
+   "wort": "los",
+   "n": 2,
+   "versatz": 0.35,
+   "pegel": -15
+  },
+  {
+   "klang": "sub_drop/punch",
+   "wort": "Boden",
+   "pegel": -17
+  },
+  {
+   "klang": "mallet/up4",
+   "wort": "geschafft"
+  },
+  {
+   "klang": "ui_pop/soft",
+   "wort": "Gefühl"
+  },
+  {
+   "klang": "ui_pop/soft",
+   "wort": "Entscheidung"
+  },
+  {
+   "klang": "logo_sting/soft_bloom",
+   "wort": "weitermachst",
+   "ausrichtung": "start"
+  },
+  {
+   "klang": "click/tink",
+   "t": 10.51,
+   "pegel": -24
+  },
+  {
+   "klang": "click/tink",
+   "t": 11.164,
+   "pegel": -24
+  },
+  {
+   "klang": "click/tink",
+   "t": 11.89,
+   "pegel": -24
+  },
+  {
+   "klang": "click/tink",
+   "t": 12.696,
+   "pegel": -24
+  },
+  {
+   "klang": "click/tink",
+   "t": 13.59,
+   "pegel": -24
+  },
+  {
+   "klang": "click/tink",
+   "t": 14.584,
+   "pegel": -24
+  },
+  {
+   "klang": "click/tink",
+   "t": 15.686,
+   "pegel": -24
+  },
+  {
+   "klang": "click/tink",
+   "t": 16.91,
+   "pegel": -24
+  },
+  {
+   "klang": "click/tink",
+   "t": 18.267,
+   "pegel": -24
+  },
+  {
+   "klang": "click/tink",
+   "t": 19.775,
+   "pegel": -24
+  },
+  {
+   "klang": "click/tink",
+   "t": 21.368,
+   "pegel": -24
+  },
+  {
+   "klang": "click/tink",
+   "t": 22.968,
+   "pegel": -24
+  },
+  {
+   "klang": "click/tink",
+   "t": 24.819,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 11.15,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 12.73,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 14.31,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 15.89,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 17.47,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 19.05,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 20.63,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 22.21,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 23.79,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 25.37,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 26.95,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 28.53,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 30.11,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 31.69,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 33.27,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 34.85,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 36.43,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 38.01,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 39.59,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 41.17,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 42.75,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 44.33,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 45.91,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 47.49,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 49.07,
+   "pegel": -24
+  },
+  {
+   "klang": "knock/wood",
+   "t": 50.65,
+   "pegel": -24
+  }
+ ]
+}
