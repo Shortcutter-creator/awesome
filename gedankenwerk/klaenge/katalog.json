@@ -1,6 +1,6 @@
 {
  "version": "forge_v2r6+forge04r1+fit1+pluck1",
- "anzahl": 258,
+ "anzahl": 263,
  "gruppen": [
   "Whoosh & Wischer",
   "Riser & Spannung",
@@ -4792,6 +4792,86 @@
    "spitze_db": -1.0,
    "stimmbar": false,
    "beschreibung_en": "four heavy footsteps in a concrete corridor with reverb",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "atmo/bellen",
+   "gruppe": "Atmo & Alarm",
+   "art": [
+    "atmo"
+   ],
+   "datei": "klaenge/atmo/bellen.wav",
+   "varianten": 1,
+   "dauer": 5.4,
+   "spitze_s": 0.523,
+   "einsatz_s": 0.052,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "two dogs barking in the distance, with reverb",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "atmo/wind",
+   "gruppe": "Atmo & Alarm",
+   "art": [
+    "atmo"
+   ],
+   "datei": "klaenge/atmo/wind.wav",
+   "varianten": 1,
+   "dauer": 8.0,
+   "spitze_s": 4.761,
+   "einsatz_s": 0.283,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "night wind in a forest, slow gusts",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "atmo/voegel",
+   "gruppe": "Atmo & Alarm",
+   "art": [
+    "atmo"
+   ],
+   "datei": "klaenge/atmo/voegel.wav",
+   "varianten": 1,
+   "dauer": 6.2,
+   "spitze_s": 0.297,
+   "einsatz_s": 0.22,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "morning birds chirping",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "atmo/draht",
+   "gruppe": "Atmo & Alarm",
+   "art": [
+    "atmo"
+   ],
+   "datei": "klaenge/atmo/draht.wav",
+   "varianten": 1,
+   "dauer": 2.4,
+   "spitze_s": 0.36,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "metal wire straining and pinging",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "atmo/rennen",
+   "gruppe": "Atmo & Alarm",
+   "art": [
+    "atmo"
+   ],
+   "datei": "klaenge/atmo/rennen.wav",
+   "varianten": 1,
+   "dauer": 3.0,
+   "spitze_s": 2.523,
+   "einsatz_s": 0.065,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "running footsteps on grass",
    "quelle": "gedankenwerk synth (eigene Erzeugung)"
   }
  ]

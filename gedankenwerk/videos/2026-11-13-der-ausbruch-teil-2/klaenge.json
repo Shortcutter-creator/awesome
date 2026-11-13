@@ -1,0 +1,154 @@
+{
+ "bett": {
+  "klang": "atmo/drone",
+  "lautstaerke": 0.28
+ },
+ "cues": [
+  {
+   "klang": "impact/deep",
+   "t": 0.1
+  },
+  {
+   "klang": "sirene/nah",
+   "t": 0.2,
+   "ausrichtung": "start",
+   "pegel": -24
+  },
+  {
+   "klang": "sub_drop/punch",
+   "wort": "steckt"
+  },
+  {
+   "klang": "atmo/rennen",
+   "wort": "Wärter",
+   "ausrichtung": "start",
+   "pegel": -18
+  },
+  {
+   "klang": "whoosh_big/deep",
+   "wort": "Draußen",
+   "versatz": -0.15
+  },
+  {
+   "klang": "sirene/fern",
+   "wort": "Zaun",
+   "n": 1,
+   "ausrichtung": "start",
+   "pegel": -27,
+   "pan": -0.4
+  },
+  {
+   "klang": "cut_hit/kick",
+   "wort": "stehen"
+  },
+  {
+   "klang": "impact/punch",
+   "wort": "Wir",
+   "pegel": -15
+  },
+  {
+   "klang": "atmo/rennen",
+   "wort": "rennt",
+   "ausrichtung": "start",
+   "pegel": -18
+  },
+  {
+   "klang": "swish/cane",
+   "wort": "Jacke"
+  },
+  {
+   "klang": "riser/tension",
+   "wort": "Zentimeter",
+   "n": 1,
+   "ausrichtung": "start",
+   "laenge": 2.0
+  },
+  {
+   "klang": "atmo/bellen",
+   "wort": "Hunde",
+   "ausrichtung": "start",
+   "versatz": -0.1,
+   "pegel": -14
+  },
+  {
+   "klang": "atmo/herzschlag",
+   "t": 23.375,
+   "pegel": -13
+  },
+  {
+   "klang": "atmo/herzschlag",
+   "t": 24.125,
+   "pegel": -14
+  },
+  {
+   "klang": "whoosh_fast/whip",
+   "wort": "Hand"
+  },
+  {
+   "klang": "cut_hit/punch",
+   "wort": "Handgelenk"
+  },
+  {
+   "klang": "whoosh_big/thump_deep",
+   "wort": "Ruck"
+  },
+  {
+   "klang": "impact/deep",
+   "wort": "heraus",
+   "pegel": -16
+  },
+  {
+   "klang": "atmo/rennen",
+   "wort": "viert",
+   "ausrichtung": "start",
+   "pegel": -17
+  },
+  {
+   "klang": "sirene/nah",
+   "wort": "viert",
+   "ausrichtung": "start",
+   "pegel": -23,
+   "pan": 0.4
+  },
+  {
+   "klang": "atmo/draht",
+   "wort": "Jonas",
+   "pegel": -20
+  },
+  {
+   "klang": "atmo/draht",
+   "wort": "Marco",
+   "n": 2,
+   "pegel": -20
+  },
+  {
+   "klang": "atmo/draht",
+   "wort": "Henrik",
+   "ab": 30,
+   "pegel": -20
+  },
+  {
+   "klang": "atmo/draht",
+   "wort": "Stacheldraht",
+   "pegel": -15
+  },
+  {
+   "klang": "sub_drop/gritty",
+   "wort": "hängen"
+  },
+  {
+   "klang": "reverse_swell/cymbal",
+   "wort": "findet"
+  },
+  {
+   "klang": "impact/blast",
+   "wort": "ihn",
+   "ab": 40,
+   "pegel": -14
+  },
+  {
+   "klang": "impact/deep",
+   "wort": "Teil"
+  }
+ ]
+}

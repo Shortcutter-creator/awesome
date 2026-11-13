@@ -1,0 +1,138 @@
+{
+ "bett": {
+  "klang": "atmo/drone",
+  "lautstaerke": 0.24
+ },
+ "cues": [
+  {
+   "klang": "impact/deep",
+   "t": 0.1
+  },
+  {
+   "klang": "sirene/nah",
+   "t": 0.2,
+   "ausrichtung": "start",
+   "pegel": -23
+  },
+  {
+   "klang": "reverse_swell/ring",
+   "wort": "blendet"
+  },
+  {
+   "klang": "atmo/bellen",
+   "wort": "Hunde",
+   "n": 1,
+   "ausrichtung": "start",
+   "pegel": -15
+  },
+  {
+   "klang": "atmo/draht",
+   "wort": "klettert",
+   "pegel": -19
+  },
+  {
+   "klang": "whoosh_big/deep",
+   "wort": "Mit",
+   "versatz": -0.15
+  },
+  {
+   "klang": "atmo/draht",
+   "wort": "biegt",
+   "pegel": -15
+  },
+  {
+   "klang": "atmo/draht",
+   "wort": "auseinander",
+   "pegel": -16
+  },
+  {
+   "klang": "cut_hit/sub",
+   "wort": "Blut"
+  },
+  {
+   "klang": "cut_hit/punch",
+   "wort": "frei"
+  },
+  {
+   "klang": "whoosh_fast/heavy",
+   "wort": "springen"
+  },
+  {
+   "klang": "impact/deep",
+   "wort": "Landen",
+   "pegel": -14
+  },
+  {
+   "klang": "atmo/rennen",
+   "wort": "laufen",
+   "ausrichtung": "start",
+   "pegel": -17
+  },
+  {
+   "klang": "atmo/rennen",
+   "wort": "zweihundert",
+   "ausrichtung": "start",
+   "pegel": -18
+  },
+  {
+   "klang": "sirene/fern",
+   "wort": "Wald",
+   "n": 1,
+   "ausrichtung": "start",
+   "pegel": -26,
+   "pan": -0.5
+  },
+  {
+   "klang": "atmo/bellen",
+   "wort": "bellen",
+   "ausrichtung": "start",
+   "pegel": -14
+  },
+  {
+   "klang": "downlifter/sub_sink",
+   "wort": "Dunkelheit"
+  },
+  {
+   "klang": "atmo/wind",
+   "wort": "Wald",
+   "n": 2,
+   "ausrichtung": "start",
+   "pegel": -20
+  },
+  {
+   "klang": "pro_shimmer/m2",
+   "wort": "Vier"
+  },
+  {
+   "klang": "logo_sting/soft_bloom",
+   "wort": "Keiner",
+   "ausrichtung": "start"
+  },
+  {
+   "klang": "atmo/voegel",
+   "wort": "Morgen",
+   "ausrichtung": "start",
+   "pegel": -20
+  },
+  {
+   "klang": "swish/soft",
+   "wort": "Zettel"
+  },
+  {
+   "klang": "pro_typing_run/standard",
+   "wort": "Neunzig",
+   "ausrichtung": "start",
+   "laenge": 2.4,
+   "pegel": -22
+  },
+  {
+   "klang": "impact/deep",
+   "wort": "gereicht",
+   "pegel": -15
+  },
+  {
+   "klang": "reverse_swell/cymbal",
+   "wort": "Folg"
+  }
+ ]
+}

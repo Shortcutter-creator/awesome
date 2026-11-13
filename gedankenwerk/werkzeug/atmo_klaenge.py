@@ -139,6 +139,80 @@ for i, t0 in enumerate([0.05, 0.62, 1.2, 1.77]):
 x = hall(x, 1.4, 0.45, 4)
 schreib(PAKET / "klaenge/atmo/schritte.wav", stereo(x, 0.4, 7))
 
+
+# --- Hundegebell (fern, zwei Hunde) -------------------------------------------------
+def bell(f0, dauer=0.22):
+    n = int(dauer * SR)
+    tt = np.arange(n) / SR
+    f = f0 * (1.25 - 0.45 * np.minimum(tt / dauer, 1))
+    ph = 2 * np.pi * np.cumsum(f) / SR
+    x = sum(np.sin(k * ph) / k ** 0.9 for k in range(1, 14))
+    x = x + rng.standard_normal(n) * 0.6 * np.exp(-tt * 40)
+    env = np.minimum(1, tt / 0.012) * np.exp(-tt * 9)
+    x = x * env
+    X = np.fft.rfft(x)
+    fr = np.fft.rfftfreq(n, 1 / SR)
+    X *= np.exp(-((fr - 1100) / 700) ** 2) * 1.6 + np.exp(-((fr - 2500) / 600) ** 2) * 0.7 + 0.15
+    return np.fft.irfft(X, n)
+dauer = 3.6
+x = np.zeros(int(dauer * SR))
+for t0, f0, amp in [(0.05, 330, 1), (0.42, 340, 0.9), (1.25, 300, 0.8), (1.6, 410, 0.6), (1.9, 400, 0.6), (2.6, 320, 0.9), (2.95, 330, 0.85)]:
+    b = bell(f0) * amp
+    a = int(t0 * SR)
+    x[a:a + len(b)] += b
+x = tiefpass_fft(x, 2600, 2)
+x = hall(x, 1.8, 0.5, 5)
+schreib(PAKET / "klaenge/atmo/bellen.wav", stereo(x, 0.6, 13))
+
+# --- Wind im Wald --------------------------------------------------------------------
+t = np.arange(int(8.0 * SR)) / SR
+w = np.random.default_rng(9).standard_normal(len(t))
+lfo = 0.55 + 0.45 * np.sin(2 * np.pi * t / 5.5) * np.sin(2 * np.pi * t / 3.1 + 0.7)
+x = (tiefpass_fft(w, 700, 2) * 1.0 + tiefpass_fft(w, 2500, 1) * 0.15) * lfo
+x = blende(x, 1.5, 2.0)
+schreib(PAKET / "klaenge/atmo/wind.wav", stereo(x, 0.8, 19))
+
+# --- Vögel am Morgen -------------------------------------------------------------------
+dauer = 5.0
+x = np.zeros(int(dauer * SR))
+r = np.random.default_rng(11)
+for k in range(16):
+    t0 = r.uniform(0.1, 4.6)
+    n = int(r.uniform(0.06, 0.14) * SR)
+    tt = np.arange(n) / SR
+    f = r.uniform(2800, 4200) + r.uniform(-1500, 1500) * tt / tt[-1]
+    s = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.sin(np.pi * tt / tt[-1]) ** 2 * r.uniform(0.3, 1)
+    a = int(t0 * SR)
+    x[a:a + n] += s[: len(x) - a]
+x = hall(x, 1.2, 0.35, 6)
+schreib(PAKET / "klaenge/atmo/voegel.wav", stereo(x, 0.7, 9))
+
+# --- Draht spannt und knackt -----------------------------------------------------------
+dauer = 1.6
+t = np.arange(int(dauer * SR)) / SR
+x = np.zeros(len(t))
+for t0, f in [(0.0, 1850), (0.35, 2630), (0.8, 2210), (1.05, 3120)]:
+    tt = np.clip(t - t0, 0, None)
+    x += (t >= t0) * (np.sin(2 * np.pi * f * tt) + 0.5 * np.sin(2 * np.pi * f * 2.76 * tt)) * np.exp(-tt * 7)
+kn = np.random.default_rng(12).standard_normal(len(t)) * (0.5 + 0.5 * np.sin(2 * np.pi * 23 * t)) * np.exp(-((t - 0.6) / 0.4) ** 2)
+x = x * 0.5 + tiefpass_fft(kn, 3000, 2) * 0.8
+x = hall(x, 0.8, 0.3, 7)
+schreib(PAKET / "klaenge/atmo/draht.wav", stereo(x, 0.4, 5))
+
+# --- Rennen über Gras -------------------------------------------------------------------
+dauer = 3.0
+x = np.zeros(int(dauer * SR))
+r = np.random.default_rng(13)
+for i in range(18):
+    t0 = 0.05 + i * 0.155 + r.uniform(-0.02, 0.02)
+    n = int(0.12 * SR)
+    tt = np.arange(n) / SR
+    s = (np.sin(2 * np.pi * 70 * tt) * 0.8 + r.standard_normal(n) * 0.5) * np.exp(-tt * 38)
+    a = int(t0 * SR)
+    if a + n < len(x):
+        x[a:a + n] += tiefpass_fft(s, 1400, 2) * r.uniform(0.6, 1)
+schreib(PAKET / "klaenge/atmo/rennen.wav", stereo(x, 0.3, 5))
+
 # --- Katalog ergänzen -------------------------------------------------------------
 NEU = {
     "sirene/fern": ("Atmo & Alarm", "distant prison alarm siren, muffled wail with long reverb, slow swell in and out"),
@@ -146,6 +220,11 @@ NEU = {
     "atmo/drone": ("Atmo & Alarm", "dark low suspense drone, seamless loop, usable as background bed"),
     "atmo/herzschlag": ("Atmo & Alarm", "single low heartbeat, lub-dub"),
     "atmo/schritte": ("Atmo & Alarm", "four heavy footsteps in a concrete corridor with reverb"),
+    "atmo/bellen": ("Atmo & Alarm", "two dogs barking in the distance, with reverb"),
+    "atmo/wind": ("Atmo & Alarm", "night wind in a forest, slow gusts"),
+    "atmo/voegel": ("Atmo & Alarm", "morning birds chirping"),
+    "atmo/draht": ("Atmo & Alarm", "metal wire straining and pinging"),
+    "atmo/rennen": ("Atmo & Alarm", "running footsteps on grass"),
 }
 kp = PAKET / "klaenge/katalog.json"
 kat = json.loads(kp.read_text(encoding="utf-8"))
