@@ -107,9 +107,7 @@ def ton(hz):  # ganze Schwingungen je Schleife → nahtlos
 lfo1 = 0.5 + 0.5 * np.sin(2 * np.pi * t / 12)
 lfo2 = 0.5 + 0.5 * np.sin(2 * np.pi * t / 8 + 1)
 x = 0.9 * ton(55) + 0.7 * ton(55.5) + 0.35 * ton(82.4) * lfo1 + 0.2 * ton(110.25) * lfo2 + 0.12 * ton(164.8) * (1 - lfo1)
-rausch = np.random.default_rng(3).standard_normal(len(t))
-rausch = tiefpass_fft(rausch, 400, 2) * (0.25 + 0.2 * lfo2)
-x = x + rausch * 2.0
+# kein Rauschanteil: das Bett bleibt rein tonal (Wunsch: kein Rauschen im Hintergrund)
 # nahtlos: Anfang und Ende über 1 s kreuzblenden
 n = SR
 x[:n] = x[:n] * np.linspace(0, 1, n) + x[-n:] * np.linspace(1, 0, n)
@@ -308,6 +306,40 @@ links = x * np.sqrt((1 - pan) / 2)
 rechts = x * np.sqrt((1 + pan) / 2)
 schreib(PAKET / "klaenge/auto/vorbeifahrt.wav", np.stack([links, rechts]))
 
+
+# =====================================================================================
+# Hotel
+# =====================================================================================
+# --- Rezeptionsklingel (Ding) -----------------------------------------------------------
+t = np.arange(int(2.2 * SR)) / SR
+x = sum(a * np.sin(2 * np.pi * 2093 * k * t) * np.exp(-t * (2.2 + k)) for k, a in [(1, 1.0), (2.76, 0.45), (5.4, 0.25), (8.9, 0.1)])
+x *= np.minimum(1, t / 0.002)
+schreib(PAKET / "klaenge/hotel/klingel.wav", stereo(x, 0.3, 4))
+
+# --- Münze klimpert ------------------------------------------------------------------------
+def muenze(t0, f, n_t):
+    tt = np.clip(n_t - t0, 0, None)
+    return (n_t >= t0) * sum(a * np.sin(2 * np.pi * f * k * tt) * np.exp(-tt * (18 + 6 * k)) for k, a in [(1, 1), (2.31, 0.6), (3.9, 0.35), (5.6, 0.2)])
+t = np.arange(int(0.7 * SR)) / SR
+x = muenze(0.0, 3150, t) + 0.6 * muenze(0.07, 3420, t) + 0.35 * muenze(0.16, 3300, t)
+schreib(PAKET / "klaenge/hotel/muenze.wav", stereo(x, 0.4, 3))
+
+# --- Geldschein landet auf dem Tresen ---------------------------------------------------------
+t = np.arange(int(0.35 * SR)) / SR
+r = np.random.default_rng(31)
+x = r.standard_normal(len(t)) * np.exp(-t * 45)
+x = tiefpass_fft(x, 2600, 2) - tiefpass_fft(x, 500, 2)
+x += np.sin(2 * np.pi * 140 * t) * np.exp(-t * 40) * 0.5
+schreib(PAKET / "klaenge/hotel/schein.wav", stereo(x, 0.2, 3))
+
+# --- Aufzug-Gong ---------------------------------------------------------------------------------
+t = np.arange(int(2.0 * SR)) / SR
+def ton(t0, hz):
+    tt = np.clip(t - t0, 0, None)
+    return (t >= t0) * (np.sin(2 * np.pi * hz * tt) + 0.25 * np.sin(2 * np.pi * hz * 3 * tt)) * np.exp(-tt * 2.5)
+x = ton(0.0, 784) + 0.85 * ton(0.32, 988)
+schreib(PAKET / "klaenge/hotel/aufzug.wav", stereo(x, 0.3, 5))
+
 # --- Katalog ergänzen -------------------------------------------------------------
 NEU = {
     "sirene/fern": ("Atmo & Alarm", "distant prison alarm siren, muffled wail with long reverb, slow swell in and out"),
@@ -327,10 +359,14 @@ NEU = {
     "auto/gong": ("Auto & Motor", "dashboard warning chime, two tones"),
     "auto/schalten": ("Auto & Motor", "gear lever clunks into position"),
     "auto/vorbeifahrt": ("Auto & Motor", "car passing by with doppler, left to right"),
+    "hotel/klingel": ("Hotel", "reception desk bell, single ding"),
+    "hotel/muenze": ("Hotel", "coins clinking"),
+    "hotel/schein": ("Hotel", "banknote slapped on a counter"),
+    "hotel/aufzug": ("Hotel", "elevator arrival chime, two tones"),
 }
 kp = PAKET / "klaenge/katalog.json"
 kat = json.loads(kp.read_text(encoding="utf-8"))
-for g in ("Atmo & Alarm", "Auto & Motor"):
+for g in ("Atmo & Alarm", "Auto & Motor", "Hotel"):
     if g not in kat["gruppen"]:
         kat["gruppen"].append(g)
 liste = kat["klaenge"]

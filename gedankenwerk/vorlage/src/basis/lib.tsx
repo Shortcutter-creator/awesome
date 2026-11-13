@@ -203,7 +203,7 @@ export const Header: React.FC<{ t: number; a: number; thema?: string; fall?: str
         textTransform: "uppercase",
       }}
     >
-      <b style={{ fontWeight: 700 }}>{THEME.kanal.name}</b>
+      <span />{/* Kanalname oben links entfernt (Wunsch: kein „Dein Kanal“-Schriftzug) */}
       <span style={{ opacity: 0.75 }}>{thema ?? fall ?? ""}</span>
     </div>
   );

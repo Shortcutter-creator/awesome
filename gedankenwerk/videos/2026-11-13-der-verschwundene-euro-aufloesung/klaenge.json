@@ -1,0 +1,85 @@
+{
+ "bett": {
+  "klang": "musikbett/bett_loop",
+  "lautstaerke": 0.17
+ },
+ "cues": [
+  {
+   "klang": "hotel/muenze",
+   "t": 0.1
+  },
+  {
+   "klang": "cut_hit/punch",
+   "wort": "kein",
+   "pegel": -15
+  },
+  {
+   "klang": "swish/blade",
+   "wort": "falsch"
+  },
+  {
+   "klang": "ui_pop/soft",
+   "wort": "27",
+   "n": 1
+  },
+  {
+   "klang": "pro_pop_in/round",
+   "wort": "enthalten"
+  },
+  {
+   "klang": "hotel/muenze",
+   "wort": "2",
+   "n": 1
+  },
+  {
+   "klang": "mallet/marimba",
+   "wort": "25",
+   "ton": "C4"
+  },
+  {
+   "klang": "mallet/marimba",
+   "wort": "2",
+   "n": 2,
+   "ton": "E4"
+  },
+  {
+   "klang": "mallet/up4",
+   "wort": "27",
+   "n": 2
+  },
+  {
+   "klang": "knock/desk",
+   "wort": "nicht"
+  },
+  {
+   "klang": "hotel/muenze",
+   "wort": "3"
+  },
+  {
+   "klang": "hotel/muenze",
+   "wort": "3",
+   "versatz": 0.15,
+   "pegel": -22
+  },
+  {
+   "klang": "pro_zip/up",
+   "wort": "addieren"
+  },
+  {
+   "klang": "swish/soft",
+   "wort": "27",
+   "n": 3
+  },
+  {
+   "klang": "logo_sting/soft_bloom",
+   "wort": "30",
+   "ausrichtung": "start"
+  },
+  {
+   "klang": "hotel/klingel",
+   "wort": "30",
+   "versatz": 0.3,
+   "pegel": -18
+  }
+ ]
+}

@@ -8,8 +8,12 @@ import * as v2 from "./2026-11-13-der-ausbruch-teil-2/Video";
 import * as c2 from "./2026-11-13-der-ausbruch-teil-2/Cover";
 import * as v3 from "./2026-11-13-der-ausbruch-teil-3/Video";
 import * as c3 from "./2026-11-13-der-ausbruch-teil-3/Cover";
-import * as v4 from "./2026-11-13-rueckwaertsgang-autobahn/Video";
-import * as c4 from "./2026-11-13-rueckwaertsgang-autobahn/Cover";
+import * as v4 from "./2026-11-13-der-verschwundene-euro/Video";
+import * as c4 from "./2026-11-13-der-verschwundene-euro/Cover";
+import * as v5 from "./2026-11-13-der-verschwundene-euro-aufloesung/Video";
+import * as c5 from "./2026-11-13-der-verschwundene-euro-aufloesung/Cover";
+import * as v6 from "./2026-11-13-rueckwaertsgang-autobahn/Video";
+import * as c6 from "./2026-11-13-rueckwaertsgang-autobahn/Cover";
 
 export type Eintrag = { id: string; Video: React.FC; dauer: number; Cover?: React.FC };
 export const VIDEOS: Eintrag[] = [
@@ -17,5 +21,7 @@ export const VIDEOS: Eintrag[] = [
   { id: "2026-11-13-der-ausbruch", Video: v1.Video, dauer: v1.DAUER, Cover: c1.Cover },
   { id: "2026-11-13-der-ausbruch-teil-2", Video: v2.Video, dauer: v2.DAUER, Cover: c2.Cover },
   { id: "2026-11-13-der-ausbruch-teil-3", Video: v3.Video, dauer: v3.DAUER, Cover: c3.Cover },
-  { id: "2026-11-13-rueckwaertsgang-autobahn", Video: v4.Video, dauer: v4.DAUER, Cover: c4.Cover },
+  { id: "2026-11-13-der-verschwundene-euro", Video: v4.Video, dauer: v4.DAUER, Cover: c4.Cover },
+  { id: "2026-11-13-der-verschwundene-euro-aufloesung", Video: v5.Video, dauer: v5.DAUER, Cover: c5.Cover },
+  { id: "2026-11-13-rueckwaertsgang-autobahn", Video: v6.Video, dauer: v6.DAUER, Cover: c6.Cover },
 ];

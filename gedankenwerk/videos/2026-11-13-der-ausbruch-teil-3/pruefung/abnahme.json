@@ -29,7 +29,7 @@
  },
  "Lautheit -14 LUFS (±1)": {
   "ok": true,
-  "wert": "-14.6 LUFS"
+  "wert": "-14.7 LUFS"
  },
  "Szenenplan mit Bausteinen (szenenplan.md)": {
   "ok": true,
@@ -49,7 +49,7 @@
  },
  "Geräusche: ≥ 10 verschiedene Klänge": {
   "ok": true,
-  "wert": "25 Klänge, 19 verschiedene"
+  "wert": "24 Klänge, 18 verschiedene"
  },
  "Umlaute echt (kein ae/oe/ue-Ersatz)": {
   "ok": true,

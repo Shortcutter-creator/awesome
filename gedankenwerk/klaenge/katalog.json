@@ -1,6 +1,6 @@
 {
  "version": "forge_v2r6+forge04r1+fit1+pluck1",
- "anzahl": 270,
+ "anzahl": 274,
  "gruppen": [
   "Whoosh & Wischer",
   "Riser & Spannung",
@@ -17,7 +17,8 @@
   "Kamera",
   "Musikbett",
   "Atmo & Alarm",
-  "Auto & Motor"
+  "Auto & Motor",
+  "Hotel"
  ],
  "klaenge": [
   {
@@ -4985,6 +4986,70 @@
    "spitze_db": -1.0,
    "stimmbar": false,
    "beschreibung_en": "car passing by with doppler, left to right",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "hotel/klingel",
+   "gruppe": "Hotel",
+   "art": [
+    "hotel"
+   ],
+   "datei": "klaenge/hotel/klingel.wav",
+   "varianten": 1,
+   "dauer": 2.2,
+   "spitze_s": 0.005,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "reception desk bell, single ding",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "hotel/muenze",
+   "gruppe": "Hotel",
+   "art": [
+    "hotel"
+   ],
+   "datei": "klaenge/hotel/muenze.wav",
+   "varianten": 1,
+   "dauer": 0.7,
+   "spitze_s": 0.003,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "coins clinking",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "hotel/schein",
+   "gruppe": "Hotel",
+   "art": [
+    "hotel"
+   ],
+   "datei": "klaenge/hotel/schein.wav",
+   "varianten": 1,
+   "dauer": 0.35,
+   "spitze_s": 0.001,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "banknote slapped on a counter",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "hotel/aufzug",
+   "gruppe": "Hotel",
+   "art": [
+    "hotel"
+   ],
+   "datei": "klaenge/hotel/aufzug.wav",
+   "varianten": 1,
+   "dauer": 2.0,
+   "spitze_s": 0.32,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "elevator arrival chime, two tones",
    "quelle": "gedankenwerk synth (eigene Erzeugung)"
   }
  ]

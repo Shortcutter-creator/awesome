@@ -93,13 +93,6 @@
    "wort": "Dunkelheit"
   },
   {
-   "klang": "atmo/wind",
-   "wort": "Wald",
-   "n": 2,
-   "ausrichtung": "start",
-   "pegel": -20
-  },
-  {
    "klang": "pro_shimmer/m2",
    "wort": "Vier"
   },

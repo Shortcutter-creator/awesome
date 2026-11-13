@@ -1,6 +1,6 @@
 {
  "bett": {
-  "klang": "auto/fahrt",
+  "klang": "musikbett/bett_loop",
   "lautstaerke": 0.16
  },
  "cues": [
