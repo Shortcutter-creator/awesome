@@ -1,0 +1,193 @@
+{
+ "bett": {
+  "klang": "auto/fahrt",
+  "lautstaerke": 0.16
+ },
+ "cues": [
+  {
+   "klang": "auto/vorbeifahrt",
+   "t": 0.0,
+   "ausrichtung": "start",
+   "pegel": -20
+  },
+  {
+   "klang": "riser/rush",
+   "t": 0.05,
+   "ausrichtung": "start",
+   "laenge": 0.9,
+   "pegel": -24
+  },
+  {
+   "klang": "auto/schalten",
+   "wort": "R",
+   "n": 1
+  },
+  {
+   "klang": "cut_hit/punch",
+   "wort": "R",
+   "n": 1,
+   "versatz": 0.05
+  },
+  {
+   "klang": "auto/gong",
+   "wort": "Motor",
+   "n": 1,
+   "pegel": -18
+  },
+  {
+   "klang": "impact/deep",
+   "wort": "kaputt",
+   "pegel": -16
+  },
+  {
+   "klang": "pro_pop_in/round",
+   "wort": "nichts"
+  },
+  {
+   "klang": "shutter/quick",
+   "wort": "Ford"
+  },
+  {
+   "klang": "riser/air",
+   "wort": "113",
+   "ausrichtung": "start",
+   "laenge": 0.9
+  },
+  {
+   "klang": "auto/piepen",
+   "wort": "Rückfahrkamera",
+   "ausrichtung": "start",
+   "versatz": -0.1,
+   "pegel": -22
+  },
+  {
+   "klang": "auto/schalten",
+   "wort": "Schutz"
+  },
+  {
+   "klang": "mallet/marimba",
+   "wort": "Leerlauf",
+   "ton": "C5"
+  },
+  {
+   "klang": "swish/soft",
+   "wort": "Schaltgetriebe"
+  },
+  {
+   "klang": "knock/desk",
+   "wort": "Sperre"
+  },
+  {
+   "klang": "whoosh_big/swell",
+   "wort": "dahinter",
+   "versatz": -0.2
+  },
+  {
+   "klang": "ui_pop/soft",
+   "wort": "Zahnrad",
+   "n": 1
+  },
+  {
+   "klang": "pro_zip/up",
+   "wort": "Drehrichtung"
+  },
+  {
+   "klang": "notify/mid_wood",
+   "wort": "synchronisiert"
+  },
+  {
+   "klang": "whoosh_fast/tight",
+   "wort": "hineingeschoben"
+  },
+  {
+   "klang": "downlifter/air_fall",
+   "wort": "stillstehen"
+  },
+  {
+   "klang": "riser/build",
+   "wort": "Tempo",
+   "ausrichtung": "start",
+   "laenge": 1.4
+  },
+  {
+   "klang": "auto/krachen",
+   "wort": "Zähne",
+   "pegel": -14
+  },
+  {
+   "klang": "auto/krachen",
+   "wort": "krachen",
+   "pegel": -15
+  },
+  {
+   "klang": "cut_hit/rumble",
+   "wort": "krachen"
+  },
+  {
+   "klang": "whoosh_big/thump_airy",
+   "wort": "Youtuber",
+   "versatz": -0.15
+  },
+  {
+   "klang": "auto/schalten",
+   "wort": "Händen",
+   "pegel": -14
+  },
+  {
+   "klang": "auto/reifen",
+   "wort": "Hinterräder",
+   "ausrichtung": "start",
+   "pegel": -15
+  },
+  {
+   "klang": "impact/punch",
+   "wort": "Heck",
+   "pegel": -15
+  },
+  {
+   "klang": "swish/bright",
+   "wort": "Motor",
+   "n": 2
+  },
+  {
+   "klang": "pro_pop_in/deep",
+   "wort": "Kupplung"
+  },
+  {
+   "klang": "auto/gong",
+   "wort": "Räder",
+   "pegel": -19
+  },
+  {
+   "klang": "glitch/crush",
+   "wort": "Schaden"
+  },
+  {
+   "klang": "whoosh_big/deep",
+   "wort": "Darum",
+   "versatz": -0.15
+  },
+  {
+   "klang": "downlifter/sub_sink",
+   "wort": "Stillstand",
+   "versatz": -0.6
+  },
+  {
+   "klang": "cut_hit/kick",
+   "wort": "Stillstand"
+  },
+  {
+   "klang": "mallet/up4",
+   "wort": "heil"
+  },
+  {
+   "klang": "cut_hit/punch",
+   "wort": "Kontrolle"
+  },
+  {
+   "klang": "sub_drop/punch",
+   "wort": "Kontrolle",
+   "versatz": 0.05
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "version": "forge_v2r6+forge04r1+fit1+pluck1",
- "anzahl": 263,
+ "anzahl": 270,
  "gruppen": [
   "Whoosh & Wischer",
   "Riser & Spannung",
@@ -16,7 +16,8 @@
   "Glitch & Digital",
   "Kamera",
   "Musikbett",
-  "Atmo & Alarm"
+  "Atmo & Alarm",
+  "Auto & Motor"
  ],
  "klaenge": [
   {
@@ -4872,6 +4873,118 @@
    "spitze_db": -1.0,
    "stimmbar": false,
    "beschreibung_en": "running footsteps on grass",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "auto/fahrt",
+   "gruppe": "Auto & Motor",
+   "art": [
+    "auto"
+   ],
+   "datei": "klaenge/auto/fahrt.wav",
+   "varianten": 1,
+   "dauer": 11.0,
+   "spitze_s": 10.652,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "car interior at ~100 km/h: engine hum, road and wind noise, seamless loop (bed)",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "auto/krachen",
+   "gruppe": "Auto & Motor",
+   "art": [
+    "auto"
+   ],
+   "datei": "klaenge/auto/krachen.wav",
+   "varianten": 1,
+   "dauer": 1.6,
+   "spitze_s": 0.332,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "gearbox grinding: gear teeth clashing",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "auto/reifen",
+   "gruppe": "Auto & Motor",
+   "art": [
+    "auto"
+   ],
+   "datei": "klaenge/auto/reifen.wav",
+   "varianten": 1,
+   "dauer": 2.7,
+   "spitze_s": 0.682,
+   "einsatz_s": 0.012,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "tires screeching",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "auto/piepen",
+   "gruppe": "Auto & Motor",
+   "art": [
+    "auto"
+   ],
+   "datei": "klaenge/auto/piepen.wav",
+   "varianten": 1,
+   "dauer": 2.2,
+   "spitze_s": 0.025,
+   "einsatz_s": 0.02,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "parking sensor beeps getting faster",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "auto/gong",
+   "gruppe": "Auto & Motor",
+   "art": [
+    "auto"
+   ],
+   "datei": "klaenge/auto/gong.wav",
+   "varianten": 1,
+   "dauer": 1.6,
+   "spitze_s": 0.302,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "dashboard warning chime, two tones",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "auto/schalten",
+   "gruppe": "Auto & Motor",
+   "art": [
+    "auto"
+   ],
+   "datei": "klaenge/auto/schalten.wav",
+   "varianten": 1,
+   "dauer": 0.35,
+   "spitze_s": 0.002,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "gear lever clunks into position",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "auto/vorbeifahrt",
+   "gruppe": "Auto & Motor",
+   "art": [
+    "auto"
+   ],
+   "datei": "klaenge/auto/vorbeifahrt.wav",
+   "varianten": 1,
+   "dauer": 3.2,
+   "spitze_s": 1.277,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "car passing by with doppler, left to right",
    "quelle": "gedankenwerk synth (eigene Erzeugung)"
   }
  ]

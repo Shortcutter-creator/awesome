@@ -213,6 +213,101 @@ for i in range(18):
         x[a:a + n] += tiefpass_fft(s, 1400, 2) * r.uniform(0.6, 1)
 schreib(PAKET / "klaenge/atmo/rennen.wav", stereo(x, 0.3, 5))
 
+
+# =====================================================================================
+# Auto & Motor
+# =====================================================================================
+# --- Fahrt bei ~100 km/h im Innenraum: Motorbrummen + Abroll- und Windgeräusch, nahtlos schleifbar ---
+D = 12.0
+t = np.arange(int(D * SR)) / SR
+def ganz(hz):
+    return round(hz * D) / D
+zuend = ganz(83.0)  # 4-Zylinder bei ~2500 U/min
+x = sum(np.sin(2 * np.pi * ganz(zuend * k) * t + k) / k ** 1.2 for k in range(1, 9))
+x *= 0.6 + 0.08 * np.sin(2 * np.pi * t / 3.0)
+rausch = np.random.default_rng(21).standard_normal(len(t))
+x = 0.35 * x + 1.4 * tiefpass_fft(rausch, 500, 2) + 0.25 * tiefpass_fft(rausch, 2500, 1)
+n = SR
+x[:n] = x[:n] * np.linspace(0, 1, n) + x[-n:] * np.linspace(1, 0, n)
+x = x[:-n]
+schreib(PAKET / "klaenge/auto/fahrt.wav", stereo(x, 0.6, 15))
+
+# --- Getriebe kracht: Zähne schlagen aufeinander ----------------------------------------
+dauer = 1.1
+t = np.arange(int(dauer * SR)) / SR
+x = np.zeros(len(t))
+r = np.random.default_rng(22)
+tt0 = 0.0
+while tt0 < 0.85:
+    a = int(tt0 * SR)
+    n = int(0.03 * SR)
+    tt = np.arange(n) / SR
+    klang = sum(np.sin(2 * np.pi * f * tt) for f in (2300 * r.uniform(0.95, 1.05), 3450, 5200 * r.uniform(0.9, 1.1))) * np.exp(-tt * 140)
+    klang += r.standard_normal(n) * np.exp(-tt * 300) * 1.5
+    if a + n < len(x):
+        x[a:a + n] += klang * r.uniform(0.5, 1)
+    tt0 += 1 / r.uniform(70, 110)
+x *= np.minimum(1, t / 0.02) * np.exp(-np.maximum(0, t - 0.7) * 8)
+x += tiefpass_fft(r.standard_normal(len(t)), 1800, 2) * 0.5 * np.exp(-t * 3)
+x = hall(x, 0.5, 0.2, 23)
+schreib(PAKET / "klaenge/auto/krachen.wav", stereo(x, 0.3, 4))
+
+# --- Reifen quietschen ------------------------------------------------------------------
+dauer = 1.8
+t = np.arange(int(dauer * SR)) / SR
+f = 1150 + 90 * np.sin(2 * np.pi * 7 * t) + 60 * np.sin(2 * np.pi * 13 * t)
+ph = 2 * np.pi * np.cumsum(f) / SR
+x = np.sin(ph) + 0.4 * np.sin(2 * ph) + 0.2 * np.sin(3 * ph)
+x += tiefpass_fft(np.random.default_rng(24).standard_normal(len(t)), 3000, 2) * 1.2
+x = blende(x, 0.05, 0.6)
+x = hall(x, 0.9, 0.25, 25)
+schreib(PAKET / "klaenge/auto/reifen.wav", stereo(x, 0.5, 8))
+
+# --- Parksensor piept immer schneller -----------------------------------------------------
+dauer = 2.2
+x = np.zeros(int(dauer * SR))
+t0, abst = 0.02, 0.32
+while t0 < dauer - 0.1:
+    n = int(0.07 * SR)
+    tt = np.arange(n) / SR
+    b = np.sin(2 * np.pi * 2050 * tt) * np.minimum(1, tt / 0.004) * np.minimum(1, (tt[-1] - tt) / 0.006)
+    a = int(t0 * SR)
+    x[a:a + n] += b[: len(x) - a]
+    t0 += abst
+    abst = max(0.09, abst * 0.82)
+schreib(PAKET / "klaenge/auto/piepen.wav", stereo(x, 0.0))
+
+# --- Warngong im Armaturenbrett -----------------------------------------------------------
+t = np.arange(int(1.6 * SR)) / SR
+def gong(t0, hz):
+    tt = np.clip(t - t0, 0, None)
+    return (t >= t0) * (np.sin(2 * np.pi * hz * tt) + 0.3 * np.sin(2 * np.pi * hz * 2.01 * tt)) * np.exp(-tt * 3.2)
+x = gong(0.0, 1318.5) + 0.9 * gong(0.28, 1046.5)
+schreib(PAKET / "klaenge/auto/gong.wav", stereo(x, 0.2, 3))
+
+# --- Schalthebel rastet ein ---------------------------------------------------------------
+t = np.arange(int(0.35 * SR)) / SR
+r = np.random.default_rng(26)
+x = np.sin(2 * np.pi * 95 * t) * np.exp(-t * 28) * 0.9
+x += r.standard_normal(len(t)) * np.exp(-t * 160) * 0.6
+x += np.sin(2 * np.pi * 1700 * t) * np.exp(-t * 60) * 0.25
+x = tiefpass_fft(x, 3500, 2)
+schreib(PAKET / "klaenge/auto/schalten.wav", stereo(x, 0.0))
+
+# --- Auto fährt vorbei (Doppler) ------------------------------------------------------------
+dauer = 3.2
+t = np.arange(int(dauer * SR)) / SR
+nah = 1 / (1 + ((t - 1.5) / 0.45) ** 2)
+f = 95 * (1 + 0.12 * np.tanh(-(t - 1.5) / 0.35))
+ph = 2 * np.pi * np.cumsum(f) / SR
+x = sum(np.sin(k * ph) / k for k in range(1, 7)) * 0.5
+x += tiefpass_fft(np.random.default_rng(27).standard_normal(len(t)), 1200, 2) * 1.6
+x *= nah
+pan = np.clip((t - 1.5) / 1.2, -1, 1)
+links = x * np.sqrt((1 - pan) / 2)
+rechts = x * np.sqrt((1 + pan) / 2)
+schreib(PAKET / "klaenge/auto/vorbeifahrt.wav", np.stack([links, rechts]))
+
 # --- Katalog ergänzen -------------------------------------------------------------
 NEU = {
     "sirene/fern": ("Atmo & Alarm", "distant prison alarm siren, muffled wail with long reverb, slow swell in and out"),
@@ -225,11 +320,19 @@ NEU = {
     "atmo/voegel": ("Atmo & Alarm", "morning birds chirping"),
     "atmo/draht": ("Atmo & Alarm", "metal wire straining and pinging"),
     "atmo/rennen": ("Atmo & Alarm", "running footsteps on grass"),
+    "auto/fahrt": ("Auto & Motor", "car interior at ~100 km/h: engine hum, road and wind noise, seamless loop (bed)"),
+    "auto/krachen": ("Auto & Motor", "gearbox grinding: gear teeth clashing"),
+    "auto/reifen": ("Auto & Motor", "tires screeching"),
+    "auto/piepen": ("Auto & Motor", "parking sensor beeps getting faster"),
+    "auto/gong": ("Auto & Motor", "dashboard warning chime, two tones"),
+    "auto/schalten": ("Auto & Motor", "gear lever clunks into position"),
+    "auto/vorbeifahrt": ("Auto & Motor", "car passing by with doppler, left to right"),
 }
 kp = PAKET / "klaenge/katalog.json"
 kat = json.loads(kp.read_text(encoding="utf-8"))
-if "Atmo & Alarm" not in kat["gruppen"]:
-    kat["gruppen"].append("Atmo & Alarm")
+for g in ("Atmo & Alarm", "Auto & Motor"):
+    if g not in kat["gruppen"]:
+        kat["gruppen"].append(g)
 liste = kat["klaenge"]
 liste[:] = [k for k in liste if k["id"] not in NEU]
 for kid, (gruppe, text) in NEU.items():
