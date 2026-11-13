@@ -71,16 +71,6 @@
    "pegel": -14
   },
   {
-   "klang": "atmo/herzschlag",
-   "t": 23.375,
-   "pegel": -13
-  },
-  {
-   "klang": "atmo/herzschlag",
-   "t": 24.125,
-   "pegel": -14
-  },
-  {
    "klang": "whoosh_fast/whip",
    "wort": "Hand"
   },
@@ -124,8 +114,8 @@
   {
    "klang": "atmo/draht",
    "wort": "Henrik",
-   "ab": 30,
-   "pegel": -20
+   "pegel": -20,
+   "n": 3
   },
   {
    "klang": "atmo/draht",
@@ -143,12 +133,22 @@
   {
    "klang": "impact/blast",
    "wort": "ihn",
-   "ab": 40,
-   "pegel": -14
+   "pegel": -14,
+   "n": 3
   },
   {
    "klang": "impact/deep",
    "wort": "Teil"
+  },
+  {
+   "klang": "atmo/herzschlag",
+   "t": 20.27,
+   "pegel": -13
+  },
+  {
+   "klang": "atmo/herzschlag",
+   "t": 21.02,
+   "pegel": -14
   }
  ]
 }

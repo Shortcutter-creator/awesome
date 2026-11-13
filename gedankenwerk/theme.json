@@ -28,10 +28,10 @@
     "titel_gewicht": 800
   },
   "stimme": {
-    "anbieter": "piper",
-    "voice_id": "de_DE-thorsten-high",
-    "voice_name": "Thorsten",
-    "tempo": 0.91
+    "anbieter": "qwen",
+    "voice_id": "hannes",
+    "voice_name": "Hannes",
+    "tempo": 1.0
   },
   "untertitel": {
     "farbe": "#161616",

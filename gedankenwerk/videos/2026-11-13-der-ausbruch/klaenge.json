@@ -105,21 +105,6 @@
    "wort": "Direkt"
   },
   {
-   "klang": "atmo/herzschlag",
-   "t": 30.571,
-   "pegel": -13
-  },
-  {
-   "klang": "atmo/herzschlag",
-   "t": 31.421,
-   "pegel": -13
-  },
-  {
-   "klang": "atmo/herzschlag",
-   "t": 32.271,
-   "pegel": -14
-  },
-  {
    "klang": "click/snap",
    "wort": "Lichtkegel",
    "versatz": -0.15
@@ -141,13 +126,6 @@
    "ausrichtung": "start",
    "versatz": -0.05,
    "pegel": -17
-  },
-  {
-   "klang": "sirene/nah",
-   "t": 43.833,
-   "ausrichtung": "start",
-   "pegel": -19,
-   "pan": 0.3
   },
   {
    "klang": "whoosh_fast/heavy",
@@ -175,174 +153,171 @@
    "wort": "Teil"
   },
   {
+   "klang": "atmo/herzschlag",
+   "t": 24.96,
+   "pegel": -13
+  },
+  {
+   "klang": "atmo/herzschlag",
+   "t": 25.81,
+   "pegel": -13
+  },
+  {
+   "klang": "atmo/herzschlag",
+   "t": 26.66,
+   "pegel": -14
+  },
+  {
+   "klang": "sirene/nah",
+   "t": 38.04,
+   "ausrichtung": "start",
+   "pegel": -19,
+   "pan": 0.3
+  },
+  {
    "klang": "click/thock",
-   "t": 3.543,
+   "t": 3.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 4.543,
+   "t": 4.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 5.543,
+   "t": 5.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 6.543,
+   "t": 6.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 7.543,
+   "t": 7.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 8.543,
+   "t": 8.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 9.543,
+   "t": 9.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 10.543,
+   "t": 10.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 11.543,
+   "t": 11.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 12.543,
+   "t": 12.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 13.543,
+   "t": 13.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 14.543,
+   "t": 14.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 15.543,
+   "t": 15.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 16.543,
+   "t": 16.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 17.543,
+   "t": 17.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 18.543,
+   "t": 18.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 19.543,
+   "t": 19.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 20.543,
+   "t": 20.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 21.543,
+   "t": 21.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 22.543,
+   "t": 22.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 23.543,
+   "t": 23.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 24.543,
+   "t": 24.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 25.543,
+   "t": 25.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 26.543,
+   "t": 26.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 27.543,
+   "t": 27.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 28.543,
+   "t": 28.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 29.543,
+   "t": 29.07,
    "pegel": -27
   },
   {
    "klang": "click/thock",
-   "t": 30.543,
+   "t": 30.07,
    "pegel": -29
   },
   {
    "klang": "click/thock",
-   "t": 31.543,
+   "t": 31.07,
    "pegel": -27
-  },
-  {
-   "klang": "click/thock",
-   "t": 32.543,
-   "pegel": -29
-  },
-  {
-   "klang": "click/thock",
-   "t": 33.543,
-   "pegel": -27
-  },
-  {
-   "klang": "click/thock",
-   "t": 34.543,
-   "pegel": -29
-  },
-  {
-   "klang": "click/thock",
-   "t": 35.543,
-   "pegel": -27
-  },
-  {
-   "klang": "click/thock",
-   "t": 36.543,
-   "pegel": -29
   }
  ]
 }

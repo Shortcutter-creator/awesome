@@ -1,7 +1,7 @@
 {
  "Länge 60–80 s (Toleranz ±10 s)": {
   "ok": false,
-  "wert": "47.8 s"
+  "wert": "42.1 s"
  },
  "Stimme ab Bild 0 (≤ 0,45 s, lokale Stimme)": {
   "ok": true,
@@ -9,23 +9,23 @@
  },
  "Erster Satz ≤ 3,5 s": {
   "ok": true,
-  "wert": "0.57 s"
+  "wert": "0.42 s"
  },
  "Sprechtempo 4,3–5,6 Silben/s (Ziel ~5,0, lokale Stimme)": {
   "ok": true,
-  "wert": "4.56 Silben/s"
+  "wert": "4.91 Silben/s"
  },
  "Bild-Beats ≥ 0,75 pro Sekunde": {
   "ok": true,
-  "wert": "0.91/s"
+  "wert": "1.04/s"
  },
  "Längste Ruhe ≤ 4 s": {
   "ok": true,
-  "wert": "2.5 s ab 45.3 s"
+  "wert": "2.6 s ab 39.5 s"
  },
  "Schlussbild steht 0,3–8 s nach dem letzten Wort": {
   "ok": true,
-  "wert": "2.9 s"
+  "wert": "3.0 s"
  },
  "Lautheit -14 LUFS (±1)": {
   "ok": true,
@@ -40,8 +40,8 @@
   "wert": "keine"
  },
  "Pause nach jedem Satz (kein harter Schnitt)": {
-  "ok": false,
-  "wert": "40.5 s „draußen.“ → „Aber“"
+  "ok": true,
+  "wert": "überall"
  },
  "Untertitel-Zeiten erkannt (keine 3+ geschätzten Wörter in Folge)": {
   "ok": true,
@@ -49,7 +49,7 @@
  },
  "Geräusche: ≥ 10 verschiedene Klänge": {
   "ok": true,
-  "wert": "68 Klänge, 27 verschiedene"
+  "wert": "63 Klänge, 27 verschiedene"
  },
  "Umlaute echt (kein ae/oe/ue-Ersatz)": {
   "ok": true,
