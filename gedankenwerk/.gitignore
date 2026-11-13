@@ -6,3 +6,5 @@ __pycache__/
 stimmen/*.onnx
 stimmen/*.onnx.json
 videos/*/stimme/
+stimmen/qwen3-*/
+stimmen/klon/eigen-*.wav

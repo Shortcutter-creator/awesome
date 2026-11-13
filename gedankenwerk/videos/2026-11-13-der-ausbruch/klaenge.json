@@ -1,0 +1,348 @@
+{
+ "bett": {
+  "klang": "atmo/drone",
+  "lautstaerke": 0.32
+ },
+ "cues": [
+  {
+   "klang": "impact/deep",
+   "t": 0.12
+  },
+  {
+   "klang": "sirene/fern",
+   "t": 0.4,
+   "ausrichtung": "start",
+   "pegel": -29
+  },
+  {
+   "klang": "cut_hit/sub",
+   "wort": "Männer"
+  },
+  {
+   "klang": "swish/bright",
+   "wort": "Plan"
+  },
+  {
+   "klang": "sub_drop/punch",
+   "wort": "neunzig"
+  },
+  {
+   "klang": "whoosh_big/deep",
+   "wort": "Drei",
+   "n": 1,
+   "versatz": -0.15
+  },
+  {
+   "klang": "reverse_swell/dark",
+   "wort": "Totenstille",
+   "ausrichtung": "spitze"
+  },
+  {
+   "klang": "knock/plastic",
+   "wort": "zieht"
+  },
+  {
+   "klang": "impact/metal",
+   "wort": "Wand",
+   "n": 1,
+   "pegel": -17
+  },
+  {
+   "klang": "sirene/fern",
+   "wort": "Gitter",
+   "ausrichtung": "start",
+   "pegel": -31,
+   "pan": -0.4
+  },
+  {
+   "klang": "riser/dark",
+   "wort": "Dahinter",
+   "ausrichtung": "start",
+   "laenge": 2.0
+  },
+  {
+   "klang": "cut_hit/rumble",
+   "wort": "Schacht"
+  },
+  {
+   "klang": "sub_drop/gritty",
+   "wort": "Schultern"
+  },
+  {
+   "klang": "swish/soft",
+   "wort": "Einer"
+  },
+  {
+   "klang": "click/soft",
+   "wort": "Marco"
+  },
+  {
+   "klang": "click/soft",
+   "wort": "Jonas"
+  },
+  {
+   "klang": "click/soft",
+   "wort": "Henrik",
+   "n": 1
+  },
+  {
+   "klang": "sirene/fern",
+   "wort": "kriechen",
+   "ausrichtung": "start",
+   "pegel": -31,
+   "pan": 0.5,
+   "laenge": 6.5
+  },
+  {
+   "klang": "atmo/schritte",
+   "wort": "Schritte",
+   "ausrichtung": "start",
+   "versatz": -0.2,
+   "pegel": -16
+  },
+  {
+   "klang": "cut_hit/kick",
+   "wort": "Direkt"
+  },
+  {
+   "klang": "atmo/herzschlag",
+   "t": 30.571,
+   "pegel": -13
+  },
+  {
+   "klang": "atmo/herzschlag",
+   "t": 31.421,
+   "pegel": -13
+  },
+  {
+   "klang": "atmo/herzschlag",
+   "t": 32.271,
+   "pegel": -14
+  },
+  {
+   "klang": "click/snap",
+   "wort": "Lichtkegel",
+   "versatz": -0.15
+  },
+  {
+   "klang": "riser/tension",
+   "wort": "Betten",
+   "ausrichtung": "start",
+   "laenge": 1.6
+  },
+  {
+   "klang": "impact/blast",
+   "wort": "Sirene",
+   "pegel": -13
+  },
+  {
+   "klang": "sirene/nah",
+   "wort": "Sirene",
+   "ausrichtung": "start",
+   "versatz": -0.05,
+   "pegel": -17
+  },
+  {
+   "klang": "sirene/nah",
+   "t": 43.833,
+   "ausrichtung": "start",
+   "pegel": -19,
+   "pan": 0.3
+  },
+  {
+   "klang": "whoosh_fast/heavy",
+   "wort": "Drei",
+   "n": 2
+  },
+  {
+   "klang": "cut_hit/punch",
+   "wort": "draußen"
+  },
+  {
+   "klang": "whoosh_big/thump_deep",
+   "wort": "Aber"
+  },
+  {
+   "klang": "sub_drop/long",
+   "wort": "fest"
+  },
+  {
+   "klang": "reverse_swell/cymbal",
+   "wort": "Schafft"
+  },
+  {
+   "klang": "impact/deep",
+   "wort": "Teil"
+  },
+  {
+   "klang": "click/thock",
+   "t": 3.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 4.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 5.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 6.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 7.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 8.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 9.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 10.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 11.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 12.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 13.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 14.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 15.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 16.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 17.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 18.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 19.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 20.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 21.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 22.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 23.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 24.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 25.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 26.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 27.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 28.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 29.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 30.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 31.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 32.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 33.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 34.543,
+   "pegel": -29
+  },
+  {
+   "klang": "click/thock",
+   "t": 35.543,
+   "pegel": -27
+  },
+  {
+   "klang": "click/thock",
+   "t": 36.543,
+   "pegel": -29
+  }
+ ]
+}

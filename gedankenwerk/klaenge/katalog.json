@@ -1,6 +1,6 @@
 {
  "version": "forge_v2r6+forge04r1+fit1+pluck1",
- "anzahl": 253,
+ "anzahl": 258,
  "gruppen": [
   "Whoosh & Wischer",
   "Riser & Spannung",
@@ -15,7 +15,8 @@
   "Zip & Bewegung",
   "Glitch & Digital",
   "Kamera",
-  "Musikbett"
+  "Musikbett",
+  "Atmo & Alarm"
  ],
  "klaenge": [
   {
@@ -4712,6 +4713,86 @@
    "ton_hz": null,
    "beschreibung_en": "seamless ambient music bed loop (221 s), use quietly under the voice",
    "quelle": "eigene Synthese (Gedankenwerk)"
+  },
+  {
+   "id": "sirene/fern",
+   "gruppe": "Atmo & Alarm",
+   "art": [
+    "sirene"
+   ],
+   "datei": "klaenge/sirene/fern.wav",
+   "varianten": 1,
+   "dauer": 11.2,
+   "spitze_s": 4.711,
+   "einsatz_s": 0.475,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "distant prison alarm siren, muffled wail with long reverb, slow swell in and out",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "sirene/nah",
+   "gruppe": "Atmo & Alarm",
+   "art": [
+    "sirene"
+   ],
+   "datei": "klaenge/sirene/nah.wav",
+   "varianten": 1,
+   "dauer": 9.6,
+   "spitze_s": 0.827,
+   "einsatz_s": 0.048,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "prison alarm siren inside the building, bright wail, fast onset",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "atmo/drone",
+   "gruppe": "Atmo & Alarm",
+   "art": [
+    "atmo"
+   ],
+   "datei": "klaenge/atmo/drone.wav",
+   "varianten": 1,
+   "dauer": 23.0,
+   "spitze_s": 1.969,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "dark low suspense drone, seamless loop, usable as background bed",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "atmo/herzschlag",
+   "gruppe": "Atmo & Alarm",
+   "art": [
+    "atmo"
+   ],
+   "datei": "klaenge/atmo/herzschlag.wav",
+   "varianten": 1,
+   "dauer": 0.9,
+   "spitze_s": 0.004,
+   "einsatz_s": 0.0,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "single low heartbeat, lub-dub",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "atmo/schritte",
+   "gruppe": "Atmo & Alarm",
+   "art": [
+    "atmo"
+   ],
+   "datei": "klaenge/atmo/schritte.wav",
+   "varianten": 1,
+   "dauer": 4.6,
+   "spitze_s": 1.781,
+   "einsatz_s": 0.05,
+   "spitze_db": -1.0,
+   "stimmbar": false,
+   "beschreibung_en": "four heavy footsteps in a concrete corridor with reverb",
+   "quelle": "gedankenwerk synth (eigene Erzeugung)"
   }
  ]
 }
