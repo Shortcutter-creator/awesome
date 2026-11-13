@@ -1,4 +1,5 @@
 {
+ "stimme": false,
  "bett": {
   "klang": "musikbett/bett_loop",
   "lautstaerke": 0.15

@@ -1,15 +1,15 @@
 // Video „Disziplin vs. Motivation“: zwei durchsichtige Figuren an zwei Klimmzugstangen vor dunklem Hintergrund.
 // Motivation (links, orange) startet schnell, wird langsamer, lässt los und sitzt am Boden. Disziplin (rechts, blau) zieht gleichmäßig weiter.
+// Ohne Stimme und ohne Untertitel (Wunsch); die Wortzeiten aus woerter.json steuern weiter den Ablauf.
 // Die Wiederholungen plant plan.py aus den Wortzeiten (wiederholungen.json); die Klänge nutzen dieselben Zeiten. Kein Outro.
 import React from "react";
-import { AbsoluteFill, Audio, interpolate, staticFile, useCurrentFrame } from "remotion";
-import { Captions, FPS, HEAD, MONO, at, ease, makeChunks, pop, rgba, type Voice } from "../../basis/lib";
+import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
+import { FPS, HEAD, MONO, at, ease, pop, rgba, type Voice } from "../../basis/lib";
 import daten from "./woerter.json";
 import plan from "./wiederholungen.json";
 
 const V = daten as unknown as Voice;
 const WD = V.words;
-const CHUNKS = makeChunks(WD);
 const A = (w: string, n: number | { ab: number } = 1) => at(WD, w, n);
 
 export const DAUER = Math.ceil((V.dauer + 2.4) * FPS);
@@ -143,7 +143,6 @@ export const Video: React.FC = () => {
   const nachbild = t < aLangsam ? [0.06, 0.12].map((dt) => zug(MOT, t - dt)) : [];
   return (
     <AbsoluteFill style={{ background: BG }}>
-      <Audio src={staticFile(V.audio)} />
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 55%, #0d1422 0%, #04060b 70%)", opacity: ein }} />
       <svg width={1080} height={1920} style={{ position: "absolute", inset: 0, opacity: ein }}>
         <defs>
@@ -194,7 +193,6 @@ export const Video: React.FC = () => {
           ) : null}
         </div>
       ) : null}
-      <Captions t={t} chunks={CHUNKS} dark />
     </AbsoluteFill>
   );
 };

@@ -4,7 +4,7 @@ Aufruf:  python werkzeug/klang.py videos/<ordner>            → videos/<ordner>
          python werkzeug/klang.py videos/<ordner> --liste    → nur die Zeitleiste zeigen (welcher Klang wann)
 render.py ruft das automatisch auf, sobald videos/<ordner>/klaenge.json existiert.
 
-klaenge.json (Beispiel, alle Felder außer „klang“ und Zeit sind freiwillig):
+klaenge.json (Beispiel, alle Felder außer „klang“ und Zeit sind freiwillig; "stimme": false = ohne Sprecher):
 {
   "bett": {"klang": "musikbett/bett_loop", "lautstaerke": 0.19, "wort": "160"},
   "cues": [
@@ -142,7 +142,10 @@ def mische(ordner: Path, laenge: float, aus: Path) -> int:
     eingaben = ["-i", str(stimme)]
     for d in dateien:
         eingaben += ["-i", str(d)]
-    teile, namen = [f"[0:a]aformat=sample_fmts=fltp:sample_rates={SR}:channel_layouts=stereo,apad,atrim=0:{laenge:.3f}[st]"], ["[st]"]
+    # „stimme“: false in klaenge.json → Video ohne Sprecher (Zeiten bleiben, die Stimme wird stumm gemischt)
+    ohne_stimme = json.loads((ordner / "klaenge.json").read_text(encoding="utf-8")).get("stimme", True) is False
+    leise = ",volume=0" if ohne_stimme else ""
+    teile, namen = [f"[0:a]aformat=sample_fmts=fltp:sample_rates={SR}:channel_layouts=stereo,apad,atrim=0:{laenge:.3f}{leise}[st]"], ["[st]"]
     if bett:
         eingaben += ["-stream_loop", "-1", "-i", str(bett["datei"])]
         bi, dauer = len(dateien) + 1, max(0.5, laenge - bett["start"])
