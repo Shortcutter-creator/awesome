@@ -12,3 +12,5 @@ stimmen/klon/eigen-*.wav
 # eigene Stimme: Referenz und Hörprobe bleiben lokal (öffentliches Repo)
 stimmen/klon/eigene.wav
 stimmen/klon/proben/eigene.mp3
+stimmen/klon/eigene_hook.wav
+stimmen/klon/proben/eigene_hook.mp3

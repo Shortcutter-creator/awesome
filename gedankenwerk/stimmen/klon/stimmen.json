@@ -44,5 +44,10 @@
     "datei": "eigene.wav",
     "ref_text": "Doch Jonas Konto schläft nie. Während Kevin in Dubai die Party startet, verdient Jonas im Tiefschlaf. Und während Kevin seinen Lamborghini voll tankt, verdient Jonas unter der Dusche mehr als die ganze Tankfüllung.",
     "label": "Eigene Stimme · aus stimme_original.wav (Referenz bleibt lokal, nicht im Repo)"
+  },
+  "eigene_hook": {
+    "datei": "eigene_hook.wav",
+    "ref_text": "Vierzig Millionen Euro sofort! Oder ein Euro pro Sekunde für ein Jahr? Kevin schnappt sich sofort die vierzig Millionen.",
+    "label": "Eigene Stimme, energisch (Standard) · Referenz: Einstieg von stimme_original.wav, bleibt lokal"
   }
 }

@@ -29,8 +29,8 @@
   },
   "stimme": {
     "anbieter": "qwen",
-    "voice_id": "eigene",
-    "voice_name": "Eigene Stimme",
+    "voice_id": "eigene_hook",
+    "voice_name": "Eigene Stimme (energisch)",
     "tempo": 1.0
   },
   "untertitel": {

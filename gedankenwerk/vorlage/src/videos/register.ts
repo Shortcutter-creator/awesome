@@ -16,10 +16,12 @@ import * as v6 from "./2026-11-13-disziplin-motivation/Video";
 import * as c6 from "./2026-11-13-disziplin-motivation/Cover";
 import * as v7 from "./2026-11-13-rueckwaertsgang-autobahn/Video";
 import * as c7 from "./2026-11-13-rueckwaertsgang-autobahn/Cover";
-import * as v8 from "./2026-11-14-lockvogel-popcorn/Video";
-import * as c8 from "./2026-11-14-lockvogel-popcorn/Cover";
-import * as v9 from "./2026-11-14-sonne-8-minuten/Video";
-import * as c9 from "./2026-11-14-sonne-8-minuten/Cover";
+import * as v8 from "./2026-11-14-hochhaus-menschheit/Video";
+import * as c8 from "./2026-11-14-hochhaus-menschheit/Cover";
+import * as v9 from "./2026-11-14-lockvogel-popcorn/Video";
+import * as c9 from "./2026-11-14-lockvogel-popcorn/Cover";
+import * as v10 from "./2026-11-14-sonne-8-minuten/Video";
+import * as c10 from "./2026-11-14-sonne-8-minuten/Cover";
 
 export type Eintrag = { id: string; Video: React.FC; dauer: number; Cover?: React.FC };
 export const VIDEOS: Eintrag[] = [
@@ -31,6 +33,7 @@ export const VIDEOS: Eintrag[] = [
   { id: "2026-11-13-der-verschwundene-euro-aufloesung", Video: v5.Video, dauer: v5.DAUER, Cover: c5.Cover },
   { id: "2026-11-13-disziplin-motivation", Video: v6.Video, dauer: v6.DAUER, Cover: c6.Cover },
   { id: "2026-11-13-rueckwaertsgang-autobahn", Video: v7.Video, dauer: v7.DAUER, Cover: c7.Cover },
-  { id: "2026-11-14-lockvogel-popcorn", Video: v8.Video, dauer: v8.DAUER, Cover: c8.Cover },
-  { id: "2026-11-14-sonne-8-minuten", Video: v9.Video, dauer: v9.DAUER, Cover: c9.Cover },
+  { id: "2026-11-14-hochhaus-menschheit", Video: v8.Video, dauer: v8.DAUER, Cover: c8.Cover },
+  { id: "2026-11-14-lockvogel-popcorn", Video: v9.Video, dauer: v9.DAUER, Cover: c9.Cover },
+  { id: "2026-11-14-sonne-8-minuten", Video: v10.Video, dauer: v10.DAUER, Cover: c10.Cover },
 ];
