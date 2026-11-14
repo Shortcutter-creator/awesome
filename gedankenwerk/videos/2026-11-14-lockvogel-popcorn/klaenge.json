@@ -1,0 +1,173 @@
+{
+ "bett": {
+  "klang": "musikbett/bett_loop",
+  "lautstaerke": 0.16
+ },
+ "cues": [
+  {
+   "klang": "whoosh_big/swell",
+   "t": 0.05,
+   "pegel": -20
+  },
+  {
+   "klang": "pop/0",
+   "t": 0.3,
+   "pegel": -24
+  },
+  {
+   "klang": "pop/2",
+   "t": 0.55,
+   "pegel": -24
+  },
+  {
+   "klang": "pop/4",
+   "t": 0.9,
+   "pegel": -24
+  },
+  {
+   "klang": "pop/1",
+   "t": 1.3,
+   "pegel": -24
+  },
+  {
+   "klang": "pop/3",
+   "t": 1.75,
+   "pegel": -24
+  },
+  {
+   "klang": "pop/0",
+   "t": 2.3,
+   "pegel": -24
+  },
+  {
+   "klang": "pop/2",
+   "t": 2.8,
+   "pegel": -24
+  },
+  {
+   "klang": "hotel/muenze",
+   "wort": "Geld"
+  },
+  {
+   "klang": "cut_hit/punch",
+   "wort": "Geld",
+   "pegel": -17
+  },
+  {
+   "klang": "pro_pop_in/round",
+   "wort": "siehst"
+  },
+  {
+   "klang": "pro_pop_in/round",
+   "wort": "drei"
+  },
+  {
+   "klang": "pro_pop_in/deep",
+   "wort": "Größen"
+  },
+  {
+   "klang": "notify/mid_wood",
+   "wort": "Welche"
+  },
+  {
+   "klang": "swish/soft",
+   "wort": "kleine",
+   "n": 1
+  },
+  {
+   "klang": "mallet/marimba",
+   "wort": "Euro",
+   "n": 1,
+   "ton": "E5"
+  },
+  {
+   "klang": "pro_pop_in/knock",
+   "wort": "2,50"
+  },
+  {
+   "klang": "ui_pop/soft",
+   "wort": "greifst"
+  },
+  {
+   "klang": "downlifter/air_fall",
+   "wort": "Plan",
+   "versatz": -0.2
+  },
+  {
+   "klang": "pro_shimmer/m2",
+   "wort": "kleine",
+   "n": 2
+  },
+  {
+   "klang": "knock/desk",
+   "wort": "verkauft"
+  },
+  {
+   "klang": "mallet/up4",
+   "wort": "Schnäppchen"
+  },
+  {
+   "klang": "impact/deep",
+   "wort": "Lockvogel-Effekt",
+   "pegel": -17
+  },
+  {
+   "klang": "pro_zip/up",
+   "wort": "Klein"
+  },
+  {
+   "klang": "pro_zip/down",
+   "wort": "Groß"
+  },
+  {
+   "klang": "hotel/muenze",
+   "wort": "zahlen"
+  },
+  {
+   "klang": "hotel/muenze",
+   "wort": "zahlen",
+   "versatz": 0.2,
+   "pegel": -22
+  },
+  {
+   "klang": "whoosh_big/deep",
+   "wort": "Achte",
+   "versatz": -0.2
+  },
+  {
+   "klang": "ui_pop/soft",
+   "wort": "Kaffeegrößen"
+  },
+  {
+   "klang": "ui_pop/soft",
+   "wort": "Abos"
+  },
+  {
+   "klang": "ui_pop/soft",
+   "wort": "Handytarife"
+  },
+  {
+   "klang": "mallet/flourish",
+   "wort": "Überall"
+  },
+  {
+   "klang": "ui_pop/wide",
+   "t": 50.644
+  },
+  {
+   "klang": "click/thock",
+   "t": 7.927,
+   "pegel": -22
+  },
+  {
+   "klang": "click/thock",
+   "t": 8.427,
+   "pegel": -22
+  },
+  {
+   "klang": "click/thock",
+   "t": 8.927,
+   "pegel": -22
+  }
+ ]
+}
