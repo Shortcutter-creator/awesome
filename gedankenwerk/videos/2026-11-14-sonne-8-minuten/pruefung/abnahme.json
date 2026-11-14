@@ -16,12 +16,12 @@
   "wert": "5.48 Silben/s"
  },
  "Bild-Beats ≥ 0,75 pro Sekunde": {
-  "ok": true,
-  "wert": "1.13/s"
+  "ok": false,
+  "wert": "0.30/s"
  },
  "Längste Ruhe ≤ 4 s": {
-  "ok": true,
-  "wert": "3.0 s ab 45.3 s"
+  "ok": false,
+  "wert": "7.2 s ab 29.3 s"
  },
  "Schlussbild steht 0,3–8 s nach dem letzten Wort": {
   "ok": true,

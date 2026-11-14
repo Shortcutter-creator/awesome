@@ -1,14 +1,13 @@
 // Video „Was passiert, wenn die Sonne 8 Minuten verschwindet?“ – Gedankenexperiment, Skript des Nutzers (zwei Wörter präzisiert).
-// Simulierte Zeit: 0:00 Sonne weg · 8:00 Sonne zurück · 8:20 bei uns dunkel · 16:20 bei uns wieder hell. Kein Outro.
+// Ohne Untertitel (Wunsch). Simulierte Zeit: 0:00 Sonne weg · 8:00 Sonne zurück · 8:20 bei uns dunkel · 16:20 bei uns wieder hell. Kein Outro.
 import React from "react";
 import { AbsoluteFill, Audio, interpolate, staticFile, useCurrentFrame } from "remotion";
-import { Captions, FPS, HEAD, MONO, at, clamp, ease, makeChunks, pop, rgba, type Voice } from "../../basis/lib";
+import { FPS, HEAD, MONO, at, clamp, ease, pop, rgba, type Voice } from "../../basis/lib";
 import { ALL, BLAU, CREME, Erde, Mond, SONNE, Sonne, Sterne, Stadt, Thermometer, Uhr, Voegel, kamera, sz } from "../../bausteine/weltall/teile";
 import daten from "./woerter.json";
 
 const V = daten as unknown as Voice;
 const WD = V.words;
-const CHUNKS = makeChunks(WD);
 const Z = (n: number) => V.zeilen[Math.min(n, V.zeilen.length - 1)].s;
 const A = (w: string, n: number | { ab: number } = 1) => at(WD, w, n);
 
@@ -240,7 +239,6 @@ export const Video: React.FC = () => {
       </AbsoluteFill>
       <Uhr sekunden={sim(t)} o={uhrO} titel="SEIT DIE SONNE VERSCHWAND" />
       <div style={{ position: "absolute", top: 190, right: 96, fontFamily: MONO, fontSize: 26, letterSpacing: 3, color: rgba(CREME, 0.6), textTransform: "uppercase" }}>Gedankenexperiment</div>
-      <Captions t={t} chunks={CHUNKS} dark />
     </AbsoluteFill>
   );
 };
