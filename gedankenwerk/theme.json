@@ -29,8 +29,8 @@
   },
   "stimme": {
     "anbieter": "qwen",
-    "voice_id": "hannes",
-    "voice_name": "Hannes",
+    "voice_id": "eigene",
+    "voice_name": "Eigene Stimme",
     "tempo": 1.0
   },
   "untertitel": {

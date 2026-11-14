@@ -8,3 +8,7 @@ stimmen/*.onnx.json
 videos/*/stimme/
 stimmen/qwen3-*/
 stimmen/klon/eigen-*.wav
+
+# eigene Stimme: Referenz und Hörprobe bleiben lokal (öffentliches Repo)
+stimmen/klon/eigene.wav
+stimmen/klon/proben/eigene.mp3

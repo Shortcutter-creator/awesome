@@ -1,7 +1,7 @@
 {
  "Länge 60–80 s (Toleranz ±10 s)": {
   "ok": false,
-  "wert": "48.3 s"
+  "wert": "48.0 s"
  },
  "Stimme ab Bild 0 (≤ 0,45 s, lokale Stimme)": {
   "ok": true,
@@ -9,19 +9,19 @@
  },
  "Erster Satz ≤ 3,5 s": {
   "ok": true,
-  "wert": "1.45 s"
+  "wert": "1.58 s"
  },
  "Sprechtempo 4,3–5,6 Silben/s (Ziel ~5,0, lokale Stimme)": {
   "ok": true,
-  "wert": "5.48 Silben/s"
+  "wert": "5.54 Silben/s"
  },
  "Bild-Beats ≥ 0,75 pro Sekunde": {
   "ok": false,
-  "wert": "0.30/s"
+  "wert": "0.32/s"
  },
  "Längste Ruhe ≤ 4 s": {
   "ok": false,
-  "wert": "7.2 s ab 29.3 s"
+  "wert": "10.2 s ab 9.2 s"
  },
  "Schlussbild steht 0,3–8 s nach dem letzten Wort": {
   "ok": true,
@@ -29,7 +29,7 @@
  },
  "Lautheit -14 LUFS (±1)": {
   "ok": true,
-  "wert": "-14.2 LUFS"
+  "wert": "-14.3 LUFS"
  },
  "Szenenplan mit Bausteinen (szenenplan.md)": {
   "ok": true,
