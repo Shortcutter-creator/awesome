@@ -1,0 +1,124 @@
+{
+ "bett": {
+  "klang": "atmo/drone",
+  "lautstaerke": 0.22
+ },
+ "cues": [
+  {
+   "klang": "whoosh_big/reverse",
+   "wort": "verschwunden",
+   "ausrichtung": "spitze"
+  },
+  {
+   "klang": "sub_drop/long",
+   "wort": "verschwunden",
+   "versatz": 0.2,
+   "pegel": -20
+  },
+  {
+   "klang": "riser/swell",
+   "wort": "Licht",
+   "n": 1,
+   "ausrichtung": "start",
+   "laenge": 4.0,
+   "pegel": -24
+  },
+  {
+   "klang": "ui_pop/soft",
+   "wort": "acht",
+   "n": 1
+  },
+  {
+   "klang": "pro_shimmer/m1",
+   "wort": "scheint"
+  },
+  {
+   "klang": "pro_zip/arc",
+   "wort": "Schwerkraft"
+  },
+  {
+   "klang": "riser/tension",
+   "wort": "kreist",
+   "ausrichtung": "start",
+   "laenge": 3.3,
+   "pegel": -22
+  },
+  {
+   "klang": "cut_hit/sub",
+   "wort": "dunkel",
+   "n": 1,
+   "pegel": -14
+  },
+  {
+   "klang": "downlifter/sub_sink",
+   "wort": "dunkel",
+   "n": 1,
+   "versatz": 0.1
+  },
+  {
+   "klang": "atmo/voegel",
+   "wort": "verstummen",
+   "versatz": -4.2,
+   "ausrichtung": "start",
+   "laenge": 4.3,
+   "pegel": -19
+  },
+  {
+   "klang": "whoosh_big/deep",
+   "wort": "Nacht"
+  },
+  {
+   "klang": "shimmer/m3",
+   "wort": "Sterne"
+  },
+  {
+   "klang": "downlifter/air_fall",
+   "wort": "kühler"
+  },
+  {
+   "klang": "whoosh_big/swell",
+   "wort": "Gleichzeitig",
+   "versatz": -0.2
+  },
+  {
+   "klang": "pro_zip/up",
+   "wort": "geradeaus"
+  },
+  {
+   "klang": "mallet/marimba",
+   "wort": "700",
+   "ton": "E5"
+  },
+  {
+   "klang": "logo_sting/reverse_bloom",
+   "wort": "hell",
+   "ausrichtung": "spitze"
+  },
+  {
+   "klang": "impact/swell",
+   "wort": "hell",
+   "versatz": 0.05,
+   "pegel": -16
+  },
+  {
+   "klang": "reverse_swell/ring",
+   "wort": "Verrückte",
+   "ausrichtung": "spitze"
+  },
+  {
+   "klang": "pro_pop_in/round",
+   "wort": "dunkel",
+   "n": 2
+  },
+  {
+   "klang": "cut_hit/punch",
+   "wort": "schon",
+   "pegel": -16
+  },
+  {
+   "klang": "mallet/flourish",
+   "wort": "schon",
+   "versatz": 0.2
+  }
+ ]
+}
