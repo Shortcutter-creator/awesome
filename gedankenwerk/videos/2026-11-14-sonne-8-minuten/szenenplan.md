@@ -1,6 +1,7 @@
 # Szenenplan – Was passiert, wenn die Sonne 8 Minuten verschwindet?
 
-Skript des Nutzers (zwei Wörter präzisiert, siehe quellen.md). 61 s, Stimme Hannes, Tempo 0,88 → 129 Wörter/Minute. Kein Outro.
+Skript des Nutzers (zwei Wörter präzisiert, siehe quellen.md), Einstieg auf Wunsch spannender umgeschrieben. Ca. 48 s, Stimme Jonas (jung, energisch), Tempo 1,05 → 5,5 Silben/s. Kein Outro.
+Einstieg: „Die Sonne ist gerade verschwunden. Einfach weg. / Und du merkst: nichts. / Denn ihr Licht ist noch unterwegs, gut acht Minuten bis zur Erde. / Bis dahin scheint sie ganz normal weiter. Noch.“ – große Wörter WEG. / NICHTS. / NOCH., Herzschlag und Riser.
 Simulierte Uhr oben links: 0:00 Sonne weg · 8:00 Sonne zurück · 8:20 bei uns dunkel · 16:20 wieder hell.
 Bausteine: `bausteine/weltall/teile.tsx`. Ton: Weltraum-Bett (tonal, ohne Rauschen), Sog beim Erlöschen, Riser, Blackout-Schlag, Vögel verstummen hörbar, Leuchtklang bei Rückkehr.
 

@@ -16,6 +16,9 @@ export const DAUER = Math.ceil((V.dauer + 2.8) * FPS);
 
 const aVerschwunden = A("verschwunden");
 const aMerkst = A("merkst");
+const aWeg = A("weg", 1);
+const aNichts = A("nichts", 1);
+const aNoch = A("noch", 2);
 const aAcht = A("acht", 1);
 const aScheint = A("scheint");
 const aSchwerkraft = A("Schwerkraft");
@@ -36,7 +39,7 @@ const aVerrueckt = A("Verrückte");
 const aDunkel2 = A("dunkel", 2);
 const aSchon = A("schon");
 
-const KAMERA = [aVerschwunden, aMerkst, aAcht, aScheint, aSchwerkraft, aKreist, aDunkel, aNacht, aMond, aSterne, aVerstummen, aKuehl, aHalt, aGeradeaus, aAcht2, a700, aHell, aVerrueckt, aDunkel2, aSchon];
+const KAMERA = [aVerschwunden, A("weg", 1), A("nichts", 1), A("noch", 2), aMerkst, aAcht, aScheint, aSchwerkraft, aKreist, aDunkel, aNacht, aMond, aSterne, aVerstummen, aKuehl, aHalt, aGeradeaus, aAcht2, a700, aHell, aVerrueckt, aDunkel2, aSchon];
 
 // Simulierte Sekunden seit dem Verschwinden der Sonne
 const T0 = aVerschwunden;
@@ -86,6 +89,15 @@ const Raum: React.FC<{ t: number; o: number; zurueck?: boolean }> = ({ t, o, zur
         <Sonne x={SX} y={SY} r={90} an={sonneAn} t={t} />
         <Erde x={ex} y={ey} r={95} licht={erdeHell} richtung={RICHTUNG} t={t} id="raum" />
       </svg>
+      {!zurueck && t >= aWeg - 0.05 && t < aNichts - 0.1 ? (
+        <div style={{ position: "absolute", left: 540, top: 700, transform: `translateX(-50%) scale(${pop(t, aWeg - 0.05, 240, 10)})`, fontFamily: HEAD, fontWeight: 900, fontSize: 130, letterSpacing: 6, color: SONNE, textShadow: `0 0 40px ${rgba(SONNE, 0.7)}` }}>WEG.</div>
+      ) : null}
+      {!zurueck && t >= aNichts - 0.05 && t < aAcht - 0.2 ? (
+        <div style={{ position: "absolute", left: 540, top: 700, transform: `translateX(-50%) scale(${pop(t, aNichts - 0.05, 240, 10)})`, fontFamily: HEAD, fontWeight: 900, fontSize: 130, letterSpacing: 6, color: CREME, textShadow: "0 6px 30px rgba(0,0,0,0.9)" }}>NICHTS.</div>
+      ) : null}
+      {!zurueck && t >= aNoch - 0.05 && t < aSchwerkraft - 0.3 ? (
+        <div style={{ position: "absolute", left: 540, top: 700, transform: `translateX(-50%) scale(${pop(t, aNoch - 0.05, 240, 10)})`, fontFamily: HEAD, fontWeight: 900, fontSize: 96, color: "#ff5a5a", textShadow: "0 0 30px rgba(255,90,90,0.6)" }}>NOCH.</div>
+      ) : null}
       {t >= aAcht - 0.1 && t < aSchwerkraft - 0.2 ? (
         <div style={{ position: "absolute", left: 540, top: 1260, transform: `translateX(-50%) scale(${pop(t, aAcht - 0.1, 210, 12)})`, fontFamily: HEAD, fontWeight: 900, fontSize: 60, color: SONNE, whiteSpace: "nowrap" }}>Licht: 8 min 20 s</div>
       ) : null}
@@ -132,15 +144,15 @@ const OX = 540, OY = -600, OR = 1500;
 const bahnY = (x: number) => OY + Math.sqrt(OR * OR - (x - OX) ** 2);
 const Geradeaus: React.FC<{ t: number; o: number }> = ({ t, o }) => {
   if (o <= 0) return null;
-  const lauf = ease(t, Z(9) - 0.2, Z(11) + 1.0);
+  const lauf = ease(t, Z(10) - 0.2, Z(12) + 1.0);
   const xStart = 230;
   const xHalt = 400;
   // bis „Halt“ auf der Bahn, danach geradeaus auf der Tangente
-  const k = lin(t, Z(9) - 0.2, aHalt);
+  const k = lin(t, Z(10) - 0.2, aHalt);
   const xa = interpolate(k, [0, 1], [xStart, xHalt]);
   const tx = xHalt, ty = bahnY(xHalt);
   const steig = -(tx - OX) / Math.sqrt(OR * OR - (tx - OX) ** 2); // dy/dx der Bahn
-  const nachHalt = t >= aHalt ? interpolate(t, [aHalt, Z(12)], [0, 440], clamp) : 0;
+  const nachHalt = t >= aHalt ? interpolate(t, [aHalt, Z(13)], [0, 440], clamp) : 0;
   const ex = t < aHalt ? xa : tx + nachHalt;
   const ey = t < aHalt ? bahnY(xa) : ty + steig * nachHalt;
   const gx = tx + nachHalt, gy = bahnY(tx + nachHalt);
@@ -178,7 +190,7 @@ const Pointe: React.FC<{ t: number; o: number }> = ({ t, o }) => {
   if (o <= 0) return null;
   const X0 = 170, X1 = 850, MAX = 17 * 60;
   const xs = (sek: number) => X0 + (sek / MAX) * (X1 - X0);
-  const zeichne = ease(t, Z(14) - 0.2, Z(14) + 0.8);
+  const zeichne = ease(t, Z(15) - 0.2, Z(15) + 0.8);
   const marker = t >= aDunkel2 - 0.1 ? ease(t, aDunkel2 - 0.1, aDunkel2 + 0.3) : 0;
   const reihe = (y: number, titel: string, segs: [number, number, string][]) => (
     <g>
@@ -215,16 +227,16 @@ const Pointe: React.FC<{ t: number; o: number }> = ({ t, o }) => {
 export const Video: React.FC = () => {
   const t = useCurrentFrame() / FPS;
   const k = kamera(t, KAMERA);
-  const uhrO = t < T0 ? 0 : Math.min(ease(t, T0, T0 + 0.3), 1 - ease(t, Z(14) - 0.3, Z(14)));
+  const uhrO = t < T0 ? 0 : Math.min(ease(t, T0, T0 + 0.3), 1 - ease(t, Z(15) - 0.3, Z(15)));
   return (
     <AbsoluteFill style={{ background: ALL, overflow: "hidden" }}>
       <Audio src={staticFile(V.audio)} />
       <AbsoluteFill style={{ transform: `scale(${k})`, transformOrigin: "540px 840px" }}>
-        <Raum t={t} o={sz(t, 0, Z(6))} />
-        <Nacht t={t} o={sz(t, Z(6), Z(9))} />
-        <Geradeaus t={t} o={sz(t, Z(9), Z(12))} />
-        <Raum t={t} o={sz(t, Z(12), Z(14))} zurueck />
-        <Pointe t={t} o={sz(t, Z(14), 999)} />
+        <Raum t={t} o={sz(t, 0, Z(7))} />
+        <Nacht t={t} o={sz(t, Z(7), Z(10))} />
+        <Geradeaus t={t} o={sz(t, Z(10), Z(13))} />
+        <Raum t={t} o={sz(t, Z(13), Z(15))} zurueck />
+        <Pointe t={t} o={sz(t, Z(15), 999)} />
       </AbsoluteFill>
       <Uhr sekunden={sim(t)} o={uhrO} titel="SEIT DIE SONNE VERSCHWAND" />
       <div style={{ position: "absolute", top: 190, right: 96, fontFamily: MONO, fontSize: 26, letterSpacing: 3, color: rgba(CREME, 0.6), textTransform: "uppercase" }}>Gedankenexperiment</div>

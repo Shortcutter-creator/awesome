@@ -119,6 +119,40 @@
    "klang": "mallet/flourish",
    "wort": "schon",
    "versatz": 0.2
+  },
+  {
+   "klang": "cut_hit/kick",
+   "wort": "weg",
+   "n": 1,
+   "pegel": -15
+  },
+  {
+   "klang": "atmo/herzschlag",
+   "wort": "nichts",
+   "n": 1,
+   "ende": true,
+   "versatz": 0.1,
+   "pegel": -13
+  },
+  {
+   "klang": "atmo/herzschlag",
+   "wort": "nichts",
+   "n": 1,
+   "ende": true,
+   "versatz": 0.85,
+   "pegel": -14
+  },
+  {
+   "klang": "reverse_swell/dark",
+   "wort": "Noch",
+   "ausrichtung": "spitze",
+   "n": 2
+  },
+  {
+   "klang": "cut_hit/sub",
+   "wort": "Noch",
+   "pegel": -15,
+   "n": 2
   }
  ]
 }
