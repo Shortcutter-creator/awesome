@@ -1,4 +1,4 @@
-Du fährst {100|hundert} und legst den Ganghebel auf… R.
+Du fährst {100|hundert} und legst den Ganghebel auf R.
 Geht jetzt der Motor kaputt? [pause 1.0]
 Bei den meisten Autos passiert: fast nichts.
 Ein Ford mit Automatik wurde bei {113 km/h|hundertdreizehn Kilometern pro Stunde} getestet.
