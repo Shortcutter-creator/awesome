@@ -1,0 +1,1 @@
+Hier legt Claude deine Videos ab: je Video ein Ordner <Datum>-<Thema> mit video.mp4, cover.jpg und caption.txt.

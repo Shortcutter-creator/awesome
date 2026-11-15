@@ -1,0 +1,147 @@
+{
+ "bett": {
+  "klang": "musikbett/bett_loop",
+  "lautstaerke": 0.17
+ },
+ "cues": [
+  {
+   "klang": "atmo/schritte",
+   "t": 0.1,
+   "ausrichtung": "start",
+   "pegel": -24
+  },
+  {
+   "klang": "ui_pop/soft",
+   "wort": "30",
+   "n": 1,
+   "versatz": -0.1
+  },
+  {
+   "klang": "mallet/marimba",
+   "wort": "30",
+   "n": 1,
+   "ton": "C5"
+  },
+  {
+   "klang": "hotel/schein",
+   "wort": "Jeder",
+   "n": 1,
+   "versatz": -0.05
+  },
+  {
+   "klang": "hotel/schein",
+   "wort": "zahlt"
+  },
+  {
+   "klang": "hotel/schein",
+   "wort": "10",
+   "versatz": 0.15
+  },
+  {
+   "klang": "hotel/klingel",
+   "wort": "Zimmer",
+   "n": 2,
+   "pegel": -18
+  },
+  {
+   "klang": "swish/soft",
+   "wort": "Rezeptionist"
+  },
+  {
+   "klang": "pro_pop_in/round",
+   "wort": "heute"
+  },
+  {
+   "klang": "knock/desk",
+   "wort": "25"
+  },
+  {
+   "klang": "mallet/marimba",
+   "wort": "25",
+   "ton": "G4"
+  },
+  {
+   "klang": "whoosh_fast/tight",
+   "wort": "Pagen",
+   "n": 1
+  },
+  {
+   "klang": "hotel/muenze",
+   "wort": "5",
+   "n": 1
+  },
+  {
+   "klang": "hotel/aufzug",
+   "wort": "Doch",
+   "versatz": -0.4,
+   "pegel": -18
+  },
+  {
+   "klang": "notify/mid_wood",
+   "wort": "teilen"
+  },
+  {
+   "klang": "hotel/muenze",
+   "wort": "jedem"
+  },
+  {
+   "klang": "hotel/muenze",
+   "wort": "jedem",
+   "versatz": 0.18,
+   "pegel": -22
+  },
+  {
+   "klang": "hotel/muenze",
+   "wort": "jedem",
+   "versatz": 0.36,
+   "pegel": -22
+  },
+  {
+   "klang": "swish/soft",
+   "wort": "behält"
+  },
+  {
+   "klang": "hotel/muenze",
+   "wort": "behält",
+   "versatz": 0.6,
+   "pegel": -24
+  },
+  {
+   "klang": "swish/bright",
+   "wort": "Jeder",
+   "n": 2,
+   "versatz": -0.3
+  },
+  {
+   "klang": "mallet/marimba",
+   "wort": "27",
+   "ton": "C5"
+  },
+  {
+   "klang": "pro_pop_in/deep",
+   "wort": "Plus"
+  },
+  {
+   "klang": "impact/deep",
+   "wort": "29",
+   "pegel": -18
+  },
+  {
+   "klang": "downlifter/air_fall",
+   "wort": "Anfang"
+  },
+  {
+   "klang": "reverse_swell/ring",
+   "wort": "Wo"
+  },
+  {
+   "klang": "cut_hit/sub",
+   "wort": "fehlende"
+  },
+  {
+   "klang": "ui_pop/wide",
+   "wort": "fehlende",
+   "versatz": 0.5
+  }
+ ]
+}

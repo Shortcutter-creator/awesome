@@ -1,0 +1,33 @@
+{
+ "bett": {"klang": "musikbett/bett_loop", "lautstaerke": 0.15},
+ "cues": [
+  {"klang": "auto/vorbeifahrt", "t": 0.0, "pegel": -22},
+  {"klang": "ui_pop/soft", "wort": "Egoist"},
+  {"klang": "pop/2", "t": 0.3, "pegel": -24},
+  {"klang": "pop/3", "t": 0.75, "pegel": -24},
+  {"klang": "cut_hit/punch", "wort": "Falsch", "pegel": -15},
+  {"klang": "mallet/up4", "wort": "richtig"},
+  {"klang": "knock/desk", "wort": "Pflicht", "pegel": -17},
+  {"klang": "whoosh_big/swell", "wort": "Eine", "n": 1, "versatz": -0.3, "pegel": -21},
+  {"klang": "ui_pop/wide", "wort": "zweispurige"},
+  {"klang": "pro_pop_in/round", "wort": "Baustelle"},
+  {"klang": "knock/wood", "wort": "endet", "pegel": -18},
+  {"klang": "whoosh_fast/whip", "wort": "Jetzt", "n": 1, "versatz": -0.2},
+  {"klang": "auto/schalten", "wort": "früh", "pegel": -24},
+  {"klang": "pro_pop_in/deep", "wort": "leer"},
+  {"klang": "auto/reifen", "wort": "gebremst", "pegel": -24},
+  {"klang": "riser/build", "wort": "wächst", "n": 1, "ausrichtung": "start", "laenge": 1.6, "pegel": -22},
+  {"klang": "cut_hit/sub", "wort": "hinten"},
+  {"klang": "whoosh_big/swell", "wort": "Und", "ab": 22.0, "versatz": -0.3, "pegel": -21},
+  {"klang": "pro_pop_in/round", "wort": "beide", "n": 1},
+  {"klang": "mallet/marimba", "wort": "links"},
+  {"klang": "mallet/up4", "wort": "rechts", "ab": 29.0},
+  {"klang": "pro_zip/up", "wort": "Reißverschluss"},
+  {"klang": "whoosh_fast/whip", "wort": "Der", "ab": 30.8, "versatz": -0.2},
+  {"klang": "ui_pop/wide", "wort": "halb"},
+  {"klang": "pro_shimmer/m2", "wort": "gerechter"},
+  {"klang": "ui_pop/soft", "wort": "vorne", "ab": 38.0},
+  {"klang": "ui_pop/wide", "wort": "einfädeln"},
+  {"klang": "logo_sting/soft_bloom", "wort": "lass", "ab": 41.0, "pegel": -20}
+ ]
+}

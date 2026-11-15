@@ -1,0 +1,35 @@
+{
+  "_beschreibung": "Laut und freundlich: Vanillegelb, Pink, kräftige Grotesk. Für Rätsel und Unterhaltung.",
+  "farben": {
+    "hintergrund": "#fff4d6",
+    "flaeche": "#ffffff",
+    "raster": "rgba(27,27,27,0.06)",
+    "text": "#1b1b1b",
+    "text_leise": "#6a6150",
+    "linie": "#efdfb4",
+    "akzent": "#ff3d7f",
+    "markierung": "#00c2ff",
+    "positiv": "#00a862",
+    "negativ": "#ff3b30",
+    "dunkel_hintergrund": "#1b1035",
+    "dunkel_text": "#fff4d6",
+    "dunkel_akzent": "#ffd23f"
+  },
+  "schrift": {
+    "titel": "Bricolage Grotesque",
+    "text": "Nunito",
+    "mono": "JetBrains Mono",
+    "titel_gewicht": 800
+  },
+  "untertitel": {
+    "farbe": "#1b1b1b",
+    "pille": "#ffffff",
+    "aktiv": "#ff3d7f"
+  },
+  "mechanik_wechsel": {
+    "art": "dunkel"
+  },
+  "figur": {
+    "farbe": "#ff3d7f"
+  }
+}

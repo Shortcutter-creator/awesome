@@ -1,0 +1,12 @@
+Drei Freunde wollen eine Nacht im Hotel verbringen.
+Das Zimmer kostet {30 Euro|dreißig Euro}. [pause 0.8]
+Jeder zahlt {10 Euro|zehn Euro} und geht aufs Zimmer. [pause 0.8]
+Dann merkt der Rezeptionist: Das Zimmer kostet heute nur {25 Euro|fünfundzwanzig Euro}.
+Er gibt dem Pagen {5 Euro|fünf Euro}, um sie zurückzubringen. [pause 0.8]
+Doch {5 Euro|fünf Euro} lassen sich schlecht durch drei teilen.
+Also gibt er jedem {1 Euro|einen Euro} zurück und behält {2 Euro|zwei Euro} für sich. [pause 0.8]
+Jeder hat also {9 Euro|neun Euro} bezahlt.
+{3|Drei} mal {9|neun} sind {27|siebenundzwanzig}.
+Plus die {2 Euro|zwei Euro} des Pagen macht {29|neunundzwanzig}. [pause 0.8]
+Aber am Anfang waren es {30 Euro|dreißig Euro}.
+Wo ist der fehlende Euro? [pause 1.5]

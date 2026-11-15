@@ -1,0 +1,20 @@
+{
+  "name": "gedankenwerk-vorlage",
+  "private": true,
+  "description": "Animations-Vorlage von Gedankenwerk (Remotion). Nicht von Hand starten: Claude ruft sie über werkzeug/ auf.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "pruefen": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.484",
+    "@remotion/google-fonts": "4.0.484",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.484"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}

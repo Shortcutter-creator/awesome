@@ -1,0 +1,16 @@
+# lokal erzeugt, nicht ins Repo
+vorlage/node_modules/
+vorlage/public/
+werkzeug/.venv/
+__pycache__/
+stimmen/*.onnx
+stimmen/*.onnx.json
+videos/*/stimme/
+stimmen/qwen3-*/
+stimmen/klon/eigen-*.wav
+
+# eigene Stimme: Referenz und Hörprobe bleiben lokal (öffentliches Repo)
+stimmen/klon/eigene.wav
+stimmen/klon/proben/eigene.mp3
+stimmen/klon/eigene_hook.wav
+stimmen/klon/proben/eigene_hook.mp3

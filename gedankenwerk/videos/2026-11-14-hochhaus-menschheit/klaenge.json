@@ -1,0 +1,169 @@
+{
+ "bett": {
+  "klang": "musikbett/bett_loop",
+  "lautstaerke": 0.16
+ },
+ "cues": [
+  {
+   "klang": "whoosh_big/swell",
+   "t": 0.05,
+   "pegel": -19
+  },
+  {
+   "klang": "impact/deep",
+   "wort": "Haus",
+   "n": 1,
+   "pegel": -16
+  },
+  {
+   "klang": "mallet/up4",
+   "wort": "Blanc"
+  },
+  {
+   "klang": "ui_pop/soft",
+   "wort": "8,2"
+  },
+  {
+   "klang": "ui_pop/wide",
+   "wort": "20"
+  },
+  {
+   "klang": "pro_zip/up",
+   "wort": "Paris"
+  },
+  {
+   "klang": "riser/build",
+   "wort": "1.500",
+   "ausrichtung": "start",
+   "laenge": 2.4
+  },
+  {
+   "klang": "cut_hit/punch",
+   "wort": "fünfeinhalb",
+   "pegel": -15
+  },
+  {
+   "klang": "whoosh_fast/tight",
+   "wort": "Stadt"
+  },
+  {
+   "klang": "ui_pop/soft",
+   "wort": "Bewohnern"
+  },
+  {
+   "klang": "pro_shimmer/m2",
+   "wort": "künstliche"
+  },
+  {
+   "klang": "whoosh_big/thump_airy",
+   "wort": "Einkaufen",
+   "versatz": -0.15
+  },
+  {
+   "klang": "pro_pop_in/round",
+   "wort": "Supermärkte"
+  },
+  {
+   "klang": "pro_pop_in/round",
+   "wort": "Schulen"
+  },
+  {
+   "klang": "pro_pop_in/round",
+   "wort": "Ärzte"
+  },
+  {
+   "klang": "mallet/marimba",
+   "wort": "Sky-Lobby",
+   "ton": "E5"
+  },
+  {
+   "klang": "riser/rush",
+   "wort": "Keller",
+   "ausrichtung": "start",
+   "laenge": 2.6
+  },
+  {
+   "klang": "hotel/aufzug",
+   "wort": "Minuten",
+   "n": 1,
+   "pegel": -18
+  },
+  {
+   "klang": "drip/drop",
+   "wort": "Wasser",
+   "n": 1
+  },
+  {
+   "klang": "pro_zip/up",
+   "wort": "Liter"
+  },
+  {
+   "klang": "knock/wood",
+   "wort": "Pumpen"
+  },
+  {
+   "klang": "impact/deep",
+   "wort": "Strom",
+   "pegel": -16
+  },
+  {
+   "klang": "cut_hit/kick",
+   "wort": "Deutschland",
+   "versatz": 0.3
+  },
+  {
+   "klang": "downlifter/air_fall",
+   "wort": "Abwasser"
+  },
+  {
+   "klang": "whoosh_fast/whip",
+   "wort": "Turbinen"
+  },
+  {
+   "klang": "reverse_swell/dark",
+   "wort": "Luftdruck"
+  },
+  {
+   "klang": "cut_hit/sub",
+   "wort": "halb",
+   "pegel": -15
+  },
+  {
+   "klang": "whoosh_big/jet",
+   "wort": "Flugzeug",
+   "pegel": -19
+  },
+  {
+   "klang": "whoosh_big/deep",
+   "wort": "draußen",
+   "versatz": -0.15
+  },
+  {
+   "klang": "atmo/voegel",
+   "wort": "Wildnis",
+   "ausrichtung": "start",
+   "versatz": -0.6,
+   "pegel": -21
+  },
+  {
+   "klang": "knock/desk",
+   "wort": "Lastenaufzüge"
+  },
+  {
+   "klang": "pro_pop_in/deep",
+   "wort": "wohnen"
+  },
+  {
+   "klang": "pro_pop_in/deep",
+   "wort": "unten",
+   "ab": 60
+  },
+  {
+   "klang": "logo_sting/soft_bloom",
+   "wort": "unten",
+   "ab": 60,
+   "versatz": 0.4,
+   "ausrichtung": "start"
+  }
+ ]
+}

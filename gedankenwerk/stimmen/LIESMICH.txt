@@ -1,0 +1,7 @@
+Hier liegen die kostenlosen lokalen Stimmen.
+
+klon/  8 Referenzstimmen (Max, Hannes, Ben, Klaus, Jonas, Dylan, Lena, Mara), erzeugt mit Qwen3-TTS (Apache-2.0).
+       Jeder Satz eines Videos wird aus einer dieser Referenzen gesprochen. Eigene Stimmen landen hier als eigen-*.wav.
+
+Die Sprachmodelle (Qwen3, notfalls Piper) werden beim Einrichten geladen:
+python werkzeug/stimme_einrichten.py --qwen   (oder sag Claude: einrichten)

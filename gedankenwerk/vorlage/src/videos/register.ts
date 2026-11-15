@@ -1,0 +1,42 @@
+// Wird von werkzeug/neu.py geschrieben. Nicht von Hand ändern.
+import type React from "react";
+import * as v0 from "./2026-11-12-million-milliarde/Video";
+import * as c0 from "./2026-11-12-million-milliarde/Cover";
+import * as v1 from "./2026-11-13-der-ausbruch/Video";
+import * as c1 from "./2026-11-13-der-ausbruch/Cover";
+import * as v2 from "./2026-11-13-der-ausbruch-teil-2/Video";
+import * as c2 from "./2026-11-13-der-ausbruch-teil-2/Cover";
+import * as v3 from "./2026-11-13-der-ausbruch-teil-3/Video";
+import * as c3 from "./2026-11-13-der-ausbruch-teil-3/Cover";
+import * as v4 from "./2026-11-13-der-verschwundene-euro/Video";
+import * as c4 from "./2026-11-13-der-verschwundene-euro/Cover";
+import * as v5 from "./2026-11-13-der-verschwundene-euro-aufloesung/Video";
+import * as c5 from "./2026-11-13-der-verschwundene-euro-aufloesung/Cover";
+import * as v6 from "./2026-11-13-disziplin-motivation/Video";
+import * as c6 from "./2026-11-13-disziplin-motivation/Cover";
+import * as v7 from "./2026-11-13-rueckwaertsgang-autobahn/Video";
+import * as c7 from "./2026-11-13-rueckwaertsgang-autobahn/Cover";
+import * as v8 from "./2026-11-14-hochhaus-menschheit/Video";
+import * as c8 from "./2026-11-14-hochhaus-menschheit/Cover";
+import * as v9 from "./2026-11-14-lockvogel-popcorn/Video";
+import * as c9 from "./2026-11-14-lockvogel-popcorn/Cover";
+import * as v10 from "./2026-11-14-sonne-8-minuten/Video";
+import * as c10 from "./2026-11-14-sonne-8-minuten/Cover";
+import * as v11 from "./2026-11-15-reissverschluss/Video";
+import * as c11 from "./2026-11-15-reissverschluss/Cover";
+
+export type Eintrag = { id: string; Video: React.FC; dauer: number; Cover?: React.FC };
+export const VIDEOS: Eintrag[] = [
+  { id: "2026-11-12-million-milliarde", Video: v0.Video, dauer: v0.DAUER, Cover: c0.Cover },
+  { id: "2026-11-13-der-ausbruch", Video: v1.Video, dauer: v1.DAUER, Cover: c1.Cover },
+  { id: "2026-11-13-der-ausbruch-teil-2", Video: v2.Video, dauer: v2.DAUER, Cover: c2.Cover },
+  { id: "2026-11-13-der-ausbruch-teil-3", Video: v3.Video, dauer: v3.DAUER, Cover: c3.Cover },
+  { id: "2026-11-13-der-verschwundene-euro", Video: v4.Video, dauer: v4.DAUER, Cover: c4.Cover },
+  { id: "2026-11-13-der-verschwundene-euro-aufloesung", Video: v5.Video, dauer: v5.DAUER, Cover: c5.Cover },
+  { id: "2026-11-13-disziplin-motivation", Video: v6.Video, dauer: v6.DAUER, Cover: c6.Cover },
+  { id: "2026-11-13-rueckwaertsgang-autobahn", Video: v7.Video, dauer: v7.DAUER, Cover: c7.Cover },
+  { id: "2026-11-14-hochhaus-menschheit", Video: v8.Video, dauer: v8.DAUER, Cover: c8.Cover },
+  { id: "2026-11-14-lockvogel-popcorn", Video: v9.Video, dauer: v9.DAUER, Cover: c9.Cover },
+  { id: "2026-11-14-sonne-8-minuten", Video: v10.Video, dauer: v10.DAUER, Cover: c10.Cover },
+  { id: "2026-11-15-reissverschluss", Video: v11.Video, dauer: v11.DAUER, Cover: c11.Cover },
+];

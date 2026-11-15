@@ -1,0 +1,35 @@
+{
+  "_beschreibung": "Dunkel und ruhig: Nachtgrau, kühles Blau, gelbe Markierung. Wirkt technisch und konzentriert.",
+  "farben": {
+    "hintergrund": "#101318",
+    "flaeche": "#1a1f27",
+    "raster": "rgba(255,255,255,0.05)",
+    "text": "#eef1f5",
+    "text_leise": "#9aa4b2",
+    "linie": "#2c3440",
+    "akzent": "#6f8dff",
+    "markierung": "#ffd166",
+    "positiv": "#4ade80",
+    "negativ": "#ff6b6b",
+    "dunkel_hintergrund": "#05070a",
+    "dunkel_text": "#eef1f5",
+    "dunkel_akzent": "#6f8dff"
+  },
+  "schrift": {
+    "titel": "Space Grotesk",
+    "text": "Inter",
+    "mono": "JetBrains Mono",
+    "titel_gewicht": 700
+  },
+  "untertitel": {
+    "farbe": "#101318",
+    "pille": "#eef1f5",
+    "aktiv": "#3355ff"
+  },
+  "mechanik_wechsel": {
+    "art": "rahmen"
+  },
+  "figur": {
+    "farbe": "#6f8dff"
+  }
+}
