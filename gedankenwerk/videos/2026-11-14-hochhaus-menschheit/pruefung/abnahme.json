@@ -17,11 +17,11 @@
  },
  "Bild-Beats ≥ 0,75 pro Sekunde": {
   "ok": false,
-  "wert": "0.46/s"
+  "wert": "0.52/s"
  },
  "Längste Ruhe ≤ 4 s": {
   "ok": false,
-  "wert": "4.9 s ab 65.3 s"
+  "wert": "4.1 s ab 57.9 s"
  },
  "Schlussbild steht 0,3–8 s nach dem letzten Wort": {
   "ok": true,

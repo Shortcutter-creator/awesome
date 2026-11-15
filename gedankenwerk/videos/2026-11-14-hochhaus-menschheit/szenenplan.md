@@ -3,7 +3,7 @@
 Skript des Nutzers („rund 1.500“ → „gut 1.500“, nachgerechnet 1.556), ca. 79 s. Stimme: eigene Stimme, energisch
 (Klon aus dem Einstieg von stimme_original.wav, Standard für alle künftigen Videos), 5,5 Silben/s. Keine Untertitel, kein Outro.
 Maßstab: Paris-Grundfläche (~10 km breit) × 5,45 km → im Bild ein Riesenblock, maßstabsgetreu neben dem Mont Blanc (4.806 m).
-Bausteine: `bausteine/hochhaus/teile.tsx`. Ton: Musikbett (tonal), Whoosh/Impact, Riser beim Bauen, Aufzug-Gong, Wassertropfen, Vögel.
+Bausteine: `bausteine/hochhaus/teile.tsx` (zweite Fassung mit Details: HausReal mit Glasfassade, Rippen, Sky-Lobby-Bändern, Tiefe, Dachaufbauten, Dunst, Schatten; Alpen, BergReal, Vögel; Stadthäuser mit Balkonen, Läden, Dächern; Laternen, Bäume, Fußgänger; Autos: Limousine, Taxi, Bus, Transporter mit Felgen, Fenstern, Licht). Ton: Musikbett (tonal), Whoosh/Impact, Riser beim Bauen, Aufzug-Gong, Wassertropfen, Vögel.
 
 | Abschnitt | Bild |
 |---|---|

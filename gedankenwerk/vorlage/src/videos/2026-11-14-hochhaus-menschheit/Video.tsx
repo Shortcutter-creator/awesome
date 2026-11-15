@@ -4,7 +4,8 @@ import React from "react";
 import { AbsoluteFill, Audio, interpolate, staticFile, useCurrentFrame } from "remotion";
 import { FPS, HEAD, MONO, at, clamp, de, ease, pop, rgba, type Voice } from "../../basis/lib";
 import {
-  Berg, CREME, Chip, GOLD, GRUEN, Haus, Himmel, Icon, Manometer, NACHTBLAU, Paris, ROT, Turbine, WASSER, Wildnis, Wolke, Zaehler, kamera, sz,
+  Alpen, Auto, Baum, BergReal, CREME, Chip, Fussgaenger, GOLD, GRUEN, HausReal, Himmel, Icon, Laterne, Manometer, NACHTBLAU, Paris, ROT, Stadthaus, Turbine, Voegel,
+  WASSER, Wildnis, Wolke, Zaehler, kamera, sz,
 } from "../../bausteine/hochhaus/teile";
 import daten from "./woerter.json";
 
@@ -75,10 +76,15 @@ const Hook: React.FC<{ t: number; o: number }> = ({ t, o }) => {
     <AbsoluteFill style={{ opacity: o }}>
       <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
         <Himmel id="hook" />
-        <Berg x={200} y={BODEN - BERG_H} bodenY={BODEN} breite={420} />
-        <Haus x0={380} w={760} bodenY={BODEN} h={HAUS_H} sichtbar={auf} etagen={50} t={t} />
+        <circle cx={150} cy={360} r={60} fill="#fff6d6" opacity={0.9} />
+        <circle cx={150} cy={360} r={140} fill="#fff6d6" opacity={0.12} />
+        <Alpen bodenY={BODEN} />
+        <BergReal x={200} y={BODEN - BERG_H} bodenY={BODEN} breite={440} />
+        <HausReal id="hook" x0={380} w={700} bodenY={BODEN} h={HAUS_H} sichtbar={auf} t={t} />
+        <Voegel t={t} x={120} y={520} />
         {[[120 - drift, 980, 1.3], [520 - drift * 0.6, 900, 1.6], [900 - drift, 1010, 1.2], [300 - drift * 0.8, 1080, 1.4]].map(([x, y, s], i) => <Wolke key={i} x={x} y={y} s={s} o={0.85} />)}
         <rect x={0} y={BODEN} width={1080} height={670} fill="#3d6b3d" />
+        {Array.from({ length: 22 }, (_, i) => <Baum key={i} x={(i * 53) % 1080} y={BODEN + 18 + (i % 3) * 14} s={0.7} />)}
         <line x1={60} y1={BODEN - HAUS_H} x2={1040} y2={BODEN - HAUS_H} stroke={GOLD} strokeWidth={4} strokeDasharray="14 10" opacity={auf} />
         <line x1={60} y1={BODEN - BERG_H} x2={420} y2={BODEN - BERG_H} stroke={CREME} strokeWidth={4} strokeDasharray="10 10" opacity={ease(t, aBlanc - 0.2, aBlanc + 0.2)} />
       </svg>
@@ -104,21 +110,36 @@ const Hoehe: React.FC<{ t: number; o: number }> = ({ t, o }) => {
         {draufsicht ? (
           <g opacity={1 - ease(t, Z(2) - 0.3, Z(2))}>
             {Array.from({ length: 120 }, (_, i) => (
-              <circle key={i} cx={140 + (i % 15) * 57} cy={560 + Math.floor(i / 15) * 57} r={14} fill={GOLD} opacity={i / 120 < menschen / 8.2 ? 0.9 : 0.12} />
+              <g key={i} opacity={i / 120 < menschen / 8.2 ? 0.95 : 0.12}>
+                <circle cx={140 + (i % 15) * 57} cy={548 + Math.floor(i / 15) * 57} r={8} fill="#f1c9a5" />
+                <rect x={131 + (i % 15) * 57} y={557 + Math.floor(i / 15) * 57} width={18} height={20} rx={7} fill={["#ffc94a", "#7fb3e6", "#ff8a7a", "#9fe0a8"][i % 4]} />
+              </g>
             ))}
           </g>
         ) : null}
         {t >= aParis - 0.3 && !draufsicht ? null : null}
         {t >= Z(2) - 0.2 ? (
           <g opacity={draufsicht ? grund : 1}>
-            {draufsicht ? <Paris cx={540} cy={820} w={760} zeichne={grund} /> : null}
+            {draufsicht ? (
+              <g>
+                <Paris cx={540} cy={820} w={760} zeichne={grund} />
+                <g opacity={grund * 0.6}>
+                  {Array.from({ length: 12 }, (_, i) => <line key={i} x1={540} y1={810} x2={540 + Math.cos((i / 12) * Math.PI * 2) * 300} y2={810 + Math.sin((i / 12) * Math.PI * 2) * 200} stroke={rgba(CREME, 0.5)} strokeWidth={2} />)}
+                  {[90, 170, 250].map((r0) => <ellipse key={r0} cx={540} cy={810} rx={r0} ry={r0 * 0.65} fill="none" stroke={rgba(CREME, 0.35)} strokeWidth={2} />)}
+                </g>
+                <g transform={`translate(430 830) scale(${0.9 * grund})`} opacity={grund}>
+                  <path d="M0,0 L-14,0 L-4,-30 L-2,-60 L0,-80 L2,-60 L4,-30 L14,0 Z" fill="none" stroke={GOLD} strokeWidth={3} />
+                  <line x1={-9} y1={-18} x2={9} y2={-18} stroke={GOLD} strokeWidth={3} />
+                </g>
+              </g>
+            ) : null}
           </g>
         ) : null}
         {!draufsicht ? (
           <g>
             <rect x={0} y={BODEN} width={1080} height={670} fill="#1c2c22" />
             <ellipse cx={540} cy={BODEN + 10} rx={460} ry={34} fill={rgba(GOLD, 0.25)} stroke={GOLD} strokeWidth={4} />
-            <Haus x0={160} w={760} bodenY={BODEN} h={HAUS_H} sichtbar={bau} etagen={60} t={t} />
+            <HausReal id="hoehe" x0={150} w={720} bodenY={BODEN} h={HAUS_H} sichtbar={bau} t={t} dunst={0.25} />
             <line x1={80} y1={BODEN - BERG_H} x2={1000} y2={BODEN - BERG_H} stroke={CREME} strokeWidth={3} strokeDasharray="10 10" opacity={0.7} />
           </g>
         ) : null}
@@ -152,6 +173,8 @@ const Leben: React.FC<{ t: number; o: number }> = ({ t, o }) => {
         <rect width={1080} height={1920} fill="#0d1526" />
         {/* Decke mit Licht-Paneelen (künstlicher Himmel) */}
         <rect x={0} y={420} width={1080} height={60} fill="#1d2a40" />
+        {Array.from({ length: 10 }, (_, i) => <rect key={i} x={i * 116 - 8} y={420} width={16} height={74} fill="#2b3a55" />)}
+        <rect x={0} y={476} width={1080} height={6} fill="#33466a" />
         <rect x={0} y={480} width={1080} height={300} fill={`url(#hh-kh)`} opacity={decke} />
         <defs>
           <linearGradient id="hh-kh" x1="0" y1="0" x2="0" y2="1">
@@ -169,20 +192,33 @@ const Leben: React.FC<{ t: number; o: number }> = ({ t, o }) => {
         })}
         {/* Fensterfront links mit Tageslicht */}
         <rect x={0} y={480} width={40} height={720} fill="#cfe6ff" />
+        {Array.from({ length: 8 }, (_, i) => <rect key={i} x={0} y={480 + i * 90} width={40} height={5} fill="#7f93ad" />)}
         <rect x={40} y={480} width={360} height={720} fill="url(#hh-tag)" opacity={rand} />
-        {/* Straßen und Häuser */}
-        <rect x={0} y={1200} width={1080} height={50} fill="#2b3446" />
-        {Array.from({ length: 8 }, (_, i) => {
-          const h = 180 + ((i * 71) % 220);
-          return (
-            <g key={i}>
-              <rect x={70 + i * 125} y={1200 - h} width={100} height={h} fill={i % 2 ? "#3a4a66" : "#46597a"} />
-              {Array.from({ length: Math.floor(h / 46) }, (_, j) => <rect key={j} x={84 + i * 125 + (j % 2) * 42} y={1200 - h + 16 + Math.floor(j / 2) * 46} width={26} height={22} fill={GOLD} opacity={0.75} />)}
-            </g>
-          );
-        })}
-        {Array.from({ length: 6 }, (_, i) => <rect key={i} x={((t * 140 + i * 190) % 1200) - 60} y={1214} width={44} height={18} rx={6} fill={["#ff6b5a", "#ffd25e", "#7fd1ff"][i % 3]} />)}
-        <rect x={0} y={1250} width={1080} height={40} fill="#1d2a40" />
+        {/* Häuser */}
+        {[[30, 120, 330, "#4a5d7c"], [160, 110, 420, "#5b4a62"], [280, 130, 300, "#3f5f5a"], [420, 115, 470, "#56607a"], [545, 125, 360, "#6a5446"], [680, 110, 440, "#3f4f6e"], [800, 130, 320, "#5a6b4a"], [940, 120, 400, "#4e566e"]].map(([x, w, h, f], i) => (
+          <Stadthaus key={i} x={x as number} w={w as number} h={h as number} bodenY={1130} farbe={f as string} seed={i} t={t} />
+        ))}
+        {/* Gehweg mit Bäumen, Laternen, Fußgängern */}
+        <rect x={0} y={1130} width={1080} height={28} fill="#7b8496" />
+        <rect x={0} y={1156} width={1080} height={4} fill="#9aa3b3" />
+        {[90, 330, 570, 810].map((x) => <Baum key={x} x={x} y={1150} s={0.85} />)}
+        {[210, 450, 690, 930].map((x) => <Laterne key={x} x={x} y={1150} an={decke} />)}
+        {Array.from({ length: 6 }, (_, i) => <Fussgaenger key={i} x={((t * (30 + i * 6) + i * 180) % 1140) - 30} y={1152} farbe={["#ff6b5a", "#7fb3e6", "#ffd25e", "#9fe0a8", "#c792ea", "#ffffff"][i]} p={t * 1.6 + i * 0.3} s={0.9} />)}
+        {/* Straße mit zwei Spuren */}
+        <rect x={0} y={1160} width={1080} height={140} fill="#2b2f3a" />
+        {Array.from({ length: 9 }, (_, i) => <rect key={i} x={i * 130 - ((t * 60) % 130)} y={1228} width={64} height={6} fill="#e6e1d3" opacity={0.8} />)}
+        {[["limo", "#d64545", 0], ["taxi", "#ffd25e", 300], ["transporter", "#e6edf7", 620], ["limo", "#3f8fd2", 900]].map(([typ, f, off], i) => (
+          <Auto key={`r${i}`} x={((t * 170 + (off as number)) % 1500) - 260} y={1292} typ={typ as "limo"} farbe={f as string} richtung={1} s={1.35} t={t} />
+        ))}
+        {[["bus", "#3fae6a", 0], ["limo", "#8a5cc7", 520], ["taxi", "#ffd25e", 900]].map(([typ, f, off], i) => (
+          <Auto key={`l${i}`} x={1380 - ((t * 140 + (off as number)) % 1700)} y={1222} typ={typ as "limo"} farbe={f as string} richtung={-1} s={1.15} t={t} />
+        ))}
+        <rect x={0} y={1300} width={1080} height={20} fill="#7b8496" />
+        {/* Geschossdecke und die Etage darunter */}
+        <rect x={0} y={1320} width={1080} height={70} fill="#1d2a40" />
+        {Array.from({ length: 10 }, (_, i) => <rect key={i} x={i * 116 - 8} y={1320} width={16} height={82} fill="#2b3a55" />)}
+        {Array.from({ length: 9 }, (_, i) => <rect key={i} x={40 + i * 116} y={1392} width={90} height={12} rx={6} fill="#ffffff" opacity={0.25 + 0.5 * decke} />)}
+        <rect x={0} y={1404} width={1080} height={180} fill="url(#hh-kh)" opacity={0.35 * decke} />
       </svg>
       <Zaehler x={540} y={280} wert="5,3 Mio." label="BEWOHNER PRO ETAGE" farbe={GOLD} o={ease(t, aBewohner - 0.3, aBewohner)} groesse={84} />
       {t >= aStadt - 0.1 && t < aBewohner - 0.3 ? <Chip x={540} y={300} text="1 Etage = 1 Großstadt" p={pop(t, aStadt - 0.1, 220, 12)} /> : null}
@@ -214,6 +250,10 @@ const Alltag: React.FC<{ t: number; o: number }> = ({ t, o }) => {
           <g opacity={lobby * (1 - ease(t, Z(10) - 0.35, Z(10) - 0.05))}>
             <rect x={60} y={560} width={960} height={500} rx={30} fill="#13361f" stroke={GRUEN} strokeWidth={6} />
             {Array.from({ length: 10 }, (_, i) => <g key={i}><rect x={110 + i * 92} y={940} width={12} height={60} fill="#6b4a2a" /><circle cx={116 + i * 92} cy={920} r={40} fill={i % 2 ? "#3b8f45" : "#2f7a3a"} /></g>)}
+            <ellipse cx={540} cy={1010} rx={90} ry={18} fill="#7fc3ff" opacity={0.8} />
+            {[0, 1, 2, 3, 4].map((i) => <path key={i} d={`M540,1000 Q${520 + i * 10},${960 - 10 * Math.sin(t * 6 + i)} ${500 + i * 20},1004`} fill="none" stroke="#bfe3ff" strokeWidth={3} />)}
+            {[160, 900].map((x) => <rect key={x} x={x - 40} y={1010} width={80} height={10} rx={4} fill="#8c6a4e" />)}
+            {Array.from({ length: 7 }, (_, i) => <Fussgaenger key={i} x={120 + ((t * 25 + i * 130) % 840)} y={1040} farbe={["#ff6b5a", "#7fb3e6", "#ffd25e", "#ffffff"][i % 4]} p={t * 1.4 + i * 0.3} s={1.1} />)}
             <Icon art="krankenhaus" x={260} y={720} s={Math.min(1, pop(t, aKrankenhaus - 0.1, 220, 11))} o={t >= aKrankenhaus - 0.1 ? 1 : 0} />
             <Icon art="park" x={540} y={720} s={Math.min(1, pop(t, aParks - 0.1, 220, 11))} o={t >= aParks - 0.1 ? 1 : 0} />
             <Icon art="aufzug" x={820} y={720} s={Math.min(1, pop(t, aExpress - 0.1, 220, 11))} o={t >= aExpress - 0.1 ? 1 : 0} />
@@ -309,9 +349,8 @@ const Oben: React.FC<{ t: number; o: number }> = ({ t, o }) => {
     <AbsoluteFill style={{ opacity: o }}>
       <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
         <Himmel id="oben" oben="#071228" unten="#2f5d9c" />
-        <rect x={140} y={760} width={800} height={600} fill="#9fb0c6" />
-        <rect x={140} y={760} width={800} height={14} fill="#e6edf7" />
-        {Array.from({ length: 6 }, (_, i) => <rect key={i} x={170 + i * 130} y={820} width={100} height={80} rx={8} fill="#1d2b44" stroke={CREME} strokeWidth={4} />)}
+        <HausReal id="oben" x0={130} w={760} bodenY={1700} h={940} t={t} tiefe={90} dunst={0.15} lobbys={2} />
+        {Array.from({ length: 5 }, (_, i) => <g key={i}><rect x={170 + i * 145} y={820} width={110} height={70} rx={6} fill="#1d2b44" stroke={CREME} strokeWidth={4} /><rect x={176 + i * 145} y={826} width={98} height={14} fill="#3d5a82" /></g>)}
         {[[100 - t * 10, 1120, 1.8], [560 - t * 14, 1180, 2.2], [980 - t * 8, 1100, 1.6]].map(([x, y, s], i) => <Wolke key={i} x={x} y={y} s={s} />)}
         <Manometer x={540} y={520} r={170} wert={druck} />
         {t >= aFlugzeug - 0.2 ? (
@@ -337,9 +376,12 @@ const Welt: React.FC<{ t: number; o: number }> = ({ t, o }) => {
     <AbsoluteFill style={{ opacity: o }}>
       <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
         <Himmel id="welt" />
+        <Alpen bodenY={1000} o={0.8} />
         <Wildnis y={1000} />
+        <path d="M-20,1300 C200,1250 260,1150 420,1120 C560,1090 600,1040 720,1030 C860,1020 980,1060 1100,1040" fill="none" stroke="#5aa9e6" strokeWidth={16} opacity={0.9} />
+        <Voegel t={t} x={140} y={600} n={6} />
         <g transform={`translate(540 1000) scale(${s}) translate(-540 -1000)`}>
-          <Haus x0={260} w={560} bodenY={1000} h={420} etagen={40} t={t} />
+          <HausReal id="welt" x0={250} w={540} bodenY={1000} h={420} t={t} tiefe={60} dunst={0.3} />
           {t >= aLasten - 0.2
             ? [0, 1, 2].map((i) => {
                 const y = 1000 - (((t - aLasten) * 180 + i * 140) % 420);
@@ -368,8 +410,21 @@ const Frage: React.FC<{ t: number; o: number }> = ({ t, o }) => {
     <AbsoluteFill style={{ opacity: o }}>
       <AbsoluteFill style={{ background: "linear-gradient(180deg, #0b1d3d 0%, #3a7bd5 50%, #3d6b3d 50%, #1f3d1f 100%)" }} />
       <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
-        <Wolke x={300} y={700} s={1.6} /><Wolke x={800} y={760} s={1.3} />
-        {Array.from({ length: 14 }, (_, i) => <g key={i}><rect x={60 + i * 72} y={1120} width={8} height={30} fill="#5a3a22" /><circle cx={64 + i * 72} cy={1104} r={26} fill={i % 2 ? "#2f7a3a" : "#3b8f45"} /></g>)}
+        {/* oben: Dach über den Wolken */}
+        <defs><clipPath id="fr-oben"><rect x={0} y={0} width={1080} height={960} /></clipPath><clipPath id="fr-unten"><rect x={0} y={960} width={1080} height={960} /></clipPath></defs>
+        <g clipPath="url(#fr-oben)">
+          <HausReal id="frage-o" x0={190} w={620} bodenY={1300} h={640} t={t} tiefe={80} dunst={0.35} lobbys={3} />
+          <Wolke x={140 - t * 10} y={860} s={2.0} /><Wolke x={560 - t * 6} y={900} s={2.4} /><Wolke x={980 - t * 8} y={870} s={1.8} />
+          <Voegel t={t} x={60} y={420} n={5} farbe="#e6edf7" />
+        </g>
+        {/* unten: Fuß des Hauses mit Park */}
+        <g clipPath="url(#fr-unten)">
+          <rect x={0} y={960} width={1080} height={960} fill="#3d6b3d" />
+          <HausReal id="frage-u" x0={-40} w={760} bodenY={1240} h={900} t={t} tiefe={60} dunst={0} lobbys={0} />
+          <rect x={0} y={1240} width={1080} height={680} fill="#4f9a4f" />
+          {Array.from({ length: 12 }, (_, i) => <Baum key={i} x={40 + i * 90} y={1262 + (i % 2) * 20} s={1.2} />)}
+          {Array.from({ length: 8 }, (_, i) => <Fussgaenger key={i} x={((t * 30 + i * 140) % 1120) - 20} y={1300} farbe={["#ff6b5a", "#7fb3e6", "#ffd25e", "#ffffff"][i % 4]} p={t * 1.5 + i * 0.3} s={1.4} />)}
+        </g>
       </svg>
       <div style={{ position: "absolute", left: 540, top: 380, transform: `translateX(-50%) scale(${pO})`, textAlign: "center", fontFamily: HEAD, fontWeight: 900, fontSize: 110, color: "#ffffff", textShadow: "0 6px 24px rgba(0,0,0,0.5)", whiteSpace: "nowrap" }}>⬆ GANZ OBEN</div>
       {t >= aUnten - 0.1 ? <div style={{ position: "absolute", left: 540, top: 1280, transform: `translateX(-50%) scale(${pU})`, textAlign: "center", fontFamily: HEAD, fontWeight: 900, fontSize: 110, color: "#ffffff", textShadow: "0 6px 24px rgba(0,0,0,0.5)", whiteSpace: "nowrap" }}>⬇ GANZ UNTEN</div> : null}
@@ -402,8 +457,9 @@ export const Video: React.FC = () => {
 export const CoverBild: React.FC = () => (
   <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
     <Himmel id="cover" />
-    <Berg x={200} y={BODEN - BERG_H} bodenY={BODEN} breite={420} />
-    <Haus x0={380} w={760} bodenY={BODEN} h={HAUS_H} etagen={50} t={1} />
+    <Alpen bodenY={BODEN} />
+    <BergReal x={200} y={BODEN - BERG_H} bodenY={BODEN} breite={440} />
+    <HausReal id="cover" x0={380} w={700} bodenY={BODEN} h={HAUS_H} t={1} />
     {[[120, 980, 1.3], [520, 900, 1.6], [900, 1010, 1.2], [300, 1080, 1.4]].map(([x, y, s], i) => <Wolke key={i} x={x} y={y} s={s} o={0.85} />)}
     <rect x={0} y={BODEN} width={1080} height={670} fill="#3d6b3d" />
   </svg>
