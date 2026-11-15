@@ -1,7 +1,7 @@
 {
  "Länge 60–80 s (Toleranz ±10 s)": {
   "ok": false,
-  "wert": "46.0 s"
+  "wert": "45.0 s"
  },
  "Stimme ab Bild 0 (≤ 0,45 s, lokale Stimme)": {
   "ok": true,
@@ -9,19 +9,19 @@
  },
  "Erster Satz ≤ 3,5 s": {
   "ok": true,
-  "wert": "2.88 s"
+  "wert": "1.94 s"
  },
  "Sprechtempo 4,3–5,6 Silben/s (Ziel ~5,0, lokale Stimme)": {
   "ok": true,
-  "wert": "5.23 Silben/s"
+  "wert": "5.38 Silben/s"
  },
  "Bild-Beats ≥ 0,75 pro Sekunde": {
-  "ok": false,
-  "wert": "0.74/s"
+  "ok": true,
+  "wert": "0.76/s"
  },
  "Längste Ruhe ≤ 4 s": {
   "ok": true,
-  "wert": "3.4 s ab 24.0 s"
+  "wert": "3.4 s ab 23.0 s"
  },
  "Schlussbild steht 0,3–8 s nach dem letzten Wort": {
   "ok": true,
