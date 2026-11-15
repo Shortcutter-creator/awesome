@@ -1,4 +1,4 @@
-Wer ganz vorne einfädelt, ist ein Egoist? [pause 0.4]
+Wer ganz vorne einfädelt, ist ein… Egoist? [pause 0.4]
 Falsch! Genau das ist richtig. [pause 0.4]
 Und sogar Pflicht.
 Eine zweispurige Straße, vorne eine Baustelle.
@@ -7,7 +7,7 @@ Jetzt fädeln alle schon früh ein.
 Die rechte Spur bleibt leer, alles drängt sich auf eine.
 Beim Wechseln wird gebremst, dahinter bremsen alle anderen auch.
 Der Stau wächst und wächst nach hinten. [pause 0.4]
-Und jetzt nutzen alle beide Spuren bis ganz nach vorne.
+Und jetzt nutzen alle beide Spuren bis ganz nach vorne. [pause 0.3]
 Erst direkt an der Engstelle geht es abwechselnd rein: einer links, einer rechts, wie ein Reißverschluss.
 Der Stau ist nur etwa halb so lang, weil beide Spuren genutzt werden.
 Und es geht gerechter zu, weil jeder abwechselnd dran ist. [pause 0.4]

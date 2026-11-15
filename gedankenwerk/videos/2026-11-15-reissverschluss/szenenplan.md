@@ -1,6 +1,6 @@
 # Szenenplan – Reißverschluss: Warum du erst ganz vorne einfädeln solltest
 
-Skript des Nutzers, ca. 44 s. Stimme: eigene Stimme, energisch; der erste Satz fragend (gemessen: deutlicher Anstieg auf „Egoist?“, ca. 115 → 235 Hz).
+Skript des Nutzers, ca. 46 s. Stimme: eigene Stimme, energisch; erster Satz fragend mit Betonung auf „ganz vorne“ und „Egoist“ (aus 15 Varianten gemessen ausgewählt: „ganz vorne“ +15/+17 Halbtöne, kurze Pause vor „Egoist?“, Anstieg am Ende +9 Halbtöne).
 Keine Untertitel, kein Outro. Bausteine: `bausteine/verkehr/teile.tsx` (Vogelperspektive, Autos fahren nach oben; Straße mit Leitplanken,
 Bäumen, Baustelle mit Leitbaken, Bagger, Absperrschranke mit Warnleuchten; Pkw/Kombi/Transporter/Lkw von oben mit Bremslicht und Blinker;
 Schild „Fahrstreifen endet“; Fahrer-Ausschnitt mit Kopfschütteln bzw. Winken). Ton: Musikbett (tonal), Vorbeifahrt, Pops, Hit bei „Falsch“, Zip beim Reißverschluss.
