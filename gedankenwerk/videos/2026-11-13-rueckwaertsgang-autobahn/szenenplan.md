@@ -1,6 +1,6 @@
 # Szenenplan – Rückwärtsgang bei 100 km/h
 
-Erklärvideo, ca. 67 s, Stimme Max (Qwen3-Klon). Ohne Outro: endet mit der Auflösung, keine Endkarte, kein Folgen-Aufruf.
+Erklärvideo, ca. 65 s, eigene Stimme energisch (neu vertont); dezente Betonung auf „R“ (kurze Pause davor), „fast nichts“, „krachen“, „Gefährlich“, „Kontrolle“. Ohne Outro: endet mit der Auflösung, keine Endkarte, kein Folgen-Aufruf.
 Auto-Effekte: Tacho mit Nadelsprung, Fahrtwind-Streifen, Schaltkulisse, blinkende Motor-Warnleuchte, Rückfahrkamera, Automatik-Wählhebel,
 Zahnräder mit Funkenflug und Bildrütteln, Pick-up von oben mit Bremsspuren und Reifenqualm. Bausteine: `bausteine/auto/teile.tsx`.
 Ton: Fahrgeräusch-Bett (auto/fahrt), Vorbeifahrt, Schalthebel, Warngong, Parkpiepser, Getriebe-Krachen, Reifenquietschen.

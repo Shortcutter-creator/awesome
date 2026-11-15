@@ -1,31 +1,31 @@
 {
  "Länge 60–80 s (Toleranz ±10 s)": {
   "ok": true,
-  "wert": "68.4 s"
+  "wert": "64.7 s"
  },
  "Stimme ab Bild 0 (≤ 0,45 s, lokale Stimme)": {
   "ok": true,
-  "wert": "0.25 s"
+  "wert": "0.15 s"
  },
  "Erster Satz ≤ 3,5 s": {
   "ok": true,
-  "wert": "2.58 s"
+  "wert": "2.84 s"
  },
  "Sprechtempo 4,3–5,6 Silben/s (Ziel ~5,0, lokale Stimme)": {
   "ok": true,
-  "wert": "4.83 Silben/s"
+  "wert": "5.46 Silben/s"
  },
  "Bild-Beats ≥ 0,75 pro Sekunde": {
   "ok": true,
-  "wert": "0.89/s"
+  "wert": "0.94/s"
  },
  "Längste Ruhe ≤ 4 s": {
   "ok": true,
-  "wert": "3.4 s ab 65.0 s"
+  "wert": "3.1 s ab 61.6 s"
  },
  "Schlussbild steht 0,3–8 s nach dem letzten Wort": {
   "ok": true,
-  "wert": "2.3 s"
+  "wert": "2.2 s"
  },
  "Lautheit -14 LUFS (±1)": {
   "ok": true,
@@ -45,7 +45,7 @@
  },
  "Untertitel-Zeiten erkannt (keine 3+ geschätzten Wörter in Folge)": {
   "ok": true,
-  "wert": "ok (2 Einzelwörter geschätzt)"
+  "wert": "ok (4 Einzelwörter geschätzt)"
  },
  "Geräusche: ≥ 10 verschiedene Klänge": {
   "ok": true,
