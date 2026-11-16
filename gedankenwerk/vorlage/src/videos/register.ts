@@ -24,6 +24,8 @@ import * as v10 from "./2026-11-14-sonne-8-minuten/Video";
 import * as c10 from "./2026-11-14-sonne-8-minuten/Cover";
 import * as v11 from "./2026-11-15-reissverschluss/Video";
 import * as c11 from "./2026-11-15-reissverschluss/Cover";
+import * as v12 from "./2026-11-16-stau-aus-dem-nichts/Video";
+import * as c12 from "./2026-11-16-stau-aus-dem-nichts/Cover";
 
 export type Eintrag = { id: string; Video: React.FC; dauer: number; Cover?: React.FC };
 export const VIDEOS: Eintrag[] = [
@@ -39,4 +41,5 @@ export const VIDEOS: Eintrag[] = [
   { id: "2026-11-14-lockvogel-popcorn", Video: v9.Video, dauer: v9.DAUER, Cover: c9.Cover },
   { id: "2026-11-14-sonne-8-minuten", Video: v10.Video, dauer: v10.DAUER, Cover: c10.Cover },
   { id: "2026-11-15-reissverschluss", Video: v11.Video, dauer: v11.DAUER, Cover: c11.Cover },
+  { id: "2026-11-16-stau-aus-dem-nichts", Video: v12.Video, dauer: v12.DAUER, Cover: c12.Cover },
 ];

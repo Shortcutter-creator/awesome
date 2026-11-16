@@ -1,6 +1,6 @@
 {
  "version": "forge_v2r6+forge04r1+fit1+pluck1",
- "anzahl": 274,
+ "anzahl": 275,
  "gruppen": [
   "Whoosh & Wischer",
   "Riser & Spannung",
@@ -5051,6 +5051,24 @@
    "stimmbar": false,
    "beschreibung_en": "elevator arrival chime, two tones",
    "quelle": "gedankenwerk synth (eigene Erzeugung)"
+  },
+  {
+   "id": "musikbett/bett_puls",
+   "gruppe": "Musikbett",
+   "art": [
+    "bed"
+   ],
+   "datei": "klaenge/musikbett/bett_puls.mp3",
+   "varianten": 1,
+   "dauer": 137.143,
+   "spitze_s": 0.0,
+   "einsatz_s": 0.0,
+   "spitze_db": -4.0,
+   "stimmbar": false,
+   "ton": null,
+   "ton_hz": null,
+   "beschreibung_en": "driving but calm pulse music bed (112 BPM, D minor/F major), tonal, no noise, seamless loop (137 s)",
+   "quelle": "eigene Synthese (Gedankenwerk)"
   }
  ]
 }

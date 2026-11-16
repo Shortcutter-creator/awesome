@@ -1,0 +1,18 @@
+Du fährst auf der Autobahn und auf einmal gibt es Stau.
+Nach {15|fünfzehn} Minuten Warten verschwindet der Stau… einfach so. [pause 0.3]
+Ohne Unfall oder Baustelle. [pause 0.5]
+Wie kann das sein? [pause 0.4]
+Der Grund ist ein einziges Auto.
+Der Verkehr ist dicht, der Fahrer bremst nur ein bisschen.
+Der Fahrer dahinter reagiert etwas zu spät und bremst etwas stärker.
+Der Nächste noch stärker.
+Bis ganz hinten jemand komplett stehen muss. [pause 0.4]
+Das ist eine Stauwelle.
+Vorne fahren die Autos raus, hinten kommen neue dazu.
+So wandert der Stau rückwärts, gegen die Fahrtrichtung, mit etwa {15 km/h|fünfzehn Kilometern pro Stunde}. [pause 0.4]
+In Japan haben Forscher das getestet: {22|zweiundzwanzig} Autos auf einem Kreis, alle sollten gleichmäßig fahren.
+Nach wenigen Minuten gab es trotzdem Stau, ganz ohne Hindernis. [pause 0.4]
+Deshalb kannst du etwas tun.
+Halte Abstand, fahr gleichmäßig und spar dir das ständige Spurwechseln.
+So kann ein Bremser auslaufen, bevor daraus eine Welle wird.
+Der beste Stau ist der, den du nie verursachst.
